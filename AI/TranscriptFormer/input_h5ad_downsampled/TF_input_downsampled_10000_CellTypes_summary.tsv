@@ -1,0 +1,73 @@
+species	CellTypes	n_cells_after_downsampling
+Spla	Spla_transitional	4436
+Spla	Spla_Archeocytes and relatives	2750
+Spla	Spla_Peptidocytes	1732
+Spla	Spla_Endymocytes	913
+Spla	Spla_Amoeboid-Neuroid	169
+ClH23	ClH23_epithelia	3468
+ClH23	ClH23_gland	2214
+ClH23	ClH23_peptidergic	1190
+ClH23	ClH23_lipophil	1105
+ClH23	ClH23_epithelia_gland_like	780
+ClH23	ClH23_trans	616
+ClH23	ClH23_fibre	469
+ClH23	ClH23_unknown_1	158
+HoH13	HoH13_epithelia	3779
+HoH13	HoH13_peptidergic	1702
+HoH13	HoH13_gland	1616
+HoH13	HoH13_lipophil	806
+HoH13	HoH13_fibre	782
+HoH13	HoH13_epithelia_gland_like	659
+HoH13	HoH13_trans	491
+HoH13	HoH13_unknown_1	165
+TrH2	TrH2_epithelia	2583
+TrH2	TrH2_lipophil	1603
+TrH2	TrH2_fibre	1524
+TrH2	TrH2_gland	1153
+TrH2	TrH2_peptidergic	1149
+TrH2	TrH2_trans	691
+TrH2	TrH2_meiotic	561
+TrH2	TrH2_epithelia_gland_like	489
+TrH2	TrH2_unknown_1	247
+TrH1	TrH1_epithelia	3490
+TrH1	TrH1_gland	1667
+TrH1	TrH1_peptidergic	1396
+TrH1	TrH1_lipophil	1247
+TrH1	TrH1_trans	929
+TrH1	TrH1_fibre	644
+TrH1	TrH1_epithelia_gland_like	479
+TrH1	TrH1_meiotic	148
+Auco	Auco_EM, Epidermal/Muscle cell	3573
+Auco	Auco_GA, Gastrodermal cell	1997
+Auco	Auco_NE, Neural cell	1452
+Auco	Auco_CN, Cnidocytes/Nematocyte cell	1249
+Auco	Auco_SG, Stem/Germline cell	744
+Auco	Auco_HA, Hair cell	531
+Auco	Auco_GL, Gland cell	454
+Clhe	Clhe_Epidermal/Muscle	2383
+Clhe	Clhe_Gastroderm	2136
+Clhe	Clhe_Nematocyte	2061
+Clhe	Clhe_Stem Cell/Germ Cell	1857
+Clhe	Clhe_Neural	1014
+Clhe	Clhe_Gland Cell	463
+Clhe	Clhe_Bioluminescent Cells	86
+Neve	Neve_ectoderm.pharyngeal	3142
+Neve	Neve_gastrodermis	1836
+Neve	Neve_ectoderm.epidermis	1280
+Neve	Neve_neuronal	845
+Neve	Neve_NPC	823
+Neve	Neve_secretory	770
+Neve	Neve_retractor muscle	355
+Neve	Neve_cnidocyte	350
+Neve	Neve_gland.mucous	285
+Neve	Neve_ectoderm.embryonic	174
+Neve	Neve_cnidocyte.mature	98
+Neve	Neve_mesendoderm.embryonic	42
+Dare	Dare_Neural Posterior	3437
+Dare	Dare_Mesoderm	2153
+Dare	Dare_Neural Anterior	1888
+Dare	Dare_Neural Mid	1321
+Dare	Dare_Epidermal	785
+Dare	Dare_Neural Crest	269
+Dare	Dare_Endoderm	144
+Dare	Dare_Germline	3
