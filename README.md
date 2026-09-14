@@ -8,7 +8,7 @@ Comparative multi-omics analysis of early eumetazoans elucidates cell-type diver
 
 比较多组学分析早期真后生动物的细胞类型多样性与神经系统起源。本仓库按当前分析编号整理基因组、单细胞、空间转录组与候选基因分析代码。
 
-**当前包含代码整理、结果图片和重要数据路径说明。** 以用户调整后的 71 个 analysis 文件为当前版本；本轮保留其分析参数、模型、随机种子、基因集合与代码正文；notebook 增加导读、清除历史输出并规范元数据。已纳入 Figures 的 253 个结果文件；大型分析数据尚未复制，可访问amoa.biometa.top/查阅下载。数据路径见 [data.md](data.md)，图片见 [results](results/README.md)。
+**当前包含代码整理、结果图片和重要数据路径说明。** 以用户调整后的 71 个 analysis 文件为当前版本；本轮保留其分析参数、模型、随机种子、基因集合与代码正文；notebook 增加导读、清除历史输出并规范元数据。已纳入 Figures 的 253 个结果文件；大型分析数据尚未复制，可访问amoa.biometa.top/查阅下载。数据路径见 [data](data/README.md)，图片见 [results](results/README.md)。
 
 ## 目录
 
