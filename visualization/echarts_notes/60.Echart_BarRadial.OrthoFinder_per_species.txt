@@ -1,0 +1,98 @@
+https://echarts.apache.org/examples/zh/editor.html?c=bar-polar-stack-radial
+
+option = {
+  // 角度轴 - 物种名称
+  angleAxis: {
+    type: 'category',
+    data: ['Spla', 'ClH23', 'HoH13', 'TrH2', 'TrH1', 'Auco', 'Clhe', 'Neve', 'Dare'],
+    // startAngle: 180,  // 从180度开始，这样半径轴就在180°位置
+    axisLabel: {
+      // fontStyle: 'italic',  // 物种名斜体
+      fontWeight: 'bold',
+      rotate: 30,           // 适当旋转避免重叠
+      // margin: 30            // 增加标签与圆环的距离
+    }
+  },
+  
+  // 半径轴 - 基因数量
+  radiusAxis: {
+    name: 'Number of Genes',
+    nameLocation: 'middle',
+    nameGap: 50,
+    axisLabel: {
+      margin: 10,           // 调整数字与轴线的距离
+      rotate: 0,            // 旋转角度
+      color: '#333',        // 颜色
+      fontSize: 10,         // 字体大小
+      // 或者使用 align 和 verticalAlign 控制对齐方式
+      // align: 'left',       // 水平对齐：left/center/right
+      // verticalAlign: 'top' // 垂直对齐：top/middle/bottom
+    }
+  },
+  
+  // 极坐标系
+  polar: {
+    center: ['50%', '50%'],  // 圆心位置
+    radius: '80%'             // 圆环大小
+  },
+  
+  // 数据系列
+  series: [
+    {
+      name: 'Assigned to Orthogroups',
+      type: 'bar',
+      data: [14254, 11865, 11800, 11918, 12475, 27538, 26799, 16697, 50778],
+      coordinateSystem: 'polar',
+      stack: 'total',         // 堆叠标识，与另一个系列相同
+      barWidth: 20,           // 控制柱子的宽度
+      itemStyle: {
+        color: '#B6D7A8'      // 绿色
+      },
+      label: {
+        show: true,
+        position: 'inside',
+        // color: '#fff',
+        fontSize: 10,
+        rotate: 0,
+        // formatter: function(params) {
+        //   // 只在数值较大时显示标签，避免拥挤
+        //   return params.value > 10000 ? params.value : '';
+        // }
+      },
+      emphasis: {
+        focus: 'series'
+      }
+    },
+    {
+      name: 'Unassigned Genes',
+      type: 'bar',
+      data: [5136, 156, 211, 267, 841, 2397, 3604, 4799, 2731],
+      coordinateSystem: 'polar',
+      stack: 'total',
+      barWidth: 20,
+      itemStyle: {
+        color: '#eb7f7f'      // 红色
+      },
+      label: {
+        show: true,
+        position: 'inside',
+        // color: '#333',
+        fontSize: 10,
+        // formatter: function(params) {
+        //   return params.value > 500 ? params.value : '';
+        // }
+      },
+      emphasis: {
+        focus: 'series'
+      }
+    }
+  ],
+  
+  // 图例
+  legend: {
+    show: true,
+    data: ['Assigned to Orthogroups', 'Unassigned Genes'],
+    // top: '5%',
+    left: 'center'
+  }
+};

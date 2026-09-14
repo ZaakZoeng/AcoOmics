@@ -1,0 +1,150 @@
+<!--
+	此示例下载自 https://echarts.apache.org/examples/zh/editor.html?c=bar-polar-stack-radial&renderer=svg&code=vVbdThtHFL6v1HcYqarcSm7N2vgHR23lNlK4iNILWuUiysXYHturrnet3TEtrZBISIAEDCgUaAMhFqI4jQo4DUr4sy31WTy75iqv0DMz6_XaJW2jSNkLz_rMzJnvfOc7Z9YoUdXQ0Wfop_ffQygUQp3aA3ay22kcok-Qc-93p1ZhyxWnVufTWM9rJPWDaiXlcoToRIkkUSCDKckb5kQgKM1ZTHES3QiMlTQcCKLAV9poOMJfRo1RRbx8Y46G3VHhY6qcMeTKAuHjNTIuxsvYJIGbrluAZ1Fs0hTHkURKYigojO3TRXgH2OxsitXmX50tdFq_2tWXrHKfNe9ALKz-jG0-gTV_1duNitPYl_4whHIVp4nmxSPc5QydjtEJfkRApVhTM4CET3h82Gub7cZKdwtff52o-QKFDWlDy3ZpQMg0KFCTRBGO1HvA1fnUbdZYsdfnO40_zm-12N3K-WyFLVV9MIrYzKs63-vbyifY9ha7X7Wrs85es320yDZnnMUD5-GdzstHzu6p9DDJh0mBw02sRwYklj0-YRtVe7V-PrvEp02cVctWX2Z1XOTxXysX08RERg5dITqxupHx2asGpB3EA6uKajarQb56k1dwKYmiQ67lIqK74SmD1HTq0_bqIYBje-sQHiB2TloD4fWY7dvNt0tOpYy7izOGZpiA84NIhKvPl4btzc69P_2JHFN_5NLyueXcAZLGCtupsbrgq3vU3Fpn6m670XJ-foJAJ3kdsQcLaJyYVM1gLSUs9mKNzb1gB8fnjWV77Zid-T2ITQBMIznqAeOe64fs-Lnc9OrsIZ8OZYhOiRkyudB8LvpOA1fUKAUE5q3bzsah5wLMIZmmUNqg1Ci-Tif21i32aJmr67kgu2RoGLhz8yZB8NqODn3IC5QPN2V5gBBZa9pfYFJXACoBq_x5cpeDbnuk9qNYrduVfYDA5ta5ySKmSsDTDenYU5Er05RlQfQki6iBvjZpwcibRrnkydVrVGls9mxul1KGw9HhIFKURCwqhiFIvqKMKAkYwsNxMIbj0Qj8C8fiIyNgjMVG4kFQdzye6LYmrjHDzKo6iHJswqKkCKcJ6nrnQe_KfCcyBE2lJ0PBRXUGih9I7xzMQPviVb202z6aah89lRw4G0dseaHrCcK4rmZpIYnCg9Uj5WY_fsb2lqFo2H7DVwcq4HI7m8egrzq-jF2OpxJuoni_O235qkPmhz_aQClDaAXj-ySiZpl4i7hyLNVtEKpuqVmvQbjuvXNzuZx_qq8Me-Zexfd5yRlmEVMhylxZz_ADPyphExetj_0IYaVkeukpXAW8u0yddZrTID97_YX9S9PZOZEdFeiXDdme_81e2BnwYBJaNnUkD_h0HGtlgj4HnPCgL_rNEFngUt92UWz9VJJiqYAtX9-VBGRE1UjRB7xdbsm6mwdr4Fsdd6ugr1f_q_ijSiQGio7CT1hRhMSDKDHM3yJc5JHYENTGsNB9OB5R3kLvF4r3fyqTpOO5eM6nzJPtd6JMcV_8pzLfUIUXayj6DhXEB5nJ7sfBRrPdnOd_NJInetZz9g_6up92r-24FwjR9_0G1xDAisLVIU38ZuMfkOJaETgB3OSlvwE&enc=deflate
+	⚠ 请注意，该图表不是 Apache ECharts 官方示例，而是由用户代码生成的。请注意鉴别其内容。
+-->
+<!DOCTYPE html>
+<html lang="en" style="height: 100%">
+<head>
+  <meta charset="utf-8">
+</head>
+<body style="height: 100%; margin: 0">
+  <div id="container" style="height: 100%"></div>
+
+  
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script>
+  
+  <!-- Uncomment this line if you want to dataTool extension
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5/dist/extension/dataTool.min.js"></script>
+  -->
+  <!-- Uncomment this line if you want to use gl extension
+  <script type="text/javascript" src="https://echarts.apache.org/zh/js/vendors/echarts-gl/dist/echarts-gl.min.js"></script>
+  -->
+  <!-- Uncomment this line if you want to echarts-stat extension
+  <script type="text/javascript" src="https://echarts.apache.org/zh/js/vendors/echarts-stat/dist/ecStat.min.js"></script>
+  -->
+  <!-- Uncomment this line if you want to echarts-graph-modularity extension
+  <script type="text/javascript" src="https://echarts.apache.org/zh/js/vendors/echarts-graph-modularity/dist/echarts-graph-modularity.min.js"></script>
+  -->
+  <!-- Uncomment this line if you want to use map
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@4.9.0/map/js/world.js"></script>
+  -->
+  <!-- Uncomment these two lines if you want to use bmap extension
+  <script type="text/javascript" src="https://api.map.baidu.com/api?v=3.0&ak=YOUR_API_KEY"></script>
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5/dist/extension/bmap.min.js"></script>
+  -->
+
+  <script type="text/javascript">
+    var dom = document.getElementById('container');
+    var myChart = echarts.init(dom, null, {
+      renderer: 'svg',
+      useDirtyRect: false
+    });
+    var app = {};
+    
+    var option;
+
+    option = {
+  // 角度轴 - 物种名称
+  angleAxis: {
+    type: 'category',
+    data: ['Spla', 'ClH23', 'HoH13', 'TrH2', 'TrH1', 'Auco', 'Clhe', 'Neve', 'Dare'],
+    // startAngle: 180,  // 从180度开始，这样半径轴就在180°位置
+    axisLabel: {
+      // fontStyle: 'italic',  // 物种名斜体
+      fontWeight: 'bold',
+      rotate: 30,           // 适当旋转避免重叠
+      // margin: 30            // 增加标签与圆环的距离
+    }
+  },
+  
+  // 半径轴 - 基因数量
+  radiusAxis: {
+    name: 'Number of Genes',
+    nameLocation: 'middle',
+    nameGap: 50,
+    axisLabel: {
+      margin: 10,           // 调整数字与轴线的距离
+      rotate: 0,            // 旋转角度
+      color: '#333',        // 颜色
+      fontSize: 10,         // 字体大小
+      // 或者使用 align 和 verticalAlign 控制对齐方式
+      // align: 'left',       // 水平对齐：left/center/right
+      // verticalAlign: 'top' // 垂直对齐：top/middle/bottom
+    }
+  },
+  
+  // 极坐标系
+  polar: {
+    center: ['50%', '50%'],  // 圆心位置
+    radius: '80%'             // 圆环大小
+  },
+  
+  // 数据系列
+  series: [
+    {
+      name: 'Assigned to Orthogroups',
+      type: 'bar',
+      data: [14254, 11865, 11800, 11918, 12475, 27538, 26799, 16697, 50778],
+      coordinateSystem: 'polar',
+      stack: 'total',         // 堆叠标识，与另一个系列相同
+      barWidth: 20,           // 控制柱子的宽度
+      itemStyle: {
+        color: '#B6D7A8'      // 绿色
+      },
+      label: {
+        show: true,
+        position: 'inside',
+        // color: '#fff',
+        fontSize: 10,
+        rotate: 0,
+        // formatter: function(params) {
+        //   // 只在数值较大时显示标签，避免拥挤
+        //   return params.value > 10000 ? params.value : '';
+        // }
+      },
+      emphasis: {
+        focus: 'series'
+      }
+    },
+    {
+      name: 'Unassigned Genes',
+      type: 'bar',
+      data: [5136, 156, 211, 267, 841, 2397, 3604, 4799, 2731],
+      coordinateSystem: 'polar',
+      stack: 'total',
+      barWidth: 20,
+      itemStyle: {
+        color: '#eb7f7f'      // 红色
+      },
+      label: {
+        show: true,
+        position: 'inside',
+        // color: '#333',
+        fontSize: 10,
+        // formatter: function(params) {
+        //   return params.value > 500 ? params.value : '';
+        // }
+      },
+      emphasis: {
+        focus: 'series'
+      }
+    }
+  ],
+  
+  // 图例
+  legend: {
+    show: true,
+    data: ['Assigned to Orthogroups', 'Unassigned Genes'],
+    // top: '5%',
+    left: 'center'
+  }
+};
+
+    if (option && typeof option === 'object') {
+      myChart.setOption(option);
+    }
+
+    window.addEventListener('resize', myChart.resize);
+  </script>
+</body>
+</html>

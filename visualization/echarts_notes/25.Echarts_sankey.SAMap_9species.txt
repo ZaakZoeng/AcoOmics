@@ -1,0 +1,890 @@
+https://echarts.apache.org/examples/zh/editor.html?c=sankey-simple
+
+物种与门类的颜色
+species_colors <- c(
+    "Spla"="#fba414", "ClH23"="#ffa8a7", "HoH13"="#eb7f7f", 
+    "TrH2"="#ff5d4e", "TrH1"="#EC2B24", "Auco"="#2A52BE", 
+    "Clhe"="#4374B3", "Neve"="#6DA0E2", "Dare"="#43b244"
+)
+
+phylum_colors <- c(
+    "Porifera"="#fba414", "Placozoa"="#EC2B24", 
+    "Cnidaria"="#2A52BE", "Bilateria"="#43b244"
+)
+
+
+data = {
+  "nodes": [
+    {
+      "name": "Auco_CN, Cnidocytes/Nematocyte cell"
+    },
+    {
+      "name": "Auco_EM, Epidermal/Muscle cell"
+    },
+    {
+      "name": "Auco_GA, Gastrodermal cell"
+    },
+    {
+      "name": "Auco_GL, Gland cell"
+    },
+    {
+      "name": "Auco_HA, Hair cell"
+    },
+    {
+      "name": "Auco_NE, Neural cell"
+    },
+    {
+      "name": "Auco_SG, Stem/Germline cell"
+    },
+    {
+      "name": "ClH23_epithelia"
+    },
+    {
+      "name": "ClH23_epithelia_gland_like"
+    },
+    {
+      "name": "ClH23_fibre"
+    },
+    {
+      "name": "ClH23_gland"
+    },
+    {
+      "name": "ClH23_lipophil"
+    },
+    {
+      "name": "ClH23_peptidergic"
+    },
+    {
+      "name": "ClH23_trans"
+    },
+    {
+      "name": "ClH23_unknown_1"
+    },
+    {
+      "name": "Clhe_Bioluminescent Cells"
+    },
+    {
+      "name": "Clhe_Epidermal/Muscle"
+    },
+    {
+      "name": "Clhe_Gastroderm"
+    },
+    {
+      "name": "Clhe_Gland Cell"
+    },
+    {
+      "name": "Clhe_Nematocyte"
+    },
+    {
+      "name": "Clhe_Neural"
+    },
+    {
+      "name": "Clhe_Stem Cell/Germ Cell"
+    },
+    {
+      "name": "Dare_Endoderm"
+    },
+    {
+      "name": "Dare_Epidermal"
+    },
+    {
+      "name": "Dare_Germline"
+    },
+    {
+      "name": "Dare_Mesoderm"
+    },
+    {
+      "name": "Dare_Neural Anterior"
+    },
+    {
+      "name": "Dare_Neural Crest"
+    },
+    {
+      "name": "Dare_Neural Mid"
+    },
+    {
+      "name": "Dare_Neural Posterior"
+    },
+    {
+      "name": "HoH13_epithelia"
+    },
+    {
+      "name": "HoH13_epithelia_gland_like"
+    },
+    {
+      "name": "HoH13_fibre"
+    },
+    {
+      "name": "HoH13_gland"
+    },
+    {
+      "name": "HoH13_lipophil"
+    },
+    {
+      "name": "HoH13_peptidergic"
+    },
+    {
+      "name": "HoH13_trans"
+    },
+    {
+      "name": "HoH13_unknown_1"
+    },
+    {
+      "name": "Neve_NPC"
+    },
+    {
+      "name": "Neve_cnidocyte"
+    },
+    {
+      "name": "Neve_cnidocyte.mature"
+    },
+    {
+      "name": "Neve_ectoderm.embryonic"
+    },
+    {
+      "name": "Neve_ectoderm.epidermis"
+    },
+    {
+      "name": "Neve_ectoderm.pharyngeal"
+    },
+    {
+      "name": "Neve_gastrodermis"
+    },
+    {
+      "name": "Neve_gland.mucous"
+    },
+    {
+      "name": "Neve_mesendoderm.embryonic"
+    },
+    {
+      "name": "Neve_neuronal"
+    },
+    {
+      "name": "Neve_retractor muscle"
+    },
+    {
+      "name": "Neve_secretory"
+    },
+    {
+      "name": "Spla_Amoeboid-Neuroid"
+    },
+    {
+      "name": "Spla_Archeocytes and relatives"
+    },
+    {
+      "name": "Spla_Endymocytes"
+    },
+    {
+      "name": "Spla_Peptidocytes"
+    },
+    {
+      "name": "Spla_transitional"
+    },
+    {
+      "name": "TrH1_epithelia"
+    },
+    {
+      "name": "TrH1_epithelia_gland_like"
+    },
+    {
+      "name": "TrH1_fibre"
+    },
+    {
+      "name": "TrH1_gland"
+    },
+    {
+      "name": "TrH1_lipophil"
+    },
+    {
+      "name": "TrH1_meiotic"
+    },
+    {
+      "name": "TrH1_peptidergic"
+    },
+    {
+      "name": "TrH1_trans"
+    },
+    {
+      "name": "TrH2_epithelia"
+    },
+    {
+      "name": "TrH2_epithelia_gland_like"
+    },
+    {
+      "name": "TrH2_fibre"
+    },
+    {
+      "name": "TrH2_gland"
+    },
+    {
+      "name": "TrH2_lipophil"
+    },
+    {
+      "name": "TrH2_meiotic"
+    },
+    {
+      "name": "TrH2_peptidergic"
+    },
+    {
+      "name": "TrH2_trans"
+    },
+    {
+      "name": "TrH2_unknown_1"
+    }
+  ],
+  "links": [
+    {
+      "source": "Spla_Amoeboid-Neuroid",
+      "target": "ClH23_epithelia",
+      "value": 0.2346
+    },
+    {
+      "source": "Spla_Archeocytes and relatives",
+      "target": "ClH23_epithelia_gland_like",
+      "value": 0.2932
+    },
+    {
+      "source": "Spla_Archeocytes and relatives",
+      "target": "ClH23_gland",
+      "value": 0.3729
+    },
+    {
+      "source": "Spla_Endymocytes",
+      "target": "ClH23_epithelia",
+      "value": 0.3916
+    },
+    {
+      "source": "Spla_Peptidocytes",
+      "target": "ClH23_epithelia",
+      "value": 0.6004
+    },
+    {
+      "source": "Spla_transitional",
+      "target": "ClH23_epithelia",
+      "value": 0.2532
+    },
+    {
+      "source": "Spla_transitional",
+      "target": "ClH23_epithelia_gland_like",
+      "value": 0.3828
+    },
+    {
+      "source": "Spla_transitional",
+      "target": "ClH23_fibre",
+      "value": 0.4507
+    },
+    {
+      "source": "Spla_transitional",
+      "target": "ClH23_gland",
+      "value": 0.3819
+    },
+    {
+      "source": "Spla_transitional",
+      "target": "ClH23_lipophil",
+      "value": 0.3501
+    },
+    {
+      "source": "Spla_transitional",
+      "target": "ClH23_trans",
+      "value": 0.3897
+    },
+    {
+      "source": "Spla_Endymocytes",
+      "target": "ClH23_peptidergic",
+      "value": 0.1527
+    },
+    {
+      "source": "Spla_transitional",
+      "target": "ClH23_unknown_1",
+      "value": 0.0752
+    },
+    {
+      "source": "ClH23_epithelia",
+      "target": "HoH13_epithelia",
+      "value": 0.8873
+    },
+    {
+      "source": "ClH23_epithelia",
+      "target": "HoH13_epithelia_gland_like",
+      "value": 0.3567
+    },
+    {
+      "source": "ClH23_epithelia",
+      "target": "HoH13_trans",
+      "value": 0.3597
+    },
+    {
+      "source": "ClH23_epithelia_gland_like",
+      "target": "HoH13_epithelia_gland_like",
+      "value": 0.5168
+    },
+    {
+      "source": "ClH23_epithelia_gland_like",
+      "target": "HoH13_gland",
+      "value": 0.2011
+    },
+    {
+      "source": "ClH23_fibre",
+      "target": "HoH13_fibre",
+      "value": 0.9624
+    },
+    {
+      "source": "ClH23_gland",
+      "target": "HoH13_gland",
+      "value": 0.9455
+    },
+    {
+      "source": "ClH23_lipophil",
+      "target": "HoH13_lipophil",
+      "value": 0.9536
+    },
+    {
+      "source": "ClH23_peptidergic",
+      "target": "HoH13_peptidergic",
+      "value": 0.9294
+    },
+    {
+      "source": "ClH23_trans",
+      "target": "HoH13_trans",
+      "value": 0.4147
+    },
+    {
+      "source": "ClH23_unknown_1",
+      "target": "HoH13_unknown_1",
+      "value": 0.9593
+    },
+    {
+      "source": "HoH13_epithelia",
+      "target": "TrH2_epithelia",
+      "value": 0.5041
+    },
+    {
+      "source": "HoH13_epithelia",
+      "target": "TrH2_peptidergic",
+      "value": 0.4116
+    },
+    {
+      "source": "HoH13_epithelia",
+      "target": "TrH2_trans",
+      "value": 0.3855
+    },
+    {
+      "source": "HoH13_epithelia_gland_like",
+      "target": "TrH2_epithelia",
+      "value": 0.6527
+    },
+    {
+      "source": "HoH13_fibre",
+      "target": "TrH2_fibre",
+      "value": 0.4878
+    },
+    {
+      "source": "HoH13_fibre",
+      "target": "TrH2_gland",
+      "value": 0.7436
+    },
+    {
+      "source": "HoH13_fibre",
+      "target": "TrH2_trans",
+      "value": 0.2737
+    },
+    {
+      "source": "HoH13_gland",
+      "target": "TrH2_epithelia_gland_like",
+      "value": 0.967
+    },
+    {
+      "source": "HoH13_gland",
+      "target": "TrH2_gland",
+      "value": 0.4362
+    },
+    {
+      "source": "HoH13_lipophil",
+      "target": "TrH2_lipophil",
+      "value": 0.9578
+    },
+    {
+      "source": "HoH13_peptidergic",
+      "target": "TrH2_meiotic",
+      "value": 0.8446
+    },
+    {
+      "source": "HoH13_peptidergic",
+      "target": "TrH2_peptidergic",
+      "value": 0.507
+    },
+    {
+      "source": "HoH13_trans",
+      "target": "TrH2_epithelia",
+      "value": 0.5016
+    },
+    {
+      "source": "HoH13_unknown_1",
+      "target": "TrH2_unknown_1",
+      "value": 0.9257
+    },
+    {
+      "source": "TrH2_epithelia",
+      "target": "TrH1_epithelia",
+      "value": 0.6084
+    },
+    {
+      "source": "TrH2_epithelia",
+      "target": "TrH1_epithelia_gland_like",
+      "value": 0.6789
+    },
+    {
+      "source": "TrH2_epithelia",
+      "target": "TrH1_trans",
+      "value": 0.4364
+    },
+    {
+      "source": "TrH2_epithelia_gland_like",
+      "target": "TrH1_gland",
+      "value": 0.9477
+    },
+    {
+      "source": "TrH2_fibre",
+      "target": "TrH1_fibre",
+      "value": 0.68
+    },
+    {
+      "source": "TrH2_gland",
+      "target": "TrH1_fibre",
+      "value": 0.4841
+    },
+    {
+      "source": "TrH2_gland",
+      "target": "TrH1_gland",
+      "value": 0.5285
+    },
+    {
+      "source": "TrH2_lipophil",
+      "target": "TrH1_lipophil",
+      "value": 0.982
+    },
+    {
+      "source": "TrH2_meiotic",
+      "target": "TrH1_meiotic",
+      "value": 0.9406
+    },
+    {
+      "source": "TrH2_meiotic",
+      "target": "TrH1_peptidergic",
+      "value": 0.7627
+    },
+    {
+      "source": "TrH2_peptidergic",
+      "target": "TrH1_epithelia",
+      "value": 0.4481
+    },
+    {
+      "source": "TrH2_peptidergic",
+      "target": "TrH1_peptidergic",
+      "value": 0.541
+    },
+    {
+      "source": "TrH2_trans",
+      "target": "TrH1_epithelia",
+      "value": 0.4209
+    },
+    {
+      "source": "TrH2_trans",
+      "target": "TrH1_fibre",
+      "value": 0.2103
+    },
+    {
+      "source": "TrH2_unknown_1",
+      "target": "TrH1_fibre",
+      "value": 0.0204
+    },
+    {
+      "source": "TrH1_epithelia",
+      "target": "Auco_EM, Epidermal/Muscle cell",
+      "value": 0.3228
+    },
+    {
+      "source": "TrH1_epithelia",
+      "target": "Auco_HA, Hair cell",
+      "value": 0.4536
+    },
+    {
+      "source": "TrH1_epithelia",
+      "target": "Auco_SG, Stem/Germline cell",
+      "value": 0.2914
+    },
+    {
+      "source": "TrH1_epithelia_gland_like",
+      "target": "Auco_EM, Epidermal/Muscle cell",
+      "value": 0.2459
+    },
+    {
+      "source": "TrH1_fibre",
+      "target": "Auco_EM, Epidermal/Muscle cell",
+      "value": 0.3867
+    },
+    {
+      "source": "TrH1_gland",
+      "target": "Auco_GA, Gastrodermal cell",
+      "value": 0.5567
+    },
+    {
+      "source": "TrH1_lipophil",
+      "target": "Auco_EM, Epidermal/Muscle cell",
+      "value": 0.5518
+    },
+    {
+      "source": "TrH1_meiotic",
+      "target": "Auco_SG, Stem/Germline cell",
+      "value": 0.1514
+    },
+    {
+      "source": "TrH1_peptidergic",
+      "target": "Auco_GL, Gland cell",
+      "value": 0.2091
+    },
+    {
+      "source": "TrH1_trans",
+      "target": "Auco_EM, Epidermal/Muscle cell",
+      "value": 0.2998
+    },
+    {
+      "source": "TrH1_fibre",
+      "target": "Auco_CN, Cnidocytes/Nematocyte cell",
+      "value": 0.0757
+    },
+    {
+      "source": "TrH1_peptidergic",
+      "target": "Auco_NE, Neural cell",
+      "value": 0.1969
+    },
+    {
+      "source": "Auco_CN, Cnidocytes/Nematocyte cell",
+      "target": "Clhe_Nematocyte",
+      "value": 0.6614
+    },
+    {
+      "source": "Auco_EM, Epidermal/Muscle cell",
+      "target": "Clhe_Epidermal/Muscle",
+      "value": 0.5799
+    },
+    {
+      "source": "Auco_EM, Epidermal/Muscle cell",
+      "target": "Clhe_Gastroderm",
+      "value": 0.2109
+    },
+    {
+      "source": "Auco_EM, Epidermal/Muscle cell",
+      "target": "Clhe_Stem Cell/Germ Cell",
+      "value": 0.2586
+    },
+    {
+      "source": "Auco_GA, Gastrodermal cell",
+      "target": "Clhe_Gastroderm",
+      "value": 0.3786
+    },
+    {
+      "source": "Auco_GA, Gastrodermal cell",
+      "target": "Clhe_Gland Cell",
+      "value": 0.3321
+    },
+    {
+      "source": "Auco_GL, Gland cell",
+      "target": "Clhe_Gland Cell",
+      "value": 0.5853
+    },
+    {
+      "source": "Auco_HA, Hair cell",
+      "target": "Clhe_Nematocyte",
+      "value": 0.6808
+    },
+    {
+      "source": "Auco_NE, Neural cell",
+      "target": "Clhe_Neural",
+      "value": 0.416
+    },
+    {
+      "source": "Auco_SG, Stem/Germline cell",
+      "target": "Clhe_Stem Cell/Germ Cell",
+      "value": 0.1945
+    },
+    {
+      "source": "Auco_EM, Epidermal/Muscle cell",
+      "target": "Clhe_Bioluminescent Cells",
+      "value": 0.1071
+    },
+    {
+      "source": "Clhe_Bioluminescent Cells",
+      "target": "Neve_ectoderm.pharyngeal",
+      "value": 0.0429
+    },
+    {
+      "source": "Clhe_Epidermal/Muscle",
+      "target": "Neve_ectoderm.epidermis",
+      "value": 0.276
+    },
+    {
+      "source": "Clhe_Epidermal/Muscle",
+      "target": "Neve_retractor muscle",
+      "value": 0.8211
+    },
+    {
+      "source": "Clhe_Gastroderm",
+      "target": "Neve_gastrodermis",
+      "value": 0.6162
+    },
+    {
+      "source": "Clhe_Gland Cell",
+      "target": "Neve_secretory",
+      "value": 0.6411
+    },
+    {
+      "source": "Clhe_Nematocyte",
+      "target": "Neve_cnidocyte",
+      "value": 0.6517
+    },
+    {
+      "source": "Clhe_Nematocyte",
+      "target": "Neve_cnidocyte.mature",
+      "value": 0.2611
+    },
+    {
+      "source": "Clhe_Nematocyte",
+      "target": "Neve_neuronal",
+      "value": 0.3299
+    },
+    {
+      "source": "Clhe_Neural",
+      "target": "Neve_NPC",
+      "value": 0.2618
+    },
+    {
+      "source": "Clhe_Neural",
+      "target": "Neve_gland.mucous",
+      "value": 0.579
+    },
+    {
+      "source": "Clhe_Neural",
+      "target": "Neve_neuronal",
+      "value": 0.2381
+    },
+    {
+      "source": "Clhe_Stem Cell/Germ Cell",
+      "target": "Neve_NPC",
+      "value": 0.3637
+    },
+    {
+      "source": "Clhe_Stem Cell/Germ Cell",
+      "target": "Neve_ectoderm.pharyngeal",
+      "value": 0.2226
+    },
+    {
+      "source": "Clhe_Epidermal/Muscle",
+      "target": "Neve_ectoderm.embryonic",
+      "value": 0.1512
+    },
+    {
+      "source": "Clhe_Gastroderm",
+      "target": "Neve_mesendoderm.embryonic",
+      "value": 0.0778
+    },
+    {
+      "source": "Neve_NPC",
+      "target": "Dare_Neural Anterior",
+      "value": 0.4584
+    },
+    {
+      "source": "Neve_NPC",
+      "target": "Dare_Neural Mid",
+      "value": 0.4456
+    },
+    {
+      "source": "Neve_NPC",
+      "target": "Dare_Neural Posterior",
+      "value": 0.2729
+    },
+    {
+      "source": "Neve_cnidocyte",
+      "target": "Dare_Mesoderm",
+      "value": 0.1764
+    },
+    {
+      "source": "Neve_cnidocyte.mature",
+      "target": "Dare_Neural Posterior",
+      "value": 0.1178
+    },
+    {
+      "source": "Neve_ectoderm.embryonic",
+      "target": "Dare_Neural Posterior",
+      "value": 0.1366
+    },
+    {
+      "source": "Neve_ectoderm.epidermis",
+      "target": "Dare_Neural Posterior",
+      "value": 0.1549
+    },
+    {
+      "source": "Neve_ectoderm.pharyngeal",
+      "target": "Dare_Neural Posterior",
+      "value": 0.3009
+    },
+    {
+      "source": "Neve_gastrodermis",
+      "target": "Dare_Endoderm",
+      "value": 0.2069
+    },
+    {
+      "source": "Neve_gastrodermis",
+      "target": "Dare_Epidermal",
+      "value": 0.3632
+    },
+    {
+      "source": "Neve_gastrodermis",
+      "target": "Dare_Mesoderm",
+      "value": 0.3765
+    },
+    {
+      "source": "Neve_gland.mucous",
+      "target": "Dare_Mesoderm",
+      "value": 0.1424
+    },
+    {
+      "source": "Neve_mesendoderm.embryonic",
+      "target": "Dare_Mesoderm",
+      "value": 0.0445
+    },
+    {
+      "source": "Neve_neuronal",
+      "target": "Dare_Neural Posterior",
+      "value": 0.5537
+    },
+    {
+      "source": "Neve_retractor muscle",
+      "target": "Dare_Mesoderm",
+      "value": 0.6085
+    },
+    {
+      "source": "Neve_secretory",
+      "target": "Dare_Neural Posterior",
+      "value": 0.1971
+    },
+    {
+      "source": "Neve_gastrodermis",
+      "target": "Dare_Germline",
+      "value": 0.1493
+    },
+    {
+      "source": "Neve_gastrodermis",
+      "target": "Dare_Neural Crest",
+      "value": 0.1556
+    }
+  ]
+};
+option = {
+  title: {
+    // text: 'Sankey Diagram'
+  },
+  tooltip: {
+    trigger: 'item',
+    triggerOn: 'mousemove'
+  },
+  series: [
+    {
+      type: 'sankey',
+      data: data.nodes,
+      links: data.links,
+      // ============= 调整节点间距和宽度 =============
+      nodeWidth: 10,          // 增加节点宽度，更易读
+      nodeGap: 10,            // 增加垂直间距，减少节点间重叠
+      layoutIterations: 64,   // 增加迭代次数，优化布局
+      
+      // ============= 调整长宽比例 =============
+      left: '5%',             // 左侧边距
+      right: '10%',           // 右侧留更多空间给标签
+      // top: '5%',              // 顶部边距
+      // bottom: '5%',           // 底部边距
+      // width: '90%',           // 主图宽度
+      
+      // 手动控制层级位
+      layout: 'none',
+      
+      // ============= 按物种定义层级位置（固定深度间距） =============
+      orient: 'horizontal',   // 水平布局
+      nodeAlign: 'justify',   // 节点对齐方式
+      
+      emphasis: {
+        focus: 'adjacency'
+      },
+      label: {
+        position: 'right', // 标签置于右侧
+        fontWeight: 'bold',
+        fontFamily: 'Arial',
+        fontSize: 10,
+        // color: '#333333',        // 设置文字颜色
+        textBorderColor: 'transparent',  // 去除文字描边
+        textBorderWidth: 0,       // 描边宽度设为0
+        backgroundColor: 'transparent',  // 背景色透明
+      },
+      // 物种层级配色
+      levels: [
+        {
+          depth: 0, // Spla
+          itemStyle: { color: '#fba414' },
+          lineStyle: { color: 'gradient', opacity: 0.4 }
+        },
+        {
+          depth: 1, // ClH23
+          itemStyle: { color: '#ffa8a7' },
+          lineStyle: { color: 'gradient', opacity: 0.4 }
+        },
+        {
+          depth: 2, // HoH13
+          itemStyle: { color: '#eb7f7f' },
+          lineStyle: { color: 'gradient', opacity: 0.4 }
+        },
+        {
+          depth: 3, // TrH2
+          itemStyle: { color: '#ff5d4e' },
+          lineStyle: { color: 'gradient', opacity: 0.4 }
+        },
+        {
+          depth: 4, // TrH1
+          itemStyle: { color: '#EC2B24' },
+          lineStyle: { color: 'gradient', opacity: 0.4 }
+        },
+        {
+          depth: 5, // Auco
+          itemStyle: { color: '#2A52BE' },
+          lineStyle: { color: 'gradient', opacity: 0.4 }
+        },
+        {
+          depth: 6, // Clhe
+          itemStyle: { color: '#4374B3' },
+          lineStyle: { color: 'gradient', opacity: 0.4 }
+        },
+        {
+          depth: 7, // Neve
+          itemStyle: { color: '#6DA0E2' },
+          lineStyle: { color: 'gradient', opacity: 0.4 }
+        },
+        {
+          depth: 8, // Dare
+          itemStyle: { color: '#43b244' },
+          lineStyle: { color: 'gradient', opacity: 0.4 }
+        }
+      ],
+      lineStyle: {
+        curveness: 0.5
+      },
+      tooltip: {
+        trigger: 'item',
+        formatter: function (params) {
+          if (params.dataType === 'edge') {
+            return params.data.source + ' -> ' + params.data.target + '<br/><b>Alignment Score: ' + params.data.value + '</b>';
+          }
+          return params.name;
+        }
+      }
+    }
+  ]
+};

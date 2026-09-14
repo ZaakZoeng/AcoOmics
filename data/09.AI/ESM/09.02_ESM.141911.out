@@ -1,0 +1,22 @@
+Begin
+Reading /share/home/zhangze/zz/NeuralOrigin/Data/05.GenomeAnalysis/OrthoFinder_Inference/OrthoFinder_input/Spla.protein.fasta
+Reading /share/home/zhangze/zz/NeuralOrigin/Data/05.GenomeAnalysis/OrthoFinder_Inference/OrthoFinder_input/ClH23.protein.fasta
+Reading /share/home/zhangze/zz/NeuralOrigin/Data/05.GenomeAnalysis/OrthoFinder_Inference/OrthoFinder_input/HoH13.protein.fasta
+Reading /share/home/zhangze/zz/NeuralOrigin/Data/05.GenomeAnalysis/OrthoFinder_Inference/OrthoFinder_input/TrH2.protein.fasta
+Reading /share/home/zhangze/zz/NeuralOrigin/Data/05.GenomeAnalysis/OrthoFinder_Inference/OrthoFinder_input/TrH1.protein.fasta
+Reading /share/home/zhangze/zz/NeuralOrigin/Data/05.GenomeAnalysis/OrthoFinder_Inference/OrthoFinder_input/Auco.protein.fasta
+Reading /share/home/zhangze/zz/NeuralOrigin/Data/05.GenomeAnalysis/OrthoFinder_Inference/OrthoFinder_input/Clhe.protein.fasta
+Reading /share/home/zhangze/zz/NeuralOrigin/Data/05.GenomeAnalysis/OrthoFinder_Inference/OrthoFinder_input/Neve.protein.fasta
+Reading /share/home/zhangze/zz/NeuralOrigin/Data/05.GenomeAnalysis/OrthoFinder_Inference/OrthoFinder_input/Dare.protein.fasta
+Saved mapping table: output/candidate_ogs.protein_to_og.tsv
+Saved candidate FASTA: output/candidate_ogs.candidate_proteins.fasta
+Total candidate protein records in table: 636
+Missing protein sequences: 0
+torch: 2.12.0+cu130
+cuda: False
+esm: /share/home/zhangze/anaconda3/envs/esm2/lib/python3.10/site-packages/esm/__init__.py
+Traceback (most recent call last):
+  File "/share/home/zhangze/zz/NeuralOrigin/Data/09.AI/ESM/scripts/01b_extract_esm2_embeddings.py", line 8, in <module>
+    from tqdm import tqdm
+ModuleNotFoundError: No module named 'tqdm'
+finished

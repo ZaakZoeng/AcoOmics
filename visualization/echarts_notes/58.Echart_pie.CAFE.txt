@@ -1,0 +1,201 @@
+https://echarts.apache.org/examples/zh/editor.html?c=pie-simple
+
+option = {
+  title: {
+    text: 'Taxon 饼图网格 (4x4)',
+    left: 'center'
+  },
+  grid: {
+    show: false,
+    containLabel: false,
+    left: '5%',
+    right: '5%',
+    top: '15%',
+    bottom: '10%'
+  },
+  series: [
+    // 第1行
+    {
+      name: 'Auco<4>',
+      type: 'pie',
+      radius: '15%',
+      center: ['20%', '20%'],
+      label: { show: false },
+      data: [
+        { value: 2341, name: 'Increase', itemStyle: { color: '#00BB39' } },
+        { value: 623, name: 'Decrease', itemStyle: { color: '#FF0000' } }
+      ]
+    },
+    {
+      name: 'Clhe<5>',
+      type: 'pie',
+      radius: '15%',
+      center: ['40%', '20%'],
+      label: { show: false },
+      data: [
+        { value: 1480, name: 'Increase', itemStyle: { color: '#00BB39' } },
+        { value: 1464, name: 'Decrease', itemStyle: { color: '#FF0000' } }
+      ]
+    },
+    {
+      name: 'Spla<1>',
+      type: 'pie',
+      radius: '15%',
+      center: ['60%', '20%'],
+      label: { show: false },
+      data: [
+        { value: 345, name: 'Increase', itemStyle: { color: '#00BB39' } },
+        { value: 1025, name: 'Decrease', itemStyle: { color: '#FF0000' } }
+      ]
+    },
+    {
+      name: '<11>',
+      type: 'pie',
+      radius: '15%',
+      center: ['80%', '20%'],
+      label: { show: false },
+      data: [
+        { value: 335, name: 'Increase', itemStyle: { color: '#00BB39' } },
+        { value: 808, name: 'Decrease', itemStyle: { color: '#FF0000' } }
+      ]
+    },
+    
+    // 第2行
+    {
+      name: '<15>',
+      type: 'pie',
+      radius: '15%',
+      center: ['20%', '40%'],
+      label: { show: false },
+      data: [
+        { value: 195, name: 'Increase', itemStyle: { color: '#00BB39' } },
+        { value: 2157, name: 'Decrease', itemStyle: { color: '#FF0000' } }
+      ]
+    },
+    {
+      name: '<12>',
+      type: 'pie',
+      radius: '15%',
+      center: ['40%', '40%'],
+      label: { show: false },
+      data: [
+        { value: 146, name: 'Increase', itemStyle: { color: '#00BB39' } },
+        { value: 67, name: 'Decrease', itemStyle: { color: '#FF0000' } }
+      ]
+    },
+    {
+      name: 'Dare<2>',
+      type: 'pie',
+      radius: '15%',
+      center: ['60%', '40%'],
+      label: { show: false },
+      data: [
+        { value: 2870, name: 'Increase', itemStyle: { color: '#00BB39' } },
+        { value: 689, name: 'Decrease', itemStyle: { color: '#FF0000' } }
+      ]
+    },
+    {
+      name: '<16>',
+      type: 'pie',
+      radius: '15%',
+      center: ['80%', '40%'],
+      label: { show: false },
+      data: [
+        { value: 94, name: 'Increase', itemStyle: { color: '#00BB39' } },
+        { value: 82, name: 'Decrease', itemStyle: { color: '#FF0000' } }
+      ]
+    },
+    
+    // 第3行
+    {
+      name: 'TrH2<6>',
+      type: 'pie',
+      radius: '15%',
+      center: ['20%', '60%'],
+      label: { show: false },
+      data: [
+        { value: 50, name: 'Increase', itemStyle: { color: '#00BB39' } },
+        { value: 124, name: 'Decrease', itemStyle: { color: '#FF0000' } }
+      ]
+    },
+    {
+      name: '<13>',
+      type: 'pie',
+      radius: '15%',
+      center: ['40%', '60%'],
+      label: { show: false },
+      data: [
+        { value: 100, name: 'Increase', itemStyle: { color: '#00BB39' } },
+        { value: 324, name: 'Decrease', itemStyle: { color: '#FF0000' } }
+      ]
+    },
+    {
+      name: 'Neve<3>',
+      type: 'pie',
+      radius: '15%',
+      center: ['60%', '60%'],
+      label: { show: false },
+      data: [
+        { value: 414, name: 'Increase', itemStyle: { color: '#00BB39' } },
+        { value: 1511, name: 'Decrease', itemStyle: { color: '#FF0000' } }
+      ]
+    },
+    {
+      name: '<14>',
+      type: 'pie',
+      radius: '15%',
+      center: ['80%', '60%'],
+      label: { show: false },
+      data: [
+        { value: 306, name: 'Increase', itemStyle: { color: '#00BB39' } },
+        { value: 354, name: 'Decrease', itemStyle: { color: '#FF0000' } }
+      ]
+    },
+    
+    // 第4行
+    {
+      name: 'TrH1<7>',
+      type: 'pie',
+      radius: '15%',
+      center: ['20%', '80%'],
+      label: { show: false },
+      data: [
+        { value: 381, name: 'Increase', itemStyle: { color: '#00BB39' } },
+        { value: 184, name: 'Decrease', itemStyle: { color: '#FF0000' } }
+      ]
+    },
+    {
+      name: '<17>',
+      type: 'pie',
+      radius: '15%',
+      center: ['40%', '80%'],
+      label: { show: false },
+      data: [
+        { value: 58, name: 'Increase', itemStyle: { color: '#00BB39' } },
+        { value: 92, name: 'Decrease', itemStyle: { color: '#FF0000' } }
+      ]
+    },
+    {
+      name: 'ClH23<8>',
+      type: 'pie',
+      radius: '15%',
+      center: ['60%', '80%'],
+      label: { show: false },
+      data: [
+        { value: 122, name: 'Increase', itemStyle: { color: '#00BB39' } },
+        { value: 128, name: 'Decrease', itemStyle: { color: '#FF0000' } }
+      ]
+    },
+    {
+      name: 'HoH13<9>',
+      type: 'pie',
+      radius: '15%',
+      center: ['80%', '80%'],
+      label: { show: false },
+      data: [
+        { value: 260, name: 'Increase', itemStyle: { color: '#00BB39' } },
+        { value: 393, name: 'Decrease', itemStyle: { color: '#FF0000' } }
+      ]
+    }
+  ]
+};

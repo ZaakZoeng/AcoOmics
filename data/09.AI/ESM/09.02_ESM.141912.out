@@ -1,0 +1,77 @@
+Begin
+Reading /share/home/zhangze/zz/NeuralOrigin/Data/05.GenomeAnalysis/OrthoFinder_Inference/OrthoFinder_input/Spla.protein.fasta
+Reading /share/home/zhangze/zz/NeuralOrigin/Data/05.GenomeAnalysis/OrthoFinder_Inference/OrthoFinder_input/ClH23.protein.fasta
+Reading /share/home/zhangze/zz/NeuralOrigin/Data/05.GenomeAnalysis/OrthoFinder_Inference/OrthoFinder_input/HoH13.protein.fasta
+Reading /share/home/zhangze/zz/NeuralOrigin/Data/05.GenomeAnalysis/OrthoFinder_Inference/OrthoFinder_input/TrH2.protein.fasta
+Reading /share/home/zhangze/zz/NeuralOrigin/Data/05.GenomeAnalysis/OrthoFinder_Inference/OrthoFinder_input/TrH1.protein.fasta
+Reading /share/home/zhangze/zz/NeuralOrigin/Data/05.GenomeAnalysis/OrthoFinder_Inference/OrthoFinder_input/Auco.protein.fasta
+Reading /share/home/zhangze/zz/NeuralOrigin/Data/05.GenomeAnalysis/OrthoFinder_Inference/OrthoFinder_input/Clhe.protein.fasta
+Reading /share/home/zhangze/zz/NeuralOrigin/Data/05.GenomeAnalysis/OrthoFinder_Inference/OrthoFinder_input/Neve.protein.fasta
+Reading /share/home/zhangze/zz/NeuralOrigin/Data/05.GenomeAnalysis/OrthoFinder_Inference/OrthoFinder_input/Dare.protein.fasta
+Saved mapping table: output/candidate_ogs.protein_to_og.tsv
+Saved candidate FASTA: output/candidate_ogs.candidate_proteins.fasta
+Total candidate protein records in table: 636
+Missing protein sequences: 0
+torch: 2.12.0+cu130
+cuda: False
+esm: /share/home/zhangze/anaconda3/envs/esm2/lib/python3.10/site-packages/esm/__init__.py
+Loaded 636 sequences from output/candidate_ogs.candidate_proteins.fasta
+Downloading: "https://dl.fbaipublicfiles.com/fair-esm/models/esm2_t12_35M_UR50D.pt" to /share/home/zhangze/.cache/torch/hub/checkpoints/esm2_t12_35M_UR50D.pt
+Traceback (most recent call last):
+  File "/share/home/zhangze/anaconda3/envs/esm2/lib/python3.10/urllib/request.py", line 1348, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "/share/home/zhangze/anaconda3/envs/esm2/lib/python3.10/http/client.py", line 1283, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/share/home/zhangze/anaconda3/envs/esm2/lib/python3.10/http/client.py", line 1329, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/share/home/zhangze/anaconda3/envs/esm2/lib/python3.10/http/client.py", line 1278, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/share/home/zhangze/anaconda3/envs/esm2/lib/python3.10/http/client.py", line 1038, in _send_output
+    self.send(msg)
+  File "/share/home/zhangze/anaconda3/envs/esm2/lib/python3.10/http/client.py", line 976, in send
+    self.connect()
+  File "/share/home/zhangze/anaconda3/envs/esm2/lib/python3.10/http/client.py", line 1448, in connect
+    super().connect()
+  File "/share/home/zhangze/anaconda3/envs/esm2/lib/python3.10/http/client.py", line 942, in connect
+    self.sock = self._create_connection(
+  File "/share/home/zhangze/anaconda3/envs/esm2/lib/python3.10/socket.py", line 857, in create_connection
+    raise err
+  File "/share/home/zhangze/anaconda3/envs/esm2/lib/python3.10/socket.py", line 845, in create_connection
+    sock.connect(sa)
+TimeoutError: [Errno 110] Connection timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/share/home/zhangze/zz/NeuralOrigin/Data/09.AI/ESM/scripts/01b_extract_esm2_embeddings.py", line 125, in <module>
+    main()
+  File "/share/home/zhangze/zz/NeuralOrigin/Data/09.AI/ESM/scripts/01b_extract_esm2_embeddings.py", line 66, in main
+    model, alphabet, repr_layer = load_model(args.model_name)
+  File "/share/home/zhangze/zz/NeuralOrigin/Data/09.AI/ESM/scripts/01b_extract_esm2_embeddings.py", line 37, in load_model
+    model, alphabet = esm.pretrained.esm2_t12_35M_UR50D()
+  File "/share/home/zhangze/anaconda3/envs/esm2/lib/python3.10/site-packages/esm/pretrained.py", line 363, in esm2_t12_35M_UR50D
+    return load_model_and_alphabet_hub("esm2_t12_35M_UR50D")
+  File "/share/home/zhangze/anaconda3/envs/esm2/lib/python3.10/site-packages/esm/pretrained.py", line 63, in load_model_and_alphabet_hub
+    model_data, regression_data = _download_model_and_regression_data(model_name)
+  File "/share/home/zhangze/anaconda3/envs/esm2/lib/python3.10/site-packages/esm/pretrained.py", line 54, in _download_model_and_regression_data
+    model_data = load_hub_workaround(url)
+  File "/share/home/zhangze/anaconda3/envs/esm2/lib/python3.10/site-packages/esm/pretrained.py", line 33, in load_hub_workaround
+    data = torch.hub.load_state_dict_from_url(url, progress=False, map_location="cpu")
+  File "/share/home/zhangze/anaconda3/envs/esm2/lib/python3.10/site-packages/torch/hub.py", line 894, in load_state_dict_from_url
+    download_url_to_file(url, cached_file, hash_prefix, progress=progress)
+  File "/share/home/zhangze/anaconda3/envs/esm2/lib/python3.10/site-packages/torch/hub.py", line 749, in download_url_to_file
+    with urlopen(req) as u:
+  File "/share/home/zhangze/anaconda3/envs/esm2/lib/python3.10/urllib/request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+  File "/share/home/zhangze/anaconda3/envs/esm2/lib/python3.10/urllib/request.py", line 519, in open
+    response = self._open(req, data)
+  File "/share/home/zhangze/anaconda3/envs/esm2/lib/python3.10/urllib/request.py", line 536, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "/share/home/zhangze/anaconda3/envs/esm2/lib/python3.10/urllib/request.py", line 496, in _call_chain
+    result = func(*args)
+  File "/share/home/zhangze/anaconda3/envs/esm2/lib/python3.10/urllib/request.py", line 1391, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "/share/home/zhangze/anaconda3/envs/esm2/lib/python3.10/urllib/request.py", line 1351, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno 110] Connection timed out>
+finished

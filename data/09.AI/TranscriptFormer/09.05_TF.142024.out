@@ -1,0 +1,86 @@
+Begin
+torch: 2.5.1+cu124
+torch cuda: 12.4
+cuda available: True
+gpu: NVIDIA GeForce RTX 3080 Ti
+usage: transcriptformer inference [-h] --checkpoint-path CHECKPOINT_PATH
+                                  --data-file DATA_FILE
+                                  [--output-path OUTPUT_PATH]
+                                  [--output-filename OUTPUT_FILENAME]
+                                  [--batch-size BATCH_SIZE]
+                                  [--gene-col-name GENE_COL_NAME]
+                                  [--precision {16-mixed,32}]
+                                  [--pretrained-embedding PRETRAINED_EMBEDDING]
+                                  [--clip-counts CLIP_COUNTS]
+                                  [--filter-to-vocabs]
+                                  [--model-type {transcriptformer,esm2ce}]
+                                  [--use-raw USE_RAW] [--emb-type {cell,cge}]
+                                  [--remove-duplicate-genes]
+                                  [--num-gpus NUM_GPUS]
+                                  [--device {auto,cpu,cuda,mps}]
+                                  [--disable-compile-block-mask]
+                                  [--oom-dataloader]
+                                  [--n-data-workers N_DATA_WORKERS]
+                                  [--config-override CONFIG_OVERRIDE]
+
+Run inference with a TranscriptFormer model on scRNA-seq data.
+
+options:
+  -h, --help            show this help message and exit
+  --checkpoint-path CHECKPOINT_PATH
+                        Path to the model checkpoint directory
+  --data-file DATA_FILE
+                        Path to input AnnData file to run inference on
+  --output-path OUTPUT_PATH
+                        Directory where results will be saved (default:
+                        ./inference_results)
+  --output-filename OUTPUT_FILENAME
+                        Filename for the output embeddings (default:
+                        embeddings.h5ad)
+  --batch-size BATCH_SIZE
+                        Number of samples to process in each batch (default:
+                        8)
+  --gene-col-name GENE_COL_NAME
+                        Column name in AnnData.var containing gene identifiers
+                        (default: ensembl_id)
+  --precision {16-mixed,32}
+                        Numerical precision for inference (default: 16-mixed)
+  --pretrained-embedding PRETRAINED_EMBEDDING
+                        Path to pretrained embeddings for out-of-distribution
+                        species
+  --clip-counts CLIP_COUNTS
+                        Maximum count value (higher values will be clipped)
+                        (default: 30)
+  --filter-to-vocabs    Whether to filter genes to only those in the
+                        vocabulary (default: True)
+  --model-type {transcriptformer,esm2ce}
+                        Type of model to use for inference (default:
+                        transcriptformer)
+  --use-raw USE_RAW     Whether to use raw counts from AnnData.raw.X (True),
+                        adata.X (False), or auto-detect (None/auto) (default:
+                        None)
+  --emb-type {cell,cge}
+                        Type of embeddings to extract: 'cell' for mean-pooled
+                        cell embeddings or 'cge' for contextual gene
+                        embeddings (default: cell)
+  --remove-duplicate-genes
+                        Remove duplicate genes if found instead of raising an
+                        error (default: False)
+  --num-gpus NUM_GPUS   Number of GPUs to use for inference (1 = single GPU,
+                        -1 = all available GPUs, >1 = specific number)
+                        (default: 1)
+  --device {auto,cpu,cuda,mps}
+                        Specific device to use for inference: 'auto' (best
+                        available), 'cpu', 'cuda', 'mps' (default: auto)
+  --disable-compile-block-mask
+                        Disable compilation of block mask creation (useful for
+                        CPU or debugging)
+  --oom-dataloader      Use map-style out-of-memory DataLoader
+                        (DistributedSampler-friendly)
+  --n-data-workers N_DATA_WORKERS
+                        Number of DataLoader workers per process (map-style
+                        dataset is order-safe).
+  --config-override CONFIG_OVERRIDE
+                        Override any configuration value not covered by the
+                        explicit arguments above. Format: key.path=value
+finished

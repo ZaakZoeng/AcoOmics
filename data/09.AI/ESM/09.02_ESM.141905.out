@@ -1,0 +1,35 @@
+Begin
+Reading /share/home/zhangze/zz/NeuralOrigin/Data/05.GenomeAnalysis/OrthoFinder_Inference/OrthoFinder_input/Spla.protein.fasta
+Reading /share/home/zhangze/zz/NeuralOrigin/Data/05.GenomeAnalysis/OrthoFinder_Inference/OrthoFinder_input/ClH23.protein.fasta
+Reading /share/home/zhangze/zz/NeuralOrigin/Data/05.GenomeAnalysis/OrthoFinder_Inference/OrthoFinder_input/HoH13.protein.fasta
+Reading /share/home/zhangze/zz/NeuralOrigin/Data/05.GenomeAnalysis/OrthoFinder_Inference/OrthoFinder_input/TrH2.protein.fasta
+Reading /share/home/zhangze/zz/NeuralOrigin/Data/05.GenomeAnalysis/OrthoFinder_Inference/OrthoFinder_input/TrH1.protein.fasta
+Reading /share/home/zhangze/zz/NeuralOrigin/Data/05.GenomeAnalysis/OrthoFinder_Inference/OrthoFinder_input/Auco.protein.fasta
+Reading /share/home/zhangze/zz/NeuralOrigin/Data/05.GenomeAnalysis/OrthoFinder_Inference/OrthoFinder_input/Clhe.protein.fasta
+Reading /share/home/zhangze/zz/NeuralOrigin/Data/05.GenomeAnalysis/OrthoFinder_Inference/OrthoFinder_input/Neve.protein.fasta
+Reading /share/home/zhangze/zz/NeuralOrigin/Data/05.GenomeAnalysis/OrthoFinder_Inference/OrthoFinder_input/Dare.protein.fasta
+Saved mapping table: output/candidate_ogs.protein_to_og.tsv
+Saved candidate FASTA: output/candidate_ogs.candidate_proteins.fasta
+Total candidate protein records in table: 636
+Missing protein sequences: 0
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+/share/home/zhangze/anaconda3/bin/python: Error while finding module specification for 'esm.scripts.extract' (ModuleNotFoundError: No module named 'esm')
+finished

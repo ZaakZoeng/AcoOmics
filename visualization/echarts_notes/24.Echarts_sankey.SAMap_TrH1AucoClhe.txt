@@ -1,0 +1,294 @@
+https://echarts.apache.org/examples/zh/editor.html?c=sankey-simple
+
+data = {
+  "nodes": [
+    {
+      "name": "Auco_CN, Cnidocytes/Nematocyte cell",
+      itemStyle: { color: '#9ACFFF' }
+    },
+    {
+      "name": "Auco_EM, Epidermal/Muscle cell",
+      itemStyle: { color: '#9ACFFF' }
+    },
+    {
+      "name": "Auco_GA, Gastrodermal cell",
+      itemStyle: { color: '#9ACFFF' }
+    },
+    {
+      "name": "Auco_GL, Gland cell",
+      itemStyle: { color: '#9ACFFF' }
+    },
+    {
+      "name": "Auco_HA, Hair cell",
+      itemStyle: { color: '#9ACFFF' }
+    },
+    {
+      "name": "Auco_NE, Neural cell",
+      itemStyle: { color: '#2A52BE' }
+    },
+    {
+      "name": "Auco_SG, Stem/Germline cell",
+      itemStyle: { color: '#9ACFFF' }
+    },
+    {
+      "name": "Clhe_Bioluminescent Cells",
+      itemStyle: { color: '#A7DDFF' }
+    },
+    {
+      "name": "Clhe_Epidermal/Muscle",
+      itemStyle: { color: '#A7DDFF' }
+    },
+    {
+      "name": "Clhe_Gastroderm",
+      itemStyle: { color: '#A7DDFF' }
+    },
+    {
+      "name": "Clhe_Gland Cell",
+      itemStyle: { color: '#A7DDFF' }
+    },
+    {
+      "name": "Clhe_Nematocyte",
+      itemStyle: { color: '#A7DDFF' }
+    },
+    {
+      "name": "Clhe_Neural",
+      itemStyle: { color: '#4374B3' }
+    },
+    {
+      "name": "Clhe_Stem Cell/Germ Cell",
+      itemStyle: { color: '#A7DDFF'}
+    },
+    {
+      "name": "TrH1_epithelia",
+      itemStyle: { color: '#FFB49D' }
+    },
+    {
+      "name": "TrH1_epithelia_gland_like",
+      itemStyle: { color: '#FFB49D' }
+    },
+    {
+      "name": "TrH1_fibre",
+      itemStyle: { color: '#FFB49D' }
+    },
+    {
+      "name": "TrH1_gland",
+      itemStyle: { color: '#FFB49D' }
+    },
+    {
+      "name": "TrH1_lipophil",
+      itemStyle: { color: '#FFB49D' }
+    },
+    {
+      "name": "TrH1_meiotic",
+      itemStyle: { color: '#FFB49D' }
+    },
+    {
+      "name": "TrH1_peptidergic",
+      itemStyle: { color: '#EC2B24' }
+    },
+    {
+      "name": "TrH1_trans",
+      itemStyle: { color: '#FFB49D' }
+    }
+  ],
+  "links": [
+    {
+      "source": "TrH1_epithelia",
+      "target": "Auco_EM, Epidermal/Muscle cell",
+      "value": 0.2879
+    },
+    {
+      "source": "TrH1_epithelia",
+      "target": "Auco_GA, Gastrodermal cell",
+      "value": 0.2753
+    },
+    {
+      "source": "TrH1_epithelia",
+      "target": "Auco_HA, Hair cell",
+      "value": 0.4415
+    },
+    {
+      "source": "TrH1_epithelia",
+      "target": "Auco_SG, Stem/Germline cell",
+      "value": 0.3152
+    },
+    {
+      "source": "TrH1_epithelia_gland_like",
+      "target": "Auco_EM, Epidermal/Muscle cell",
+      "value": 0.2231
+    },
+    {
+      "source": "TrH1_epithelia_gland_like",
+      "target": "Auco_SG, Stem/Germline cell",
+      "value": 0.2096
+    },
+    {
+      "source": "TrH1_fibre",
+      "target": "Auco_CN, Cnidocytes/Nematocyte cell",
+      "value": 0.2949
+    },
+    {
+      "source": "TrH1_gland",
+      "target": "Auco_GL, Gland cell",
+      "value": 0.5296
+    },
+    {
+      "source": "TrH1_lipophil",
+      "target": "Auco_EM, Epidermal/Muscle cell",
+      "value": 0.8997
+    },
+    {
+      "source": "TrH1_meiotic",
+      "target": "Auco_NE, Neural cell",
+      "value": 0.1811
+    },
+    {
+      "source": "TrH1_peptidergic",
+      "target": "Auco_GL, Gland cell",
+      "value": 0.2921
+    },
+    {
+      "source": "TrH1_peptidergic",
+      "target": "Auco_NE, Neural cell",
+      "value": 0.277
+    },
+    {
+      "source": "TrH1_trans",
+      "target": "Auco_EM, Epidermal/Muscle cell",
+      "value": 0.3175
+    },
+    {
+      "source": "Auco_CN, Cnidocytes/Nematocyte cell",
+      "target": "Clhe_Nematocyte",
+      "value": 0.7098
+    },
+    {
+      "source": "Auco_EM, Epidermal/Muscle cell",
+      "target": "Clhe_Epidermal/Muscle",
+      "value": 0.6655
+    },
+    {
+      "source": "Auco_EM, Epidermal/Muscle cell",
+      "target": "Clhe_Stem Cell/Germ Cell",
+      "value": 0.2505
+    },
+    {
+      "source": "Auco_GA, Gastrodermal cell",
+      "target": "Clhe_Bioluminescent Cells",
+      "value": 0.292
+    },
+    {
+      "source": "Auco_GA, Gastrodermal cell",
+      "target": "Clhe_Gastroderm",
+      "value": 0.6048
+    },
+    {
+      "source": "Auco_GL, Gland cell",
+      "target": "Clhe_Gland Cell",
+      "value": 0.709
+    },
+    {
+      "source": "Auco_HA, Hair cell",
+      "target": "Clhe_Nematocyte",
+      "value": 0.8019
+    },
+    {
+      "source": "Auco_NE, Neural cell",
+      "target": "Clhe_Neural",
+      "value": 0.5819
+    },
+    {
+      "source": "Auco_SG, Stem/Germline cell",
+      "target": "Clhe_Neural",
+      "value": 0.1655
+    }
+  ]
+};
+option = {
+  title: {
+    // text: 'Sankey Diagram'
+  },
+  tooltip: {
+    trigger: 'item',
+    triggerOn: 'mousemove'
+  },
+  series: [
+    {
+      type: 'sankey',
+      data: data.nodes,
+      links: data.links,
+      // ============= 调整节点间距和宽度 =============
+      nodeWidth: 15,          // 增加节点宽度，更易读
+      nodeGap: 15,            // 增加垂直间距，减少节点间重叠
+      layoutIterations: 64,   // 增加迭代次数，优化布局
+      
+      // ============= 调整长宽比例 =============
+      left: '15%',             // 左侧边距
+      // right: '10%',           // 右侧留更多空间给标签
+      // top: '5%',              // 顶部边距
+      // bottom: '5%',           // 底部边距
+      // width: '90%',           // 主图宽度
+      
+      // 手动控制层级位
+      layout: 'none',
+      
+      // ============= 按物种定义层级位置（固定深度间距） =============
+      orient: 'horizontal',   // 水平布局
+      nodeAlign: 'justify',   // 节点对齐方式
+      
+      emphasis: {
+        focus: 'adjacency'
+      },
+      label: {
+        position: 'right', // 标签置于右侧
+        fontWeight: 'bold',
+        fontFamily: 'Arial',
+        fontSize: 12,
+        color: '#333333',        // 设置文字颜色
+        textBorderColor: 'transparent',  // 去除文字描边
+        textBorderWidth: 0,       // 描边宽度设为0
+        backgroundColor: 'transparent',  // 背景色透明
+      },
+      // 物种层级配色逻辑：TrH1(红色系) -> Auco(蓝色系) -> Clhe(绿色系)
+      // levels: [
+      //   {
+      //     depth: 0, // TrH1
+      //     itemStyle: { color: '#EC2B24' },
+      //     lineStyle: { color: 'gradient', opacity: 0.4 }
+      //   },
+      //   {
+      //     depth: 1, // Auco
+      //     itemStyle: { color: '#2A52BE' },
+      //     lineStyle: { color: 'gradient', opacity: 0.4 }
+      //   },
+      //   {
+      //     depth: 2, // Clhe
+      //     itemStyle: { color: '#4374B3' },
+      //     lineStyle: { color: 'gradient', opacity: 0.4 }
+      //   }
+      // ],
+      
+      // 让节点使用 data.nodes 中定义的 itemStyle
+      nodeStyle: {
+        color: 'inherit'       // 继承 nodes 中定义的 color
+      },
+      // ============= 连线样式 =============
+      lineStyle: {
+        curveness: 0.5,
+        opacity: 0.4,
+        color: 'gradient'        // 或 'source' 或 'gradient'
+      },
+      // ============= 工具提示 =============
+      tooltip: {
+        trigger: 'item',
+        formatter: function (params) {
+          if (params.dataType === 'edge') {
+            return params.data.source + ' → ' + params.data.target + 
+                   '<br/><b>Alignment Score: ' + params.data.value + '</b>';
+          }
+          return params.name;
+        }
+      }
+    }
+  ]
+};

@@ -1,0 +1,971 @@
+细胞类型	Cluster	支持条目	逻辑推断
+表皮肌肉细胞 (EM)	0	cytosolic ribosome	处于生长或修复状态的肌肉细胞需要大量合成结构蛋白。
+	1	oxidative phosphorylation、ATP metabolic process、electron transport chain	肌肉收缩极度耗能，说明该群是伞部收缩的“能量供应站”。
+	2	regulation of actin cytoskeleton organization、regulation of actin filament polymerization	肌动蛋白丝的精准排列和聚合是肌肉细胞形成收缩纤维束的基础。
+胃皮层细胞 (GA)	3	axoneme、ciliary plasm	刺胞动物的胃腔内壁通常布满纤毛，依靠纤毛摆动驱动胃腔循环。
+	5	digestive tract development、endoderm development	决定性证据：水母的胃皮层来源于内胚层，负责消化功能。
+	12, 13	cytosolic ribosome、cytoplasmic translation、ribosomal subunit	胃皮层中的活跃蛋白质合成亚群：可能负责大量合成消化酶或更新纤毛结构蛋白，支持消化与循环功能。
+	21	（待补充）	
+神经细胞 (NE)	7, 15	voltage-gated channel activity、nervous system process	典型的电信号传导特征。
+	8	Golgi apparatus、vesicle transport	神经元是高度分泌型细胞，需要发达的高尔基体来包装神经递质。
+	9	chemical synaptic transmission、neurotransmitter receptor activity	明确的神经通讯（信号接收与发放）特征。
+刺细胞 (CN)	11	actin cytoskeleton、cell projection	刺细胞在发育过程中涉及复杂的细胞形态塑造和刺丝囊的精准定位。
+	16	brush border membrane、cilium	许多刺细胞带有特殊的感官突起（如刺针 Cnidocil，一种改性的纤毛结构），用于感知外界机械刺激。
+	4	RNA splicing、ribosome biogenesis、cytoplasmic translation、ribosome	刺细胞前体/成熟中合成高峰：大量合成刺丝囊蛋白、毒素及结构成分，因此富集 RNA 加工、核糖体生成及翻译过程。
+	18	response to stress、signal transduction、vesicle-mediated transport、cytoskeleton	成熟刺细胞执行功能特征：具备应激感知、信号转导及囊泡运输能力，以快速排放刺丝囊。
+腺体细胞 (GL)	19	vacuole、enzyme binding、intracellular organelle lumen	典型的分泌小泡特征，用于存储和排放酶。
+	23	peptidase activity、endopeptidase activity	亮点：可能是肌上皮腺细胞，既能通过收缩辅助挤压，又能分泌消化酶。
+	14	（待补充）	
+干细胞/生殖细胞 (SG)	10	cell cycle、mitotic cell cycle、DNA replication	SG 群的核心是其强大的增殖能力（i-cells）。
+	22	neurogenesis、generation of neurons	深远意义：证实了 SG 是神经细胞的“上游”，解释了为何多能干细胞中能检测到神经发生特征。
+	17	carboxylic acid metabolic process、oxidoreductase activity、mitochondrial protein-containing complex、cytoplasmic translation	代谢活跃的干/祖细胞：线粒体代谢提供能量，伴随蛋白质合成，支持细胞周期进程与分化准备。
+	20	translation、SRP-dependent cotranslational protein targeting to membrane、cytosolic ribosome	分泌/膜蛋白合成活跃的干细胞：通过 SRP 途径高效合成膜蛋白或分泌蛋白，可能与分化方向决定或自我更新相关。
+感觉细胞/同心毛细胞 (HA)	6	cilium、microtubule-based movement	同心毛细胞通过纤毛束感知水流或平衡变化，其内部布满基于微管的纤毛结构。
+
+Echarts Codes
+https://echarts.apache.org/examples/zh/editor.html?c=sunburst-simple
+
+var data = [
+  // ============= EM =============
+  {
+    name: 'EM',
+    itemStyle: { color: '#9467bd' },
+    children: [
+      {
+        name: '0',
+        value: 1,
+        itemStyle: { color: '#9467bd' },
+        children: [
+          {
+            name: 'GO:0022626',
+            value: 1,
+            itemStyle: { color: '#9467bd' },
+            children: [
+              {
+                name: 'cytosolic ribosome',
+                value: 1,
+                itemStyle: { color: '#9467bd' }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: '1',
+        value: 3,
+        itemStyle: { color: '#9467bd' },
+        children: [
+          {
+            name: 'GO:0006119',
+            value: 1,
+            itemStyle: { color: '#9467bd' },
+            children: [
+              {
+                name: 'oxidative phosphorylation',
+                value: 1,
+                itemStyle: { color: '#9467bd' }
+              }
+            ]
+          },
+          {
+            name: 'GO:0046034',
+            value: 1,
+            itemStyle: { color: '#9467bd' },
+            children: [
+              {
+                name: 'ATP metabolic process',
+                value: 1,
+                itemStyle: { color: '#9467bd' }
+              }
+            ]
+          },
+          {
+            name: 'GO:0022900',
+            value: 1,
+            itemStyle: { color: '#9467bd' },
+            children: [
+              {
+                name: 'electron transport chain',
+                value: 1,
+                itemStyle: { color: '#9467bd' }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: '2',
+        value: 2,
+        itemStyle: { color: '#9467bd' },
+        children: [
+          {
+            name: 'GO:0032956',
+            value: 1,
+            itemStyle: { color: '#9467bd' },
+            children: [
+              {
+                name: 'regulation of actin cytoskeleton organization',
+                value: 1,
+                itemStyle: { color: '#9467bd' }
+              }
+            ]
+          },
+          {
+            name: 'GO:0030833',
+            value: 1,
+            itemStyle: { color: '#9467bd' },
+            children: [
+              {
+                name: 'regulation of actin filament polymerization',
+                value: 1,
+                itemStyle: { color: '#9467bd' }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  // ============= GA =============
+  {
+    name: 'GA',
+    itemStyle: { color: '#ff7f0e' },
+    children: [
+      {
+        name: '3',
+        value: 2,
+        itemStyle: { color: '#ff7f0e' },
+        children: [
+          {
+            name: 'GO:0005930',
+            value: 1,
+            itemStyle: { color: '#ff7f0e' },
+            children: [
+              {
+                name: 'axoneme',
+                value: 1,
+                itemStyle: { color: '#ff7f0e' }
+              }
+            ]
+          },
+          {
+            name: 'GO:0097014',
+            value: 1,
+            itemStyle: { color: '#ff7f0e' },
+            children: [
+              {
+                name: 'ciliary plasm',
+                value: 1,
+                itemStyle: { color: '#ff7f0e' }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: '5',
+        value: 2,
+        itemStyle: { color: '#ff7f0e' },
+        children: [
+          {
+            name: 'GO:0048565',
+            value: 1,
+            itemStyle: { color: '#ff7f0e' },
+            children: [
+              {
+                name: 'digestive tract development',
+                value: 1,
+                itemStyle: { color: '#ff7f0e' }
+              }
+            ]
+          },
+          {
+            name: 'GO:0007492',
+            value: 1,
+            itemStyle: { color: '#ff7f0e' },
+            children: [
+              {
+                name: 'endoderm development',
+                value: 1,
+                itemStyle: { color: '#ff7f0e' }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: '12',
+        value: 2,
+        itemStyle: { color: '#ff7f0e' },
+        children: [
+          {
+            name: 'GO:0022626',
+            value: 1,
+            itemStyle: { color: '#ff7f0e' },
+            children: [
+              {
+                name: 'cytosolic ribosome',
+                value: 1,
+                itemStyle: { color: '#ff7f0e' }
+              }
+            ]
+          },
+          {
+            name: 'GO:0002181',
+            value: 1,
+            itemStyle: { color: '#ff7f0e' },
+            children: [
+              {
+                name: 'cytoplasmic translation',
+                value: 1,
+                itemStyle: { color: '#ff7f0e' }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: '13',
+        value: 3,
+        itemStyle: { color: '#ff7f0e' },
+        children: [
+          {
+            name: 'GO:0022626',
+            value: 1,
+            itemStyle: { color: '#ff7f0e' },
+            children: [
+              {
+                name: 'cytosolic ribosome',
+                value: 1,
+                itemStyle: { color: '#ff7f0e' }
+              }
+            ]
+          },
+          {
+            name: 'GO:0002181',
+            value: 1,
+            itemStyle: { color: '#ff7f0e' },
+            children: [
+              {
+                name: 'cytoplasmic translation',
+                value: 1,
+                itemStyle: { color: '#ff7f0e' }
+              }
+            ]
+          },
+          {
+            name: 'GO:0044391',
+            value: 1,
+            itemStyle: { color: '#ff7f0e' },
+            children: [
+              {
+                name: 'ribosomal subunit',
+                value: 1,
+                itemStyle: { color: '#ff7f0e' }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: '21',
+        value: 1,
+        itemStyle: { color: '#ff7f0e' },
+        children: [
+          {
+            name: 'No top DEGs',
+            value: 1,
+            itemStyle: { color: '#ff7f0e' },
+            children: [
+              {
+                name: '',
+                value: 1,
+                itemStyle: { color: '#ff7f0e' }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  // ============= NE =============
+  {
+    name: 'NE',
+    itemStyle: { color: '#2ca02c' },
+    children: [
+      {
+        name: '7',
+        value: 2,
+        itemStyle: { color: '#2ca02c' },
+        children: [
+          {
+            name: 'GO:0022832',
+            value: 1,
+            itemStyle: { color: '#2ca02c' },
+            children: [
+              {
+                name: 'voltage-gated channel activity',
+                value: 1,
+                itemStyle: { color: '#2ca02c' }
+              }
+            ]
+          },
+          {
+            name: 'GO:0050877',
+            value: 1,
+            itemStyle: { color: '#2ca02c' },
+            children: [
+              {
+                name: 'nervous system process',
+                value: 1,
+                itemStyle: { color: '#2ca02c' }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: '8',
+        value: 2,
+        itemStyle: { color: '#2ca02c' },
+        children: [
+          {
+            name: 'GO:0005794',
+            value: 1,
+            itemStyle: { color: '#2ca02c' },
+            children: [
+              {
+                name: 'Golgi apparatus',
+                value: 1,
+                itemStyle: { color: '#2ca02c' }
+              }
+            ]
+          },
+          {
+            name: 'GO:0048193',
+            value: 1,
+            itemStyle: { color: '#2ca02c' },
+            children: [
+              {
+                name: 'Golgi vesicle transport',
+                value: 1,
+                itemStyle: { color: '#2ca02c' }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: '9',
+        value: 2,
+        itemStyle: { color: '#2ca02c' },
+        children: [
+          {
+            name: 'GO:0099565',
+            value: 1,
+            itemStyle: { color: '#2ca02c' },
+            children: [
+              {
+                name: 'chemical synaptic transmission',
+                value: 1,
+                itemStyle: { color: '#2ca02c' }
+              }
+            ]
+          },
+          {
+            name: 'GO:0030594',
+            value: 1,
+            itemStyle: { color: '#2ca02c' },
+            children: [
+              {
+                name: 'neurotransmitter receptor activity',
+                value: 1,
+                itemStyle: { color: '#2ca02c' }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: '15',
+        value: 1,
+        itemStyle: { color: '#2ca02c' },
+        children: [
+          {
+            name: 'GO:0022832',
+            value: 1,
+            itemStyle: { color: '#2ca02c' },
+            children: [
+              {
+                name: 'voltage-gated channel activity',
+                value: 1,
+                itemStyle: { color: '#2ca02c' }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  // ============= CN =============
+  {
+    name: 'CN',
+    itemStyle: { color: '#17becf' },
+    children: [
+      {
+        name: '4',
+        value: 4,
+        itemStyle: { color: '#17becf' },
+        children: [
+          {
+            name: 'GO:0008380',
+            value: 1,
+            itemStyle: { color: '#17becf' },
+            children: [
+              {
+                name: 'RNA splicing',
+                value: 1,
+                itemStyle: { color: '#17becf' }
+              }
+            ]
+          },
+          {
+            name: 'GO:0042254',
+            value: 1,
+            itemStyle: { color: '#17becf' },
+            children: [
+              {
+                name: 'ribosome biogenesis',
+                value: 1,
+                itemStyle: { color: '#17becf' }
+              }
+            ]
+          },
+          {
+            name: 'GO:0002181',
+            value: 1,
+            itemStyle: { color: '#17becf' },
+            children: [
+              {
+                name: 'cytoplasmic translation',
+                value: 1,
+                itemStyle: { color: '#17becf' }
+              }
+            ]
+          },
+          {
+            name: 'GO:0005840',
+            value: 1,
+            itemStyle: { color: '#17becf' },
+            children: [
+              {
+                name: 'ribosome',
+                value: 1,
+                itemStyle: { color: '#17becf' }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: '11',
+        value: 2,
+        itemStyle: { color: '#17becf' },
+        children: [
+          {
+            name: 'GO:0015629',
+            value: 1,
+            itemStyle: { color: '#17becf' },
+            children: [
+              {
+                name: 'actin cytoskeleton',
+                value: 1,
+                itemStyle: { color: '#17becf' }
+              }
+            ]
+          },
+          {
+            name: 'GO:0042995',
+            value: 1,
+            itemStyle: { color: '#17becf' },
+            children: [
+              {
+                name: 'cell projection',
+                value: 1,
+                itemStyle: { color: '#17becf' }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: '16',
+        value: 2,
+        itemStyle: { color: '#17becf' },
+        children: [
+          {
+            name: 'GO:0031526',
+            value: 1,
+            itemStyle: { color: '#17becf' },
+            children: [
+              {
+                name: 'brush border membrane',
+                value: 1,
+                itemStyle: { color: '#17becf' }
+              }
+            ]
+          },
+          {
+            name: 'GO:0005929',
+            value: 1,
+            itemStyle: { color: '#17becf' },
+            children: [
+              {
+                name: 'cilium',
+                value: 1,
+                itemStyle: { color: '#17becf' }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: '18',
+        value: 4,
+        itemStyle: { color: '#17becf' },
+        children: [
+          {
+            name: 'GO:0006950',
+            value: 1,
+            itemStyle: { color: '#17becf' },
+            children: [
+              {
+                name: 'response to stress',
+                value: 1,
+                itemStyle: { color: '#17becf' }
+              }
+            ]
+          },
+          {
+            name: 'GO:0007165',
+            value: 1,
+            itemStyle: { color: '#17becf' },
+            children: [
+              {
+                name: 'signal transduction',
+                value: 1,
+                itemStyle: { color: '#17becf' }
+              }
+            ]
+          },
+          {
+            name: 'GO:0016192',
+            value: 1,
+            itemStyle: { color: '#17becf' },
+            children: [
+              {
+                name: 'vesicle-mediated transport',
+                value: 1,
+                itemStyle: { color: '#17becf' }
+              }
+            ]
+          },
+          {
+            name: 'GO:0005856',
+            value: 1,
+            itemStyle: { color: '#17becf' },
+            children: [
+              {
+                name: 'cytoskeleton',
+                value: 1,
+                itemStyle: { color: '#17becf' }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  // ============= GL =============
+  {
+    name: 'GL',
+    itemStyle: { color: '#d62728' },
+    children: [
+      {
+        name: '14',
+        value: 1,
+        itemStyle: { color: '#d62728' },
+        children: [
+          {
+            name: 'No top DEGs',
+            value: 1,
+            itemStyle: { color: '#d62728' },
+            children: [
+              {
+                name: '',
+                value: 1,
+                itemStyle: { color: '#d62728' }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: '19',
+        value: 3,
+        itemStyle: { color: '#d62728' },
+        children: [
+          {
+            name: 'GO:0005773',
+            value: 1,
+            itemStyle: { color: '#d62728' },
+            children: [
+              {
+                name: 'vacuole',
+                value: 1,
+                itemStyle: { color: '#d62728' }
+              }
+            ]
+          },
+          {
+            name: 'GO:0019899',
+            value: 1,
+            itemStyle: { color: '#d62728' },
+            children: [
+              {
+                name: 'enzyme binding',
+                value: 1,
+                itemStyle: { color: '#d62728' }
+              }
+            ]
+          },
+          {
+            name: 'GO:0070013',
+            value: 1,
+            itemStyle: { color: '#d62728' },
+            children: [
+              {
+                name: 'intracellular organelle lumen',
+                value: 1,
+                itemStyle: { color: '#d62728' }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: '23',
+        value: 2,
+        itemStyle: { color: '#d62728' },
+        children: [
+          {
+            name: 'GO:0008233',
+            value: 1,
+            itemStyle: { color: '#d62728' },
+            children: [
+              {
+                name: 'peptidase activity',
+                value: 1,
+                itemStyle: { color: '#d62728' }
+              }
+            ]
+          },
+          {
+            name: 'GO:0004175',
+            value: 1,
+            itemStyle: { color: '#d62728' },
+            children: [
+              {
+                name: 'endopeptidase activity',
+                value: 1,
+                itemStyle: { color: '#d62728' }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  // ============= SG =============
+  {
+    name: 'SG',
+    itemStyle: { color: '#FEDB61' },
+    children: [
+      {
+        name: '10',
+        value: 3,
+        itemStyle: { color: '#FEDB61' },
+        children: [
+          {
+            name: 'GO:0007049',
+            value: 1,
+            itemStyle: { color: '#FEDB61' },
+            children: [
+              {
+                name: 'cell cycle',
+                value: 1,
+                itemStyle: { color: '#FEDB61' }
+              }
+            ]
+          },
+          {
+            name: 'GO:0000278',
+            value: 1,
+            itemStyle: { color: '#FEDB61' },
+            children: [
+              {
+                name: 'mitotic cell cycle',
+                value: 1,
+                itemStyle: { color: '#FEDB61' }
+              }
+            ]
+          },
+          {
+            name: 'GO:0006260',
+            value: 1,
+            itemStyle: { color: '#FEDB61' },
+            children: [
+              {
+                name: 'DNA replication',
+                value: 1,
+                itemStyle: { color: '#FEDB61' }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: '17',
+        value: 4,
+        itemStyle: { color: '#FEDB61' },
+        children: [
+          {
+            name: 'GO:0019752',
+            value: 1,
+            itemStyle: { color: '#FEDB61' },
+            children: [
+              {
+                name: 'carboxylic acid metabolic process',
+                value: 1,
+                itemStyle: { color: '#FEDB61' }
+              }
+            ]
+          },
+          {
+            name: 'GO:0016491',
+            value: 1,
+            itemStyle: { color: '#FEDB61' },
+            children: [
+              {
+                name: 'oxidoreductase activity',
+                value: 1,
+                itemStyle: { color: '#FEDB61' }
+              }
+            ]
+          },
+          {
+            name: 'GO:0098798',
+            value: 1,
+            itemStyle: { color: '#FEDB61' },
+            children: [
+              {
+                name: 'mitochondrial protein-containing complex',
+                value: 1,
+                itemStyle: { color: '#FEDB61' }
+              }
+            ]
+          },
+          {
+            name: 'GO:0002181',
+            value: 1,
+            itemStyle: { color: '#FEDB61' },
+            children: [
+              {
+                name: 'cytoplasmic translation',
+                value: 1,
+                itemStyle: { color: '#FEDB61' }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: '20',
+        value: 3,
+        itemStyle: { color: '#FEDB61' },
+        children: [
+          {
+            name: 'GO:0006412',
+            value: 1,
+            itemStyle: { color: '#FEDB61' },
+            children: [
+              {
+                name: 'translation',
+                value: 1,
+                itemStyle: { color: '#FEDB61' }
+              }
+            ]
+          },
+          {
+            name: 'GO:0006614',
+            value: 1,
+            itemStyle: { color: '#FEDB61' },
+            children: [
+              {
+                name: 'SRP-dependent cotranslational protein targeting to membrane',
+                value: 1,
+                itemStyle: { color: '#FEDB61' }
+              }
+            ]
+          },
+          {
+            name: 'GO:0022626',
+            value: 1,
+            itemStyle: { color: '#FEDB61' },
+            children: [
+              {
+                name: 'cytosolic ribosome',
+                value: 1,
+                itemStyle: { color: '#FEDB61' }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: '22',
+        value: 2,
+        itemStyle: { color: '#FEDB61' },
+        children: [
+          {
+            name: 'GO:0022008',
+            value: 1,
+            itemStyle: { color: '#FEDB61' },
+            children: [
+              {
+                name: 'neurogenesis',
+                value: 1,
+                itemStyle: { color: '#FEDB61' }
+              }
+            ]
+          },
+          {
+            name: 'GO:0048699',
+            value: 1,
+            itemStyle: { color: '#FEDB61' },
+            children: [
+              {
+                name: 'generation of neurons',
+                value: 1,
+                itemStyle: { color: '#FEDB61' }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  // ============= HA =============
+  {
+    name: 'HA',
+    itemStyle: { color: '#8c564b' },
+    children: [
+      {
+        name: '6',
+        value: 2,
+        itemStyle: { color: '#8c564b' },
+        children: [
+          {
+            name: 'GO:0005929',
+            value: 1,
+            itemStyle: { color: '#8c564b' },
+            children: [
+              {
+                name: 'cilium',
+                value: 1,
+                itemStyle: { color: '#8c564b' }
+              }
+            ]
+          },
+          {
+            name: 'GO:0007018',
+            value: 1,
+            itemStyle: { color: '#8c564b' },
+            children: [
+              {
+                name: 'microtubule-based movement',
+                value: 1,
+                itemStyle: { color: '#8c564b' }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+];
+option = {
+  title: {
+    // text: 'WORLD COFFEE RESEARCH SENSORY LEXICON',
+    textStyle: {
+      fontSize: 14,
+      align: 'center'
+    }
+  },
+  series: {
+    type: 'sunburst',
+    data: data,
+    radius: [0, '95%'],
+    sort: undefined,
+    emphasis: {
+      focus: 'ancestor'
+    },
+    levels: [
+      {},
+      {
+        // 第一层（细胞大类）
+        r0: '10%',
+        r: '25%',
+        label: {
+          rotate: 'tangential',
+          fontSize: 11,
+          fontWeight: 'bold'
+        },
+        itemStyle: { borderWidth: 1 }
+      },
+      {
+        // 第二层：cluster编号放射
+        r0: '25%',
+        r: '30%',
+        label: {
+          fontSize: 10,
+          fontWeight: 'bold'
+        },
+        itemStyle: { borderWidth: 1 }
+      },
+      {
+        // 第三层：GO编号
+        r0: '30%',
+        r: '48%',
+        label: {
+          rotate: 'radial',
+          align: 'right',
+          fontSize: 9
+        },
+        itemStyle: { borderWidth: 1 }
+      },
+      {
+        // 第四层：条目描述
+        r0: '48%',
+        r: '50%',
+        label: {
+          position: 'outside',      
+          rotate: 'radial',
+          align: 'left',
+          fontSize: 9
+        },
+        itemStyle: { borderWidth: 3 }
+      }
+    ]
+  }
+};

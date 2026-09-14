@@ -1,0 +1,109 @@
+https://echarts.apache.org/examples/zh/editor.html?c=chord-simple
+
+const celltypes = [
+  'Cnidocytes',
+  'Epidermal/Muscle',
+  'Sensory',
+  'Neural-related'
+];
+
+const celltypeColors = {
+  'Cnidocytes': '#17becf',
+  'Epidermal/Muscle': '#9467bd',
+  'Sensory': '#8c564b',
+  'Neural-related': '#2ca02c'
+};
+
+// CCC matrix
+// CCC matrix (with -related suffix)
+const matrix = {
+  'Cnidocytes': {
+    'Cnidocytes': 6.415758252440955,
+    'Epidermal/Muscle': 7.310589263468893,
+    'Neural-related': 6.627938845077128,
+    'Sensory': 5.677480418329575
+  },
+  'Epidermal/Muscle': {
+    'Cnidocytes': 7.236201240239971,
+    'Epidermal/Muscle': 8.128321106448388,
+    'Neural-related': 7.445493643970589,
+    'Sensory': 6.49385539745461
+  },
+  'Neural-related': {
+    'Cnidocytes': 6.590671508583225,
+    'Epidermal/Muscle': 7.471203520522786,
+    'Neural-related': 6.780297059712258,
+    'Sensory': 5.837477924390417
+  },
+  'Sensory': {
+    'Cnidocytes': 5.751338012734474,
+    'Epidermal/Muscle': 6.627401266125158,
+    'Neural-related': 5.93055653744268,
+    'Sensory': 4.993059602408654
+  }
+};
+
+// mean center (relative strength)
+let values = [];
+celltypes.forEach(s =>
+  celltypes.forEach(t => values.push(matrix[s][t]))
+);
+const meanVal = values.reduce((a, b) => a + b, 0) / values.length;
+
+// build links
+const links = [];
+celltypes.forEach(source => {
+  celltypes.forEach(target => {
+    const delta = matrix[source][target] - meanVal;
+    if (Math.abs(delta) > 0) {
+      links.push({
+        source: source,
+        target: target,
+        value: Math.abs(delta)
+      });
+    }
+  });
+});
+
+option = {
+  tooltip: {
+    // formatter: p =>
+    //   `${p.source} → ${p.target}<br/>ΔCCC = ${p.value.toFixed(3)}`
+  },
+  series: [
+    {
+      type: 'chord',
+      padAngle: 1,
+      center: ['50%', '48%'],
+      radius: ['70%', '82%'],
+
+      data: celltypes.map(ct => ({
+        name: ct,
+        itemStyle: {
+          color: celltypeColors[ct],
+          borderColor: '#ffffff',
+          borderWidth: 2,
+          borderRadius: [0, 15]
+        }
+      })),
+
+      lineStyle: {
+        opacity: 0.35,
+        color: 'gradient'   // ⭐ 非常推荐
+      },
+
+      emphasis: {
+        focus: 'self'
+      },
+
+      label: {
+        show: true,
+        position: 'inside',
+        color: '#ffffff',
+        fontWeight: 'bold'
+      },
+
+      links: links
+    }
+  ]
+};

@@ -1,0 +1,1 @@
+(Spla.protein:0.316674,((Dare.protein:0.545388,(Neve.protein:0.411423,(Auco.protein:0.43608,Clhe.protein:0.494554)1:0.150196)1:0.0876478)1:0.0645716,((TrH2.protein:0.00318297,TrH1.protein:0.00986693)1:0.122531,(ClH23.protein:0.0592696,HoH13.protein:0.0639175)1:0.0843087)1:0.555174)1:0.316674);

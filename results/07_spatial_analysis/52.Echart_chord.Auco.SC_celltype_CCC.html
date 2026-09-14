@@ -1,0 +1,205 @@
+<!--
+	此示例下载自 https://echarts.apache.org/examples/zh/editor.html?c=chord-simple&code=fZbNjttUFMf3kfIOR4LKiRg8ifNhx6UjjaIwXczMgpHoYhSp1_ZNYuHYln1TOqqyQ0gsQFUFCxawgA0IsUEsKrrgDXiISnTat-i5n_5I1Sxm7Hv-99zf-d8P3zBLSwYhTRJ2k9MS7sF1twNgzS-tI_GwuFAPZ6f64Vw93Nctlwv1cHVmdTvLu91Ot9NMPM-SrODZn3CdzO-D9cHQDWi4so4Ajo9hfglvfnr2-pu_qoBSIwRXz8ZTN4iUenEBt3__IdUqoNRIytWrlbsaUKU-O4VXv_8o1Sqg1edCHU0d1_G0-hxu__lFqlVAqbFmrvbCyXQcKPV9zP3rD1KtAkqNxnC1E5KBEyr15QJuX_wr1Sqg1Oie4KZRMB1a2ILqqzN48-IrxS0D3c5eOMwdm89hS1gRP9aGyzdttLS54blnzzwxWboYz57MdIMg8OzpWDcIczx7ZBTC25k9HOkGMTUze-zoBlEzjjLi73uzUg4wRk0M154NWhhDt4GBCjOIwKiDCgwctY0xGtcwRN4Whmsq0RiTFoYzbWMYhcJwDbnGMOQaY1bDEGnabrQxKi6FMTB-KQy37cZk2MJwTReFMWxgHEwKzqspTa2NsXFYYbhNN1DRdGNmO00MXBttDK-OIUQtjLFJoTCqWgXGzB5Uo0qMyi-FMTZrVmFU5AIDi_VqGKKtNSmeKV5hOE0MtLwaVWI41daRXardpjCq5aTcmLoCo7att5SkeHSmjBbQK2hCWPyIQskKmq7Zpt_tJJTBI5Ls5IHND1xzgturrFiQcNPD0AlPfBhhGFHd7XxXbnry0Lgul9ds2cf0fZ5QHidI8jlJcBSlL2i0C2mvR44g6PM8BD6C4AgGfTjWmkRg6mKCXZxEkMTpF6XOKl7eQ57tipDy5GI-3lEAKdbogBagRKSNaMIIptXliDRYk1Av4WNdDQ7KO8Ur6F0QtrFJUPZE3z6c8EJUUpCc0iLTBiDz-uq_mkz-kwP56n8tIHzxoTWYju-53eJBrAP-Jv50O1nO4izVhznLsoTFuVml6C0agsXiMvEhV9Mt2gEefvgktyXhHl5-_Qz4uwTbfxIUxyf_fc8_HvdEu-CzWfZp_JhGvVF__7DaGCUtYlr68loAlTd8RvBrFW6yAr_IujUn0Wm6TjCidzCfP76QMYM1GdzBj6A19u5YSxMuSBTv-ACWK8OeI8NaEBFG_Noq2JK8F4rZr89KSrY4ali3PWZ0e8VuOE1NyFcLXkaqjPJuch2yion_AiyMFiIobxP8V1VaSR7EEdv4oI-GeugzXdvgCIaTZSUQUy0nv18rFRccPSTOchLG7MaHgT3Sx16tDmvNLUST1ZXh5Z9P8R718__Pn7_67rfX3z41Q9UGott8Q8oY0WrjrLKQw1olTfTNq9krIQFNGl3KTfYlLvhiV98HeVbGfOFiqjgt4wjvYIfQ7zB0laXsAY3XG9xDVpAl-kLXguCb0tcHijETzd3ffQs&enc=deflate&renderer=svg
+	⚠ 请注意，该图表不是 Apache ECharts 官方示例，而是由用户代码生成的。请注意鉴别其内容。
+-->
+<!DOCTYPE html>
+<html lang="en" style="height: 100%">
+<head>
+  <meta charset="utf-8">
+</head>
+<body style="height: 100%; margin: 0">
+  <div id="container" style="height: 100%"></div>
+
+  
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script>
+  
+  <!-- Uncomment this line if you want to dataTool extension
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5/dist/extension/dataTool.min.js"></script>
+  -->
+  <!-- Uncomment this line if you want to use gl extension
+  <script type="text/javascript" src="https://echarts.apache.org/zh/js/vendors/echarts-gl/dist/echarts-gl.min.js"></script>
+  -->
+  <!-- Uncomment this line if you want to echarts-stat extension
+  <script type="text/javascript" src="https://echarts.apache.org/zh/js/vendors/echarts-stat/dist/ecStat.min.js"></script>
+  -->
+  <!-- Uncomment this line if you want to echarts-graph-modularity extension
+  <script type="text/javascript" src="https://echarts.apache.org/zh/js/vendors/echarts-graph-modularity/dist/echarts-graph-modularity.min.js"></script>
+  -->
+  <!-- Uncomment this line if you want to use map
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@4.9.0/map/js/world.js"></script>
+  -->
+  <!-- Uncomment these two lines if you want to use bmap extension
+  <script type="text/javascript" src="https://api.map.baidu.com/api?v=3.0&ak=YOUR_API_KEY"></script>
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5/dist/extension/bmap.min.js"></script>
+  -->
+
+  <script type="text/javascript">
+    var dom = document.getElementById('container');
+    var myChart = echarts.init(dom, null, {
+      renderer: 'svg',
+      useDirtyRect: false
+    });
+    var app = {};
+    
+    var option;
+
+    const celltypes = [
+  'CN',
+  'EM',
+  'GA',
+  'GL',
+  'HA',
+  'NE',
+  'SG'
+];
+
+const celltypeColors = {
+    'CN': '#17becf',  // CN 青色 '#17becf'
+    'EM': '#9467bd',  // EM 紫色 '#9467bd'
+    'GA': '#ff7f0e',  // GA 橙色 '#ff7f0e'
+    'GL': '#d62728',  // GL 红色 '#d62728'
+    'HA': '#8c564b',  // HA 棕色 '#8c564b'
+    'NE': '#2ca02c',  // NE 绿色 '#2ca02c'
+    'SG': '#fedb61'   // SG 黄色 '#fedb61'
+};
+
+// CCC matrix
+const matrix = {
+  'CN': {
+    'CN': 8.98,
+    'HA': 8.59,
+    'SG': 8.64,
+    'GL': 8.39,
+    'GA': 9.13,
+    'EM': 9.42,
+    'NE': 8.93
+  },
+  'HA': {
+    'CN': 8.38,
+    'HA': 7.90,
+    'SG': 8.17,
+    'GL': 7.92,
+    'GA': 8.64,
+    'EM': 8.92,
+    'NE': 8.34
+  },
+  'SG': {
+    'CN': 8.73,
+    'HA': 7.95,
+    'SG': 8.26,
+    'GL': 7.95,
+    'GA': 8.70,
+    'EM': 8.97,
+    'NE': 8.39
+  },
+  'GL': {
+    'CN': 8.33,
+    'HA': 7.73,
+    'SG': 8.08,
+    'GL': 7.72,
+    'GA': 8.51,
+    'EM': 8.78,
+    'NE': 8.19
+  },
+  'GA': {
+    'CN': 9.15,
+    'HA': 8.44,
+    'SG': 8.76,
+    'GL': 8.45,
+    'GA': 9.21,
+    'EM': 9.48,
+    'NE': 8.89
+  },
+  'EM': {
+    'CN': 9.41,
+    'HA': 8.72,
+    'SG': 9.05,
+    'GL': 8.73,
+    'GA': 9.49,
+    'EM': 9.76,
+    'NE': 9.18
+  },
+  'NE': {
+    'CN': 8.84,
+    'HA': 8.22,
+    'SG': 8.53,
+    'GL': 8.24,
+    'GA': 8.98,
+    'EM': 9.26,
+    'NE': 8.67
+  }
+};
+
+// mean center (relative strength)
+let values = [];
+celltypes.forEach(s =>
+  celltypes.forEach(t => values.push(matrix[s][t]))
+);
+const meanVal = values.reduce((a, b) => a + b, 0) / values.length;
+
+// build links
+const links = [];
+celltypes.forEach(source => {
+  celltypes.forEach(target => {
+    const delta = matrix[source][target] - meanVal;
+    if (Math.abs(delta) > 0) {
+      links.push({
+        source: source,
+        target: target,
+        value: Math.abs(delta)
+      });
+    }
+  });
+});
+
+option = {
+  tooltip: {
+    // formatter: p =>
+    //   `${p.source} → ${p.target}<br/>ΔCCC = ${p.value.toFixed(3)}`
+  },
+  series: [
+    {
+      type: 'chord',
+      padAngle: 1,
+      center: ['50%', '48%'],
+      radius: ['70%', '82%'],
+
+      data: celltypes.map(ct => ({
+        name: ct,
+        itemStyle: {
+          color: celltypeColors[ct],
+          borderColor: '#ffffff',
+          borderWidth: 2,
+          borderRadius: [0, 15]
+        }
+      })),
+
+      lineStyle: {
+        opacity: 0.35,
+        color: 'gradient'   // ⭐ 非常推荐
+      },
+
+      emphasis: {
+        focus: 'self'
+      },
+
+      label: {
+        show: true,
+        position: 'inside',
+        color: '#ffffff',
+        fontWeight: 'bold'
+      },
+
+      links: links
+    }
+  ]
+};
+
+    if (option && typeof option === 'object') {
+      myChart.setOption(option);
+    }
+
+    window.addEventListener('resize', myChart.resize);
+  </script>
+</body>
+</html>

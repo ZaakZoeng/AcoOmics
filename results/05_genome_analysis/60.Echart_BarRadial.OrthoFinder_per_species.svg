@@ -1,0 +1,98 @@
+<svg width="1179" height="826" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" baseProfile="full" viewBox="0 0 1179 826">
+<rect width="1179" height="826" x="0" y="0" fill="none"></rect>
+<path d="M589.5 413A0 0 0 1 1 589.5 413M644.5667 413A55.0667 55.0667 0 1 1 644.5667 412.9945M699.6333 413A110.1333 110.1333 0 1 1 699.6333 412.989M754.7 413A165.2 165.2 0 1 1 754.7 412.9835M809.7667 413A220.2667 220.2667 0 1 1 809.7667 412.978M864.8333 413A275.3333 275.3333 0 1 1 864.8333 412.9725M919.9 413A330.4 330.4 0 1 1 919.9 412.967" fill="none" stroke="#dbdee4" class="zr4-cls-0"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:12px;font-family:Microsoft YaHei;font-weight:bold;" x="705.2396165014063" y="89.00801712604857" fill="#54555a">Spla</text>
+<text dominant-baseline="central" text-anchor="start" style="font-size:12px;font-family:Microsoft YaHei;font-weight:bold;" x="882.5629966406541" y="237.8" fill="#54555a">ClH23</text>
+<text dominant-baseline="central" text-anchor="start" style="font-size:12px;font-family:Microsoft YaHei;font-weight:bold;" x="922.7589436193311" y="471.76254332248925" fill="#54555a">HoH13</text>
+<text dominant-baseline="central" text-anchor="start" style="font-size:12px;font-family:Microsoft YaHei;font-weight:bold;" x="807.019327117925" y="678.2294395514622" fill="#54555a">TrH2</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:Microsoft YaHei;font-weight:bold;" x="589.5" y="757.4000000000001" fill="#54555a">TrH1</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Microsoft YaHei;font-weight:bold;" x="371.98067288207505" y="678.2294395514622" fill="#54555a">Auco</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Microsoft YaHei;font-weight:bold;" x="256.2410563806688" y="471.76254332248936" fill="#54555a">Clhe</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Microsoft YaHei;font-weight:bold;" x="296.43700335934597" y="237.79999999999995" fill="#54555a">Neve</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:Microsoft YaHei;font-weight:bold;" x="473.76038349859346" y="89.00801712604863" fill="#54555a">Dare</text>
+<path d="M589.5 77.6L589.5 82.6M805.091 156.0687L801.877 159.8989M919.8045 354.7584L914.8805 355.6266M879.9649 580.7L875.6348 578.2M704.2136 728.1729L702.5035 723.4744M474.7864 728.1729L476.4965 723.4744M299.0351 580.7L303.3652 578.2M259.1955 354.7584L264.1195 355.6266M373.909 156.0687L377.123 159.8989" fill="#000" stroke="#54555a" class="zr4-cls-1"></path>
+<path d="M589.5 413L589.5 82.6" fill="none" stroke="#54555a" stroke-linecap="round" class="zr4-cls-0"></path>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:Microsoft YaHei;" xml:space="preserve" y="6" transform="matrix(0,-1,1,0,639.5,247.8)" fill="#54555a">Number of Genes</text>
+<circle cx="589.5" cy="413" r="330.4" fill="none" stroke="#54555a" class="zr4-cls-0"></circle>
+<path d="M589.5 413.5L584.5 413.5" fill="none" stroke="#54555a" class="zr4-cls-0"></path>
+<path d="M589.5 358.5L584.5 358.5" fill="none" stroke="#54555a" class="zr4-cls-0"></path>
+<path d="M589.5 303.5L584.5 303.5" fill="none" stroke="#54555a" class="zr4-cls-0"></path>
+<path d="M589.5 248.5L584.5 248.5" fill="none" stroke="#54555a" class="zr4-cls-0"></path>
+<path d="M589.5 192.5L584.5 192.5" fill="none" stroke="#54555a" class="zr4-cls-0"></path>
+<path d="M589.5 137.5L584.5 137.5" fill="none" stroke="#54555a" class="zr4-cls-0"></path>
+<path d="M589.5 82.5L584.5 82.5" fill="none" stroke="#54555a" class="zr4-cls-0"></path>
+<text dominant-baseline="central" text-anchor="end" style="font-size:10px;font-family:Microsoft YaHei;" transform="translate(579.5 413)" fill="#333">0</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:10px;font-family:Microsoft YaHei;" transform="translate(579.5 357.9333)" fill="#333">10,000</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:10px;font-family:Microsoft YaHei;" transform="translate(579.5 302.8667)" fill="#333">20,000</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:10px;font-family:Microsoft YaHei;" transform="translate(579.5 247.8)" fill="#333">30,000</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:10px;font-family:Microsoft YaHei;" transform="translate(579.5 192.7333)" fill="#333">40,000</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:10px;font-family:Microsoft YaHei;" transform="translate(579.5 137.6667)" fill="#333">50,000</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:10px;font-family:Microsoft YaHei;" transform="translate(579.5 82.6)" fill="#333">60,000</text>
+<path d="M603.13 335.7004A78.492 78.492 0 0 1 628.746 345.0239L589.5 413Z" fill="#B6D7A8" class="zr4-cls-2"></path>
+<path d="M639.5507 371.0024A65.3366 65.3366 0 0 1 650.8963 390.6536L589.5 413Z" fill="#B6D7A8" class="zr4-cls-2"></path>
+<path d="M654.4787 413A64.9787 64.9787 0 0 1 650.56 435.224L589.5 413Z" fill="#B6D7A8" class="zr4-cls-2"></path>
+<path d="M639.7743 455.1852A65.6285 65.6285 0 0 1 622.3142 469.8359L589.5 413Z" fill="#B6D7A8" class="zr4-cls-2"></path>
+<path d="M601.4289 480.652A68.6957 68.6957 0 0 1 577.5711 480.652L589.5 413Z" fill="#B6D7A8" class="zr4-cls-2"></path>
+<path d="M513.6787 544.3263A151.6426 151.6426 0 0 1 473.335 510.474L589.5 413Z" fill="rgb(182,215,168)" class="zr4-cls-2"></path>
+<path d="M450.8266 463.473A147.5732 147.5732 0 0 1 441.9268 413L589.5 413Z" fill="#B6D7A8" class="zr4-cls-2"></path>
+<path d="M503.1001 381.553A91.9448 91.9448 0 0 1 519.0662 353.899L589.5 413Z" fill="#B6D7A8" class="zr4-cls-2"></path>
+<path d="M449.6912 170.8441A279.6175 279.6175 0 0 1 540.9449 137.6305L589.5 413Z" fill="#B6D7A8" class="zr4-cls-2"></path>
+<path d="M608.0412 307.8479A106.7743 106.7743 0 0 1 642.8871 320.5308L628.746 345.0239A78.492 78.492 0 0 0 603.13 335.7004Z" fill="#eb7f7f" class="zr4-cls-3"></path>
+<path d="M640.2088 370.4503A66.1956 66.1956 0 0 1 651.7036 390.3598L650.8963 390.6536A65.3366 65.3366 0 0 0 639.5507 371.0024Z" fill="#eb7f7f" class="zr4-cls-3"></path>
+<path d="M655.6406 413A66.1406 66.1406 0 0 1 651.6518 435.6214L650.56 435.224A64.9787 64.9787 0 0 0 654.4787 413Z" fill="#eb7f7f" class="zr4-cls-3"></path>
+<path d="M640.9006 456.1302A67.0987 67.0987 0 0 1 623.0494 471.1092L622.3142 469.8359A65.6285 65.6285 0 0 0 639.7743 455.1852Z" fill="#eb7f7f" class="zr4-cls-3"></path>
+<path d="M602.2331 485.2128A73.3268 73.3268 0 0 1 576.7669 485.2128L577.5711 480.652A68.6957 68.6957 0 0 0 601.4289 480.652Z" fill="#eb7f7f" class="zr4-cls-3"></path>
+<path d="M507.079 555.7574A164.8421 164.8421 0 0 1 463.2236 518.9584L473.335 510.474A151.6426 151.6426 0 0 0 513.6787 544.3263Z" fill="#eb7f7f" class="zr4-cls-3"></path>
+<path d="M432.1774 470.2607A167.4192 167.4192 0 0 1 422.0808 413L441.9268 413A147.5732 147.5732 0 0 0 450.8266 463.473Z" fill="#eb7f7f" class="zr4-cls-3"></path>
+<path d="M478.2674 372.5146A118.3713 118.3713 0 0 1 498.8223 336.9124L519.0662 353.899A91.9448 91.9448 0 0 0 503.1001 381.553Z" fill="#eb7f7f" class="zr4-cls-3"></path>
+<path d="M442.1719 157.8202A294.6562 294.6562 0 0 1 538.3335 122.8203L540.9449 137.6305A279.6175 279.6175 0 0 0 449.6912 170.8441Z" fill="#eb7f7f" class="zr4-cls-3"></path>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:10px;font-family:Microsoft YaHei;" transform="translate(609.123 374.3502)" fill="#333">14254</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:10px;font-family:Microsoft YaHei;" transform="translate(620.1982 392.0012)" fill="#333">11865</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:10px;font-family:Microsoft YaHei;" transform="translate(621.9893 424.112)" fill="#333">11800</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:10px;font-family:Microsoft YaHei;" transform="translate(614.6372 441.418)" fill="#333">11918</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:10px;font-family:Microsoft YaHei;" transform="translate(589.5 447.3478)" fill="#333">12475</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:10px;font-family:Microsoft YaHei;" transform="translate(531.4175 478.6632)" fill="#333">27538</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:10px;font-family:Microsoft YaHei;" transform="translate(515.7134 438.2365)" fill="#333">26799</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:10px;font-family:Microsoft YaHei;" transform="translate(546.3001 383.4495)" fill="#333">16697</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:10px;font-family:Microsoft YaHei;" transform="translate(519.5956 275.3152)" fill="#333">50778</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:10px;font-family:Microsoft YaHei;" transform="translate(623.0086 326.4359)" fill="#333">5136</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:10px;font-family:Microsoft YaHei;" transform="translate(645.6271 380.5519)" fill="#333">156</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:10px;font-family:Microsoft YaHei;" transform="translate(653.1003 424.3107)" fill="#333">211</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:10px;font-family:Microsoft YaHei;" transform="translate(631.6074 463.1472)" fill="#333">267</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:10px;font-family:Microsoft YaHei;" transform="translate(589.5 483.4894)" fill="#333">841</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:10px;font-family:Microsoft YaHei;" transform="translate(488.4512 533.1157)" fill="#333">2397</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:10px;font-family:Microsoft YaHei;" transform="translate(436.4537 441.6304)" fill="#333">3604</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:10px;font-family:Microsoft YaHei;" transform="translate(498.6668 359.2327)" fill="#333">4799</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:10px;font-family:Microsoft YaHei;" transform="translate(491.5584 146.8322)" fill="#333">2731</text>
+<path d="M-5 -5l329.8418 0l0 24l-329.8418 0Z" transform="translate(429.5791 792)" fill="rgb(0,0,0)" fill-opacity="0" stroke="#b7b9be" stroke-width="0" class="zr4-cls-0"></path>
+<path d="M3.5 0L21.5 0A3.5 3.5 0 0 1 25 3.5L25 10.5A3.5 3.5 0 0 1 21.5 14L3.5 14A3.5 3.5 0 0 1 0 10.5L0 3.5A3.5 3.5 0 0 1 3.5 0" transform="translate(429.5791 792)" fill="#B6D7A8" class="zr4-cls-0"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:12px;font-family:Microsoft YaHei;" xml:space="preserve" x="30" y="7" transform="translate(429.5791 792)" fill="#54555a">Assigned to Orthogroups</text>
+<path d="M0 0l175.957 0l0 14l-175.957 0Z" transform="translate(429.5791 792)" fill="none" class="zr4-cls-4"></path>
+<path d="M3.5 0L21.5 0A3.5 3.5 0 0 1 25 3.5L25 10.5A3.5 3.5 0 0 1 21.5 14L3.5 14A3.5 3.5 0 0 1 0 10.5L0 3.5A3.5 3.5 0 0 1 3.5 0" transform="translate(613.5361 792)" fill="#eb7f7f" class="zr4-cls-0"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:12px;font-family:Microsoft YaHei;" xml:space="preserve" x="30" y="7" transform="translate(613.5361 792)" fill="#54555a">Unassigned Genes</text>
+<path d="M0 0l135.8848 0l0 14l-135.8848 0Z" transform="translate(613.5361 792)" fill="none" class="zr4-cls-4"></path>
+<style ><![CDATA[
+.zr4-cls-0:hover {
+pointer-events:none;
+}
+.zr4-cls-1:hover {
+cursor:pointer;
+fill:rgba(0,0,0,1);
+}
+.zr4-cls-2:hover {
+cursor:pointer;
+fill:rgba(200,236,184,1);
+}
+.zr4-cls-3:hover {
+cursor:pointer;
+fill:rgba(255,139,139,1);
+}
+.zr4-cls-4:hover {
+cursor:pointer;
+fill:rgba(0,0,0,0);
+}
+
+]]>
+
+</style>
+</svg>

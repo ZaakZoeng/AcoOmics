@@ -1,0 +1,161 @@
+<!--
+	此示例下载自 https://echarts.apache.org/examples/zh/editor.html?c=chord-simple&code=fVbBjts2EL0v4H8g0AayUUeWKFKUnGaBwkhv6aEBmsPCQCiJtonKkiBRyRqBr721CIpe23Mvvecr-hEBWiR_kSElWYqttQ62xRnOvPdmhnScZ5VCsUhTdShEhZ6iu8kNQtYqk0keH5SorLlZeFbIRJR7ni6e11Wcinb5hciqvDy0bz-IuuTp41KkXInEmtysn0xuJjdfJlnlaV7qTG_PMy2R9ZXLIhFvHkqqPULisyg5y68NQUx9Eo1D0XYccwfHgOpoUC0WaLVaoT1Xpbw_e0XTN1LtULcdVfVmI-9nHZXWaZSCWTpf9G3iUkYDTDEhTkipATnOkNme69AgxL5H_CAIvc73gpJv-5iFXhAQ6jDm4qDz7FWhts8YCRziBh4OAYL2OD6o7ih4ZmPPx46LiYO9MGTuFfCBDTA87LqOT0gA0B4Ez2xCKAk9n3gh03wvwYNqwI5ScABX3x1gvwj3gOw0dHzmUieggApfl52AhI5HsUMxZoF_RXYWOFiDBi0g6KjsgccIYyEGdiA-G0DvvUYxU5tR1_MC0Jt5hDByBbNpAAKevu9i6vZILjBTO_QcSn0KsAj2RyATO9Quoe9AnQOfEgN5MCx7wTMY4kyJEk1NZPlaoEqVItuqHcxGKhR6zdO6OUb06J_OFXuTl894vJuC6VYHvrQosLTb7aKudtNmyO6q9Z1azyD8TAdsxg-Q_MRTyNL6lyKpYzGd8jmKZjoOR9-gaI6cGVp0PqmB2ZGJapkmKJXZz1UX1bxcQZ7XZSx0cFO2EQK83IICnQO4mLCJSBWHsB0dEwY4Ge81etyxgaR6k9yg6XOudjaPqqnZO0O3mkgbFDU4G4lOawg1cZftd1te_TSJlu33wGB0WaKzZJ39qOU2P0wf6DfzMbnJCyXzrDv8VJ6nShanZgZtQRAgC22yREVbbrOO0Kuv3xZ2g_CIPvzyO9LvDbDjt1G5uP33D30GPzXrBp-t8u_lvUim3uz4qh-iSpRSVMvmskK9NroicNTHu7xsbwj9FDz5LtumYOmOLl0_3cgQwaLOI2uOLBI8stYnc8kTWesEFmvMAW7MnUPCFV8OumDPi2lsqj-sSsb3kDUeyi6V2L9QB41m4Ki7Ba7FPmJzS97FqseknwiIidIY9ZW2MU_PtHd5KRO1WyI8Yvqx4-bMkUvXvYMpdVP82YAqNJy4RJwXPJbqsESO7XXn6oCHtdUSgshWU_wP_7xDn_7867_37___7e-Pv747pRokEvtixysJ0AZ5NnmswVqVSDdwd1_uSnkk0i-2VLv8DTR8WQ_noMgrqRsXQsmsgqN0qFoHekTQTZ6pl0JudzBDVpSn-m_NCAg9lMvuQDmJCeIen3wG&enc=deflate&renderer=svg
+	⚠ 请注意，该图表不是 Apache ECharts 官方示例，而是由用户代码生成的。请注意鉴别其内容。
+-->
+<!DOCTYPE html>
+<html lang="en" style="height: 100%">
+<head>
+  <meta charset="utf-8">
+</head>
+<body style="height: 100%; margin: 0">
+  <div id="container" style="height: 100%"></div>
+
+  
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script>
+  
+  <!-- Uncomment this line if you want to dataTool extension
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5/dist/extension/dataTool.min.js"></script>
+  -->
+  <!-- Uncomment this line if you want to use gl extension
+  <script type="text/javascript" src="https://echarts.apache.org/zh/js/vendors/echarts-gl/dist/echarts-gl.min.js"></script>
+  -->
+  <!-- Uncomment this line if you want to echarts-stat extension
+  <script type="text/javascript" src="https://echarts.apache.org/zh/js/vendors/echarts-stat/dist/ecStat.min.js"></script>
+  -->
+  <!-- Uncomment this line if you want to echarts-graph-modularity extension
+  <script type="text/javascript" src="https://echarts.apache.org/zh/js/vendors/echarts-graph-modularity/dist/echarts-graph-modularity.min.js"></script>
+  -->
+  <!-- Uncomment this line if you want to use map
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@4.9.0/map/js/world.js"></script>
+  -->
+  <!-- Uncomment these two lines if you want to use bmap extension
+  <script type="text/javascript" src="https://api.map.baidu.com/api?v=3.0&ak=YOUR_API_KEY"></script>
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5/dist/extension/bmap.min.js"></script>
+  -->
+
+  <script type="text/javascript">
+    var dom = document.getElementById('container');
+    var myChart = echarts.init(dom, null, {
+      renderer: 'svg',
+      useDirtyRect: false
+    });
+    var app = {};
+    
+    var option;
+
+    const celltypes = [
+  'Cnidocytes',
+  'Epidermal/Muscle',
+  'Sensory',
+  'Neural-related'
+];
+
+const celltypeColors = {
+  'Cnidocytes': '#17becf',
+  'Epidermal/Muscle': '#9467bd',
+  'Sensory': '#8c564b',
+  'Neural-related': '#2ca02c'
+};
+
+// CCC matrix
+// CCC matrix (with -related suffix)
+const matrix = {
+  'Cnidocytes': {
+    'Cnidocytes': 6.415758252440955,
+    'Epidermal/Muscle': 7.310589263468893,
+    'Neural-related': 6.627938845077128,
+    'Sensory': 5.677480418329575
+  },
+  'Epidermal/Muscle': {
+    'Cnidocytes': 7.236201240239971,
+    'Epidermal/Muscle': 8.128321106448388,
+    'Neural-related': 7.445493643970589,
+    'Sensory': 6.49385539745461
+  },
+  'Neural-related': {
+    'Cnidocytes': 6.590671508583225,
+    'Epidermal/Muscle': 7.471203520522786,
+    'Neural-related': 6.780297059712258,
+    'Sensory': 5.837477924390417
+  },
+  'Sensory': {
+    'Cnidocytes': 5.751338012734474,
+    'Epidermal/Muscle': 6.627401266125158,
+    'Neural-related': 5.93055653744268,
+    'Sensory': 4.993059602408654
+  }
+};
+
+// mean center (relative strength)
+let values = [];
+celltypes.forEach(s =>
+  celltypes.forEach(t => values.push(matrix[s][t]))
+);
+const meanVal = values.reduce((a, b) => a + b, 0) / values.length;
+
+// build links
+const links = [];
+celltypes.forEach(source => {
+  celltypes.forEach(target => {
+    const delta = matrix[source][target] - meanVal;
+    if (Math.abs(delta) > 0) {
+      links.push({
+        source: source,
+        target: target,
+        value: Math.abs(delta)
+      });
+    }
+  });
+});
+
+option = {
+  tooltip: {
+    // formatter: p =>
+    //   `${p.source} → ${p.target}<br/>ΔCCC = ${p.value.toFixed(3)}`
+  },
+  series: [
+    {
+      type: 'chord',
+      padAngle: 1,
+      center: ['50%', '48%'],
+      radius: ['70%', '82%'],
+
+      data: celltypes.map(ct => ({
+        name: ct,
+        itemStyle: {
+          color: celltypeColors[ct],
+          borderColor: '#ffffff',
+          borderWidth: 2,
+          borderRadius: [0, 15]
+        }
+      })),
+
+      lineStyle: {
+        opacity: 0.35,
+        color: 'gradient'   // ⭐ 非常推荐
+      },
+
+      emphasis: {
+        focus: 'self'
+      },
+
+      label: {
+        show: true,
+        position: 'inside',
+        color: '#ffffff',
+        fontWeight: 'bold'
+      },
+
+      links: links
+    }
+  ]
+};
+
+    if (option && typeof option === 'object') {
+      myChart.setOption(option);
+    }
+
+    window.addEventListener('resize', myChart.resize);
+  </script>
+</body>
+</html>

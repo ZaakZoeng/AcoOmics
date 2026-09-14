@@ -1,0 +1,153 @@
+https://echarts.apache.org/examples/zh/editor.html?c=chord-simple
+
+const celltypes = [
+  'CN',
+  'EM',
+  'GA',
+  'GL',
+  'HA',
+  'NE',
+  'SG'
+];
+
+const celltypeColors = {
+    'CN': '#17becf',  // CN 青色 '#17becf'
+    'EM': '#9467bd',  // EM 紫色 '#9467bd'
+    'GA': '#ff7f0e',  // GA 橙色 '#ff7f0e'
+    'GL': '#d62728',  // GL 红色 '#d62728'
+    'HA': '#8c564b',  // HA 棕色 '#8c564b'
+    'NE': '#2ca02c',  // NE 绿色 '#2ca02c'
+    'SG': '#fedb61'   // SG 黄色 '#fedb61'
+};
+
+// CCC matrix
+const matrix = {
+  'CN': {
+    'CN': 8.98,
+    'HA': 8.59,
+    'SG': 8.64,
+    'GL': 8.39,
+    'GA': 9.13,
+    'EM': 9.42,
+    'NE': 8.93
+  },
+  'HA': {
+    'CN': 8.38,
+    'HA': 7.90,
+    'SG': 8.17,
+    'GL': 7.92,
+    'GA': 8.64,
+    'EM': 8.92,
+    'NE': 8.34
+  },
+  'SG': {
+    'CN': 8.73,
+    'HA': 7.95,
+    'SG': 8.26,
+    'GL': 7.95,
+    'GA': 8.70,
+    'EM': 8.97,
+    'NE': 8.39
+  },
+  'GL': {
+    'CN': 8.33,
+    'HA': 7.73,
+    'SG': 8.08,
+    'GL': 7.72,
+    'GA': 8.51,
+    'EM': 8.78,
+    'NE': 8.19
+  },
+  'GA': {
+    'CN': 9.15,
+    'HA': 8.44,
+    'SG': 8.76,
+    'GL': 8.45,
+    'GA': 9.21,
+    'EM': 9.48,
+    'NE': 8.89
+  },
+  'EM': {
+    'CN': 9.41,
+    'HA': 8.72,
+    'SG': 9.05,
+    'GL': 8.73,
+    'GA': 9.49,
+    'EM': 9.76,
+    'NE': 9.18
+  },
+  'NE': {
+    'CN': 8.84,
+    'HA': 8.22,
+    'SG': 8.53,
+    'GL': 8.24,
+    'GA': 8.98,
+    'EM': 9.26,
+    'NE': 8.67
+  }
+};
+
+// mean center (relative strength)
+let values = [];
+celltypes.forEach(s =>
+  celltypes.forEach(t => values.push(matrix[s][t]))
+);
+const meanVal = values.reduce((a, b) => a + b, 0) / values.length;
+
+// build links
+const links = [];
+celltypes.forEach(source => {
+  celltypes.forEach(target => {
+    const delta = matrix[source][target] - meanVal;
+    if (Math.abs(delta) > 0) {
+      links.push({
+        source: source,
+        target: target,
+        value: Math.abs(delta)
+      });
+    }
+  });
+});
+
+option = {
+  tooltip: {
+    // formatter: p =>
+    //   `${p.source} → ${p.target}<br/>ΔCCC = ${p.value.toFixed(3)}`
+  },
+  series: [
+    {
+      type: 'chord',
+      padAngle: 1,
+      center: ['50%', '48%'],
+      radius: ['70%', '82%'],
+
+      data: celltypes.map(ct => ({
+        name: ct,
+        itemStyle: {
+          color: celltypeColors[ct],
+          borderColor: '#ffffff',
+          borderWidth: 2,
+          borderRadius: [0, 15]
+        }
+      })),
+
+      lineStyle: {
+        opacity: 0.35,
+        color: 'gradient'   // ⭐ 非常推荐
+      },
+
+      emphasis: {
+        focus: 'self'
+      },
+
+      label: {
+        show: true,
+        position: 'inside',
+        color: '#ffffff',
+        fontWeight: 'bold'
+      },
+
+      links: links
+    }
+  ]
+};

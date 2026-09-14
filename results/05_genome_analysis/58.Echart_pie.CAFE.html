@@ -1,0 +1,253 @@
+<!--
+	此示例下载自 https://echarts.apache.org/examples/zh/editor.html?c=pie-simple&renderer=svg&code=tZjNbtQwEMfvSLyDJVQFpJUafySbLAaJUlWLhLi0N9SDu-t2I2WTKPGWrap9Ay6cucCBWx-h8DZQeAucxNmkRaUHj3NJPPbOjH9r_ydOXqgkz9ALdPn4EUIqUamctM-6JddqgrwjsdYj_ny7_vn5x833T7--XKOnbM2eeaN2WCpP62EzmSlZerVt0_Sclcl866ta5B8m6FSklTQ_m-WZEkn2VpzI9HaPcRjsdBHK5Gxx26LyQrdxbzjJlcqXtc3fGeRQyTKR1QS9b0ft7qKbqyv8--vHtm2SQygTSz1v79VqlnP2snOq41wUtb1IZG8rxTxZaZ_D8Ho6zfR1JI_oDEaouR1vu9N2mpdDECbH-poLJbZZNpmhc5GudGxCGR51-b3JZqUUlU4GJUouD9VF83dplmmuY3tPfH9vj8Ye2gx8D5yFhG597csHfB0c-PpqfHWujtuHzvddfK_TheSBJT4Gig-zyAfDh1nIXPI7LFLBsSW_EJQfZQEcPp_0zhzg49iWXQTLjsKxi_wIEt1QDsm9csix7WY2WljvaYjNHMMBJTgYu12MBEYIodixEK6MOCW3L0rJbeEZFQSCR6IxXBUJo9jtwgthVBCIXdyXTGsRJK40kN6rgUfllHBbokYG60UJQDQAfKMhTl9oOKYwIghEDvtw6KhbdO_kueS29IwKAtFjGG4r4wD3xxonK8_2GGdUEIgd9eHKLw1AV95QB9n_dBDzMYwO1mghmEZwJ2McORZCW3RGCIHQBf1pwpZcDFqU__2kMCWURzA6CAQPk37K9gUY9Fx3F980n2LKYxgpBMJHQsAiHMN80Kpv-nnz_C8&enc=deflate
+	⚠ 请注意，该图表不是 Apache ECharts 官方示例，而是由用户代码生成的。请注意鉴别其内容。
+-->
+<!DOCTYPE html>
+<html lang="en" style="height: 100%">
+<head>
+  <meta charset="utf-8">
+</head>
+<body style="height: 100%; margin: 0">
+  <div id="container" style="height: 100%"></div>
+
+  
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script>
+  
+  <!-- Uncomment this line if you want to dataTool extension
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5/dist/extension/dataTool.min.js"></script>
+  -->
+  <!-- Uncomment this line if you want to use gl extension
+  <script type="text/javascript" src="https://echarts.apache.org/zh/js/vendors/echarts-gl/dist/echarts-gl.min.js"></script>
+  -->
+  <!-- Uncomment this line if you want to echarts-stat extension
+  <script type="text/javascript" src="https://echarts.apache.org/zh/js/vendors/echarts-stat/dist/ecStat.min.js"></script>
+  -->
+  <!-- Uncomment this line if you want to echarts-graph-modularity extension
+  <script type="text/javascript" src="https://echarts.apache.org/zh/js/vendors/echarts-graph-modularity/dist/echarts-graph-modularity.min.js"></script>
+  -->
+  <!-- Uncomment this line if you want to use map
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@4.9.0/map/js/world.js"></script>
+  -->
+  <!-- Uncomment these two lines if you want to use bmap extension
+  <script type="text/javascript" src="https://api.map.baidu.com/api?v=3.0&ak=YOUR_API_KEY"></script>
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5/dist/extension/bmap.min.js"></script>
+  -->
+
+  <script type="text/javascript">
+    var dom = document.getElementById('container');
+    var myChart = echarts.init(dom, null, {
+      renderer: 'svg',
+      useDirtyRect: false
+    });
+    var app = {};
+    
+    var option;
+
+    option = {
+  title: {
+    text: 'Taxon 饼图网格 (4x4)',
+    left: 'center'
+  },
+  grid: {
+    show: false,
+    containLabel: false,
+    left: '5%',
+    right: '5%',
+    top: '15%',
+    bottom: '10%'
+  },
+  series: [
+    // 第1行
+    {
+      name: 'Auco<4>',
+      type: 'pie',
+      radius: '15%',
+      center: ['20%', '20%'],
+      label: { show: false },
+      data: [
+        { value: 2341, name: 'Increase', itemStyle: { color: '#00BB39' } },
+        { value: 623, name: 'Decrease', itemStyle: { color: '#FF0000' } }
+      ]
+    },
+    {
+      name: 'Clhe<5>',
+      type: 'pie',
+      radius: '15%',
+      center: ['40%', '20%'],
+      label: { show: false },
+      data: [
+        { value: 1480, name: 'Increase', itemStyle: { color: '#00BB39' } },
+        { value: 1464, name: 'Decrease', itemStyle: { color: '#FF0000' } }
+      ]
+    },
+    {
+      name: 'Spla<1>',
+      type: 'pie',
+      radius: '15%',
+      center: ['60%', '20%'],
+      label: { show: false },
+      data: [
+        { value: 345, name: 'Increase', itemStyle: { color: '#00BB39' } },
+        { value: 1025, name: 'Decrease', itemStyle: { color: '#FF0000' } }
+      ]
+    },
+    {
+      name: '<11>',
+      type: 'pie',
+      radius: '15%',
+      center: ['80%', '20%'],
+      label: { show: false },
+      data: [
+        { value: 335, name: 'Increase', itemStyle: { color: '#00BB39' } },
+        { value: 808, name: 'Decrease', itemStyle: { color: '#FF0000' } }
+      ]
+    },
+    
+    // 第2行
+    {
+      name: '<15>',
+      type: 'pie',
+      radius: '15%',
+      center: ['20%', '40%'],
+      label: { show: false },
+      data: [
+        { value: 195, name: 'Increase', itemStyle: { color: '#00BB39' } },
+        { value: 2157, name: 'Decrease', itemStyle: { color: '#FF0000' } }
+      ]
+    },
+    {
+      name: '<12>',
+      type: 'pie',
+      radius: '15%',
+      center: ['40%', '40%'],
+      label: { show: false },
+      data: [
+        { value: 146, name: 'Increase', itemStyle: { color: '#00BB39' } },
+        { value: 67, name: 'Decrease', itemStyle: { color: '#FF0000' } }
+      ]
+    },
+    {
+      name: 'Dare<2>',
+      type: 'pie',
+      radius: '15%',
+      center: ['60%', '40%'],
+      label: { show: false },
+      data: [
+        { value: 2870, name: 'Increase', itemStyle: { color: '#00BB39' } },
+        { value: 689, name: 'Decrease', itemStyle: { color: '#FF0000' } }
+      ]
+    },
+    {
+      name: '<16>',
+      type: 'pie',
+      radius: '15%',
+      center: ['80%', '40%'],
+      label: { show: false },
+      data: [
+        { value: 94, name: 'Increase', itemStyle: { color: '#00BB39' } },
+        { value: 82, name: 'Decrease', itemStyle: { color: '#FF0000' } }
+      ]
+    },
+    
+    // 第3行
+    {
+      name: 'TrH2<6>',
+      type: 'pie',
+      radius: '15%',
+      center: ['20%', '60%'],
+      label: { show: false },
+      data: [
+        { value: 50, name: 'Increase', itemStyle: { color: '#00BB39' } },
+        { value: 124, name: 'Decrease', itemStyle: { color: '#FF0000' } }
+      ]
+    },
+    {
+      name: '<13>',
+      type: 'pie',
+      radius: '15%',
+      center: ['40%', '60%'],
+      label: { show: false },
+      data: [
+        { value: 100, name: 'Increase', itemStyle: { color: '#00BB39' } },
+        { value: 324, name: 'Decrease', itemStyle: { color: '#FF0000' } }
+      ]
+    },
+    {
+      name: 'Neve<3>',
+      type: 'pie',
+      radius: '15%',
+      center: ['60%', '60%'],
+      label: { show: false },
+      data: [
+        { value: 414, name: 'Increase', itemStyle: { color: '#00BB39' } },
+        { value: 1511, name: 'Decrease', itemStyle: { color: '#FF0000' } }
+      ]
+    },
+    {
+      name: '<14>',
+      type: 'pie',
+      radius: '15%',
+      center: ['80%', '60%'],
+      label: { show: false },
+      data: [
+        { value: 306, name: 'Increase', itemStyle: { color: '#00BB39' } },
+        { value: 354, name: 'Decrease', itemStyle: { color: '#FF0000' } }
+      ]
+    },
+    
+    // 第4行
+    {
+      name: 'TrH1<7>',
+      type: 'pie',
+      radius: '15%',
+      center: ['20%', '80%'],
+      label: { show: false },
+      data: [
+        { value: 381, name: 'Increase', itemStyle: { color: '#00BB39' } },
+        { value: 184, name: 'Decrease', itemStyle: { color: '#FF0000' } }
+      ]
+    },
+    {
+      name: '<17>',
+      type: 'pie',
+      radius: '15%',
+      center: ['40%', '80%'],
+      label: { show: false },
+      data: [
+        { value: 58, name: 'Increase', itemStyle: { color: '#00BB39' } },
+        { value: 92, name: 'Decrease', itemStyle: { color: '#FF0000' } }
+      ]
+    },
+    {
+      name: 'ClH23<8>',
+      type: 'pie',
+      radius: '15%',
+      center: ['60%', '80%'],
+      label: { show: false },
+      data: [
+        { value: 122, name: 'Increase', itemStyle: { color: '#00BB39' } },
+        { value: 128, name: 'Decrease', itemStyle: { color: '#FF0000' } }
+      ]
+    },
+    {
+      name: 'HoH13<9>',
+      type: 'pie',
+      radius: '15%',
+      center: ['80%', '80%'],
+      label: { show: false },
+      data: [
+        { value: 260, name: 'Increase', itemStyle: { color: '#00BB39' } },
+        { value: 393, name: 'Decrease', itemStyle: { color: '#FF0000' } }
+      ]
+    }
+  ]
+};
+
+    if (option && typeof option === 'object') {
+      myChart.setOption(option);
+    }
+
+    window.addEventListener('resize', myChart.resize);
+  </script>
+</body>
+</html>

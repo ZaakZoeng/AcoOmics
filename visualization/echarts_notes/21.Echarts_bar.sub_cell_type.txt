@@ -1,0 +1,131 @@
+https://echarts.apache.org/examples/zh/editor.html?c=bar-simple
+
+option = {
+  title: {
+    text: 'Cell Type Distribution',
+    left: 'center',
+    top: 0,
+    textStyle: {
+      fontSize: 16,
+      fontWeight: 'bold'
+    }
+  },
+  grid: {
+    left: '25%',
+    right: '25%',
+    top: '15%',
+    bottom: '15%',
+    containLabel: false
+  },
+  xAxis: {
+    show: false,
+    type: 'value',
+    name: 'Number of Cells',
+    nameLocation: 'middle',
+    nameGap: 30,
+    nameTextStyle: {
+      fontSize: 14,
+      fontWeight: 'bold'
+    },
+    axisLabel: {
+      fontSize: 11
+    },
+    axisLine: {
+      lineStyle: {
+        color: '#333'
+      }
+    },
+    splitLine: {
+      show: false,
+      lineStyle: {
+        type: 'dashed',
+        color: '#ccc'
+      }
+    }
+  },
+  yAxis: {
+    type: 'category',
+    data: [
+      'SG_4', 'SG_3', 'SG_2', 'SG_1',
+      'NE_4', 'NE_3', 'NE_2', 'NE_1',
+      'HA',
+      'GL_3', 'GL_2', 'GL_1',
+      'GA_5', 'GA_4', 'GA_3', 'GA_2', 'GA_1',
+      'EM_3', 'EM_2', 'EM_1',
+      'CN_4', 'CN_3', 'CN_2', 'CN_1'
+    ],
+    axisLabel: {
+      fontSize: 11,
+      fontWeight: 'bold',
+      margin: 8
+    },
+    axisLine: {
+      lineStyle: {
+        color: '#333'
+      }
+    },
+    axisTick: {
+      show: true
+    },
+    splitLine: {
+      show: false
+    }
+  },
+  series: [
+    {
+      name: 'Cell Count',
+      type: 'bar',
+      data: [
+        // SG (黄色) - 自上而下
+        132, 461, 671, 1167,      // SG_4, SG_3, SG_2, SG_1
+        // NE (绿色)
+        743, 1219, 1372, 1409,    // NE_4, NE_3, NE_2, NE_1
+        // HA (棕色)
+        1736,                     // HA
+        // GL (蓝色)
+        109, 514, 860,            // GL_3, GL_2, GL_1
+        // GA (橙色)
+        236, 913, 985, 1738, 2652, // GA_5, GA_4, GA_3, GA_2, GA_1
+        // EM (紫色)
+        2871, 3346, 5445,         // EM_3, EM_2, EM_1
+        // CN (青色)
+        518, 739, 1047, 1777      // CN_4, CN_3, CN_2, CN_1
+      ],
+      itemStyle: {
+        color: function(params) {
+          // 根据细胞类型设置颜色 - 按照新顺序
+          var index = params.dataIndex;
+          if (index < 4) return '#fedb61';      // SG 黄色
+          if (index < 8) return '#2ca02c';      // NE 绿色
+          if (index < 9) return '#8c564b';      // HA 棕色
+          if (index < 12) return '#d62728';     // GL 蓝色
+          if (index < 17) return '#ff7f0e';     // GA 橙色
+          if (index < 20) return '#9467bd';     // EM 紫色
+          return '#17becf';                      // CN 青色
+        },
+        borderRadius: [0, 4, 4, 0],  // 右侧圆角
+        borderColor: '#333',
+        borderWidth: 0.5
+      },
+      label: {
+        show: true,
+        position: 'right',
+        fontWeight: 'bold',
+        fontSize: 10,
+        formatter: function(params) {
+          return params.value;
+        }
+      },
+      barWidth: 15,
+      barCategoryGap: '20%'
+    }
+  ],
+  // 添加背景色和整体样式
+  backgroundColor: '#ffffff',
+  toolbox: {
+    show: true,
+    feature: {
+      saveAsImage: { show: true }
+    }
+  }
+};

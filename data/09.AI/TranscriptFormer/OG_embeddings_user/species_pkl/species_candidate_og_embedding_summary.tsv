@@ -1,0 +1,10 @@
+species	n_ogs	ogs	embedding_dim	output_path
+Spla	6	OG0000112,OG0000036,OG0000203,OG0000133,OG0000166,OG0000260	480	/share/home/zhangze/zz/NeuralOrigin/Data/09.AI/TranscriptFormer/OG_embeddings_user/species_pkl/Spla.candidate_ogs.esm2_embedding.pkl
+ClH23	6	OG0000112,OG0000036,OG0000203,OG0000133,OG0000166,OG0000260	480	/share/home/zhangze/zz/NeuralOrigin/Data/09.AI/TranscriptFormer/OG_embeddings_user/species_pkl/ClH23.candidate_ogs.esm2_embedding.pkl
+HoH13	6	OG0000112,OG0000036,OG0000203,OG0000133,OG0000166,OG0000260	480	/share/home/zhangze/zz/NeuralOrigin/Data/09.AI/TranscriptFormer/OG_embeddings_user/species_pkl/HoH13.candidate_ogs.esm2_embedding.pkl
+TrH2	6	OG0000112,OG0000036,OG0000203,OG0000133,OG0000166,OG0000260	480	/share/home/zhangze/zz/NeuralOrigin/Data/09.AI/TranscriptFormer/OG_embeddings_user/species_pkl/TrH2.candidate_ogs.esm2_embedding.pkl
+TrH1	6	OG0000112,OG0000036,OG0000203,OG0000133,OG0000166,OG0000260	480	/share/home/zhangze/zz/NeuralOrigin/Data/09.AI/TranscriptFormer/OG_embeddings_user/species_pkl/TrH1.candidate_ogs.esm2_embedding.pkl
+Auco	6	OG0000112,OG0000036,OG0000203,OG0000133,OG0000166,OG0000260	480	/share/home/zhangze/zz/NeuralOrigin/Data/09.AI/TranscriptFormer/OG_embeddings_user/species_pkl/Auco.candidate_ogs.esm2_embedding.pkl
+Clhe	6	OG0000112,OG0000036,OG0000203,OG0000133,OG0000166,OG0000260	480	/share/home/zhangze/zz/NeuralOrigin/Data/09.AI/TranscriptFormer/OG_embeddings_user/species_pkl/Clhe.candidate_ogs.esm2_embedding.pkl
+Neve	6	OG0000112,OG0000036,OG0000203,OG0000133,OG0000166,OG0000260	480	/share/home/zhangze/zz/NeuralOrigin/Data/09.AI/TranscriptFormer/OG_embeddings_user/species_pkl/Neve.candidate_ogs.esm2_embedding.pkl
+Dare	6	OG0000112,OG0000036,OG0000203,OG0000133,OG0000166,OG0000260	480	/share/home/zhangze/zz/NeuralOrigin/Data/09.AI/TranscriptFormer/OG_embeddings_user/species_pkl/Dare.candidate_ogs.esm2_embedding.pkl

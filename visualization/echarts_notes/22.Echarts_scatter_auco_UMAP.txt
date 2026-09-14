@@ -1,0 +1,88 @@
+https://echarts.apache.org/examples/zh/editor.html?c=scatter-simple
+
+// 你的配色表
+const broad_palette = {
+  'CN, Cnidocytes/Nematocyte cell': '#17becf',
+  'EM, Epidermal/Muscle cell': '#9467bd',
+  'GA, Gastrodermal cell': '#ff7f0e',
+  'GL, Gland cell': '#d62728',
+  'HA, Hair cell': '#8c564b',
+  'NE, Neural cell': '#2ca02c',
+  'SG, Stem/Germline cell': '#fedb61'
+};
+
+// payload 是你加载的 JSON（A方案导出的 echarts_payload）
+const points = payload.series[0].data;
+
+// 分组
+const groupMap = new Map();
+for (const d of points) {
+  // const k = d.Broad_cell_type ?? "Unknown";
+  const k = (d.Broad_cell_type !== null && d.Broad_cell_type !== undefined) 
+  ? d.Broad_cell_type 
+  : "Unknown";
+  if (!groupMap.has(k)) groupMap.set(k, []);
+  groupMap.get(k).push(d);
+}
+
+// 生成 series（每个 broad 类型一个 series，固定颜色）
+const series = [];
+for (const [broad, arr] of groupMap.entries()) {
+  series.push({
+    name: broad,
+    type: "scatter",
+    data: arr,
+    symbolSize: 3,             // 点很多建议 2~4
+    large: true,
+    progressive: 5000,
+    progressiveThreshold: 10000,
+    itemStyle: {
+      color: broad_palette[broad] || "#999999"  // Unknown 给灰色
+    },
+    emphasis: { focus: "series" }
+  });
+}
+
+// ECharts option
+const option = {
+  animation: false,
+  grid: { left: 60, right: 220, top: 30, bottom: 60 },
+
+  xAxis: { type: "value", name: "UMAP_1" },
+  yAxis: { type: "value", name: "UMAP_2" },
+
+  legend: {
+    type: "scroll",
+    orient: "vertical",
+    right: 10,
+    top: 20,
+    bottom: 20
+  },
+
+  tooltip: {
+    trigger: "item",
+    formatter: (p) => {
+      const d = p.data;
+      return [
+        `<b>${d.cell_name}</b>`,
+        `UMAP: (${d.value[0].toFixed(3)}, ${d.value[1].toFixed(3)})`,
+        `Broad: ${d.Broad_cell_type}`,
+        `Sub: ${d.Sub_cell_type}`,
+        `Cluster: ${d.seurat_clusters}`,
+        `Batch: ${d.batch}`
+      ].join("<br/>");
+    }
+  },
+
+  // 缩放（鼠标滚轮/拖拽）
+  dataZoom: [
+    { type: "inside", xAxisIndex: 0 },
+    { type: "inside", yAxisIndex: 0 },
+    { type: "slider", xAxisIndex: 0 },
+    { type: "slider", yAxisIndex: 0 }
+  ],
+
+  series
+};
+
+// myChart.setOption(option);

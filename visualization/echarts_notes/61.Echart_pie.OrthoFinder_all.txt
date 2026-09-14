@@ -1,0 +1,61 @@
+https://echarts.apache.org/examples/zh/editor.html?c=pie-padAngle
+
+
+option = {
+  legend: {
+    top: '5%',
+    left: 'center'
+  },
+  // 添加图形元素在中心显示比例
+  graphic: [
+    {
+      type: 'text',
+      left: 'center',
+      top: '47%',
+      style: {
+        text: '90.1%',  // 已分配基因占比
+        fontSize: 20,
+        fontWeight: 'bold'
+      },
+      z: 100
+    }
+  ],
+  series: [
+    {
+      name: 'Access From',
+      type: 'pie',
+      radius: ['25%', '60%'],
+      avoidLabelOverlap: false,
+      padAngle: 5,
+      itemStyle: {
+        borderRadius: 10
+      },
+      label: {
+        show: false,
+        position: 'center'
+      },
+      emphasis: {
+        label: {
+          show: true,
+          fontSize: 40,
+          fontWeight: 'bold'
+        }
+      },
+      labelLine: {
+        show: false
+      },
+      data: [
+        { 
+          value: 184124, 
+          name: 'Number of genes in orthogroups',
+          itemStyle: { color: '#B6D7A8' }  // 浅绿色 - Assigned
+        },
+        { 
+          value: 20142, 
+          name: 'Number of unassigned genes',
+          itemStyle: { color: '#eb7f7f' }  // 浅红色 - Unassigned
+        }
+      ]
+    }
+  ]
+};

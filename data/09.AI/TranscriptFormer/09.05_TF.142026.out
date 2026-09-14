@@ -1,0 +1,274 @@
+Begin
+Loaded embedding dict: /share/home/zhangze/zz/NeuralOrigin/Data/09.AI/TranscriptFormer/OG_embeddings_user/candidate_ogs_species_specific_embeddings_dict.npy
+Loaded metadata: /share/home/zhangze/zz/NeuralOrigin/Data/09.AI/TranscriptFormer/OG_embeddings_user/candidate_ogs_species_specific_embeddings_metadata.csv
+Number of entries: 54
+Saved Spla: /share/home/zhangze/zz/NeuralOrigin/Data/09.AI/TranscriptFormer/OG_embeddings_user/species_pkl/Spla.candidate_ogs.esm2_embedding.pkl, n_ogs=6
+Saved ClH23: /share/home/zhangze/zz/NeuralOrigin/Data/09.AI/TranscriptFormer/OG_embeddings_user/species_pkl/ClH23.candidate_ogs.esm2_embedding.pkl, n_ogs=6
+Saved HoH13: /share/home/zhangze/zz/NeuralOrigin/Data/09.AI/TranscriptFormer/OG_embeddings_user/species_pkl/HoH13.candidate_ogs.esm2_embedding.pkl, n_ogs=6
+Saved TrH2: /share/home/zhangze/zz/NeuralOrigin/Data/09.AI/TranscriptFormer/OG_embeddings_user/species_pkl/TrH2.candidate_ogs.esm2_embedding.pkl, n_ogs=6
+Saved TrH1: /share/home/zhangze/zz/NeuralOrigin/Data/09.AI/TranscriptFormer/OG_embeddings_user/species_pkl/TrH1.candidate_ogs.esm2_embedding.pkl, n_ogs=6
+Saved Auco: /share/home/zhangze/zz/NeuralOrigin/Data/09.AI/TranscriptFormer/OG_embeddings_user/species_pkl/Auco.candidate_ogs.esm2_embedding.pkl, n_ogs=6
+Saved Clhe: /share/home/zhangze/zz/NeuralOrigin/Data/09.AI/TranscriptFormer/OG_embeddings_user/species_pkl/Clhe.candidate_ogs.esm2_embedding.pkl, n_ogs=6
+Saved Neve: /share/home/zhangze/zz/NeuralOrigin/Data/09.AI/TranscriptFormer/OG_embeddings_user/species_pkl/Neve.candidate_ogs.esm2_embedding.pkl, n_ogs=6
+Saved Dare: /share/home/zhangze/zz/NeuralOrigin/Data/09.AI/TranscriptFormer/OG_embeddings_user/species_pkl/Dare.candidate_ogs.esm2_embedding.pkl, n_ogs=6
+Saved summary: /share/home/zhangze/zz/NeuralOrigin/Data/09.AI/TranscriptFormer/OG_embeddings_user/species_pkl/species_candidate_og_embedding_summary.tsv
+
+Processing Spla
+Input: /share/home/zhangze/zz/NeuralOrigin/Data/09.AI/TranscriptFormer/input_h5ad/Spla.OG.TF_input.h5ad
+Saved: /share/home/zhangze/zz/NeuralOrigin/Data/09.AI/TranscriptFormer/input_h5ad_candidate/Spla.candidate_OGs.TF_input.h5ad
+Present: ['OG0000112', 'OG0000036', 'OG0000203', 'OG0000133', 'OG0000166', 'OG0000260']
+Missing: []
+
+Processing ClH23
+Input: /share/home/zhangze/zz/NeuralOrigin/Data/09.AI/TranscriptFormer/input_h5ad/ClH23.OG.TF_input.h5ad
+Saved: /share/home/zhangze/zz/NeuralOrigin/Data/09.AI/TranscriptFormer/input_h5ad_candidate/ClH23.candidate_OGs.TF_input.h5ad
+Present: ['OG0000112', 'OG0000036', 'OG0000203', 'OG0000133', 'OG0000166', 'OG0000260']
+Missing: []
+
+Processing HoH13
+Input: /share/home/zhangze/zz/NeuralOrigin/Data/09.AI/TranscriptFormer/input_h5ad/HoH13.OG.TF_input.h5ad
+Saved: /share/home/zhangze/zz/NeuralOrigin/Data/09.AI/TranscriptFormer/input_h5ad_candidate/HoH13.candidate_OGs.TF_input.h5ad
+Present: ['OG0000112', 'OG0000036', 'OG0000203', 'OG0000133', 'OG0000166', 'OG0000260']
+Missing: []
+
+Processing TrH2
+Input: /share/home/zhangze/zz/NeuralOrigin/Data/09.AI/TranscriptFormer/input_h5ad/TrH2.OG.TF_input.h5ad
+Saved: /share/home/zhangze/zz/NeuralOrigin/Data/09.AI/TranscriptFormer/input_h5ad_candidate/TrH2.candidate_OGs.TF_input.h5ad
+Present: ['OG0000112', 'OG0000036', 'OG0000203', 'OG0000133', 'OG0000166', 'OG0000260']
+Missing: []
+
+Processing TrH1
+Input: /share/home/zhangze/zz/NeuralOrigin/Data/09.AI/TranscriptFormer/input_h5ad/TrH1.OG.TF_input.h5ad
+Saved: /share/home/zhangze/zz/NeuralOrigin/Data/09.AI/TranscriptFormer/input_h5ad_candidate/TrH1.candidate_OGs.TF_input.h5ad
+Present: ['OG0000112', 'OG0000036', 'OG0000203', 'OG0000133', 'OG0000166', 'OG0000260']
+Missing: []
+
+Processing Auco
+Input: /share/home/zhangze/zz/NeuralOrigin/Data/09.AI/TranscriptFormer/input_h5ad/Auco.OG.TF_input.h5ad
+Saved: /share/home/zhangze/zz/NeuralOrigin/Data/09.AI/TranscriptFormer/input_h5ad_candidate/Auco.candidate_OGs.TF_input.h5ad
+Present: ['OG0000112', 'OG0000036', 'OG0000203', 'OG0000133', 'OG0000166', 'OG0000260']
+Missing: []
+
+Processing Clhe
+Input: /share/home/zhangze/zz/NeuralOrigin/Data/09.AI/TranscriptFormer/input_h5ad/Clhe.OG.TF_input.h5ad
+Saved: /share/home/zhangze/zz/NeuralOrigin/Data/09.AI/TranscriptFormer/input_h5ad_candidate/Clhe.candidate_OGs.TF_input.h5ad
+Present: ['OG0000112', 'OG0000036', 'OG0000203', 'OG0000133', 'OG0000166', 'OG0000260']
+Missing: []
+
+Processing Neve
+Input: /share/home/zhangze/zz/NeuralOrigin/Data/09.AI/TranscriptFormer/input_h5ad/Neve.OG.TF_input.h5ad
+Saved: /share/home/zhangze/zz/NeuralOrigin/Data/09.AI/TranscriptFormer/input_h5ad_candidate/Neve.candidate_OGs.TF_input.h5ad
+Present: ['OG0000112', 'OG0000036', 'OG0000203', 'OG0000133', 'OG0000166', 'OG0000260']
+Missing: []
+
+Processing Dare
+Input: /share/home/zhangze/zz/NeuralOrigin/Data/09.AI/TranscriptFormer/input_h5ad/Dare.OG.TF_input.h5ad
+Saved: /share/home/zhangze/zz/NeuralOrigin/Data/09.AI/TranscriptFormer/input_h5ad_candidate/Dare.candidate_OGs.TF_input.h5ad
+Present: ['OG0000112', 'OG0000036', 'OG0000203', 'OG0000133', 'OG0000166', 'OG0000260']
+Missing: []
+
+Saved summary: /share/home/zhangze/zz/NeuralOrigin/Data/09.AI/TranscriptFormer/input_h5ad_candidate/candidate_og_h5ad_summary.tsv
+torch: 2.5.1+cu124
+torch cuda: 12.4
+cuda available: True
+gpu: NVIDIA GeForce RTX 3080 Ti
+Running TranscriptFormer CGE for Spla
+
+[38;2;138;43;226m ___________  ___   _   _  _____           _       _  ______ ______________  ___ ___________
+[38;2;138;43;226m|_   _| ___ \/ _ \ | \ | |/  ___|         (_)     | | |  ___|  _  | ___ \  \/  ||  ___| ___ \
+[38;2;132;57;207m  | | | |_/ / /_\ \|  \| |\ `--.  ___ _ __ _ _ __ | |_| |_  | | | | |_/ / .  . || |__ | |_/ /
+[38;2;126;71;188m  | | |    /|  _  || . ` | `--. \/ __| '__| | '_ \| __|  _| | | | |    /| |\/| ||  __||    /
+[38;2;120;85;169m  | | | |\ \| | | || |\  |/\__/ / (__| |  | | |_) | |_| |   \ \_/ / |\ \| |  | || |___| |\ \
+[38;2;114;99;150m  \_/ \_| \_\_| |_/\_| \_/\____/ \___|_|  |_| .__/ \__\_|    \___/\_| \_\_|  |_/\____/\_| \_|
+[38;2;108;113;131m                                            | |
+[38;2;108;113;131m                                            |_|
+[0m
+Traceback (most recent call last):
+  File "/share/home/zhangze/anaconda3/envs/transcriptformer/bin/transcriptformer", line 8, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/share/home/zhangze/anaconda3/envs/transcriptformer/lib/python3.11/site-packages/transcriptformer/cli/__init__.py", line 478, in main
+    run_inference_cli(args)
+  File "/share/home/zhangze/anaconda3/envs/transcriptformer/lib/python3.11/site-packages/transcriptformer/cli/__init__.py", line 300, in run_inference_cli
+    with open(model_config_path) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/share/home/zhangze/zz/NeuralOrigin/Data/09.AI/TranscriptFormer/checkpoints/tf_metazoa/config.json'
+Finished Spla
+Running TranscriptFormer CGE for ClH23
+
+[38;2;138;43;226m ___________  ___   _   _  _____           _       _  ______ ______________  ___ ___________
+[38;2;138;43;226m|_   _| ___ \/ _ \ | \ | |/  ___|         (_)     | | |  ___|  _  | ___ \  \/  ||  ___| ___ \
+[38;2;132;57;207m  | | | |_/ / /_\ \|  \| |\ `--.  ___ _ __ _ _ __ | |_| |_  | | | | |_/ / .  . || |__ | |_/ /
+[38;2;126;71;188m  | | |    /|  _  || . ` | `--. \/ __| '__| | '_ \| __|  _| | | | |    /| |\/| ||  __||    /
+[38;2;120;85;169m  | | | |\ \| | | || |\  |/\__/ / (__| |  | | |_) | |_| |   \ \_/ / |\ \| |  | || |___| |\ \
+[38;2;114;99;150m  \_/ \_| \_\_| |_/\_| \_/\____/ \___|_|  |_| .__/ \__\_|    \___/\_| \_\_|  |_/\____/\_| \_|
+[38;2;108;113;131m                                            | |
+[38;2;108;113;131m                                            |_|
+[0m
+Traceback (most recent call last):
+  File "/share/home/zhangze/anaconda3/envs/transcriptformer/bin/transcriptformer", line 8, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/share/home/zhangze/anaconda3/envs/transcriptformer/lib/python3.11/site-packages/transcriptformer/cli/__init__.py", line 478, in main
+    run_inference_cli(args)
+  File "/share/home/zhangze/anaconda3/envs/transcriptformer/lib/python3.11/site-packages/transcriptformer/cli/__init__.py", line 300, in run_inference_cli
+    with open(model_config_path) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/share/home/zhangze/zz/NeuralOrigin/Data/09.AI/TranscriptFormer/checkpoints/tf_metazoa/config.json'
+Finished ClH23
+Running TranscriptFormer CGE for HoH13
+
+[38;2;138;43;226m ___________  ___   _   _  _____           _       _  ______ ______________  ___ ___________
+[38;2;138;43;226m|_   _| ___ \/ _ \ | \ | |/  ___|         (_)     | | |  ___|  _  | ___ \  \/  ||  ___| ___ \
+[38;2;132;57;207m  | | | |_/ / /_\ \|  \| |\ `--.  ___ _ __ _ _ __ | |_| |_  | | | | |_/ / .  . || |__ | |_/ /
+[38;2;126;71;188m  | | |    /|  _  || . ` | `--. \/ __| '__| | '_ \| __|  _| | | | |    /| |\/| ||  __||    /
+[38;2;120;85;169m  | | | |\ \| | | || |\  |/\__/ / (__| |  | | |_) | |_| |   \ \_/ / |\ \| |  | || |___| |\ \
+[38;2;114;99;150m  \_/ \_| \_\_| |_/\_| \_/\____/ \___|_|  |_| .__/ \__\_|    \___/\_| \_\_|  |_/\____/\_| \_|
+[38;2;108;113;131m                                            | |
+[38;2;108;113;131m                                            |_|
+[0m
+Traceback (most recent call last):
+  File "/share/home/zhangze/anaconda3/envs/transcriptformer/bin/transcriptformer", line 8, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/share/home/zhangze/anaconda3/envs/transcriptformer/lib/python3.11/site-packages/transcriptformer/cli/__init__.py", line 478, in main
+    run_inference_cli(args)
+  File "/share/home/zhangze/anaconda3/envs/transcriptformer/lib/python3.11/site-packages/transcriptformer/cli/__init__.py", line 300, in run_inference_cli
+    with open(model_config_path) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/share/home/zhangze/zz/NeuralOrigin/Data/09.AI/TranscriptFormer/checkpoints/tf_metazoa/config.json'
+Finished HoH13
+Running TranscriptFormer CGE for TrH2
+
+[38;2;138;43;226m ___________  ___   _   _  _____           _       _  ______ ______________  ___ ___________
+[38;2;138;43;226m|_   _| ___ \/ _ \ | \ | |/  ___|         (_)     | | |  ___|  _  | ___ \  \/  ||  ___| ___ \
+[38;2;132;57;207m  | | | |_/ / /_\ \|  \| |\ `--.  ___ _ __ _ _ __ | |_| |_  | | | | |_/ / .  . || |__ | |_/ /
+[38;2;126;71;188m  | | |    /|  _  || . ` | `--. \/ __| '__| | '_ \| __|  _| | | | |    /| |\/| ||  __||    /
+[38;2;120;85;169m  | | | |\ \| | | || |\  |/\__/ / (__| |  | | |_) | |_| |   \ \_/ / |\ \| |  | || |___| |\ \
+[38;2;114;99;150m  \_/ \_| \_\_| |_/\_| \_/\____/ \___|_|  |_| .__/ \__\_|    \___/\_| \_\_|  |_/\____/\_| \_|
+[38;2;108;113;131m                                            | |
+[38;2;108;113;131m                                            |_|
+[0m
+Traceback (most recent call last):
+  File "/share/home/zhangze/anaconda3/envs/transcriptformer/bin/transcriptformer", line 8, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/share/home/zhangze/anaconda3/envs/transcriptformer/lib/python3.11/site-packages/transcriptformer/cli/__init__.py", line 478, in main
+    run_inference_cli(args)
+  File "/share/home/zhangze/anaconda3/envs/transcriptformer/lib/python3.11/site-packages/transcriptformer/cli/__init__.py", line 300, in run_inference_cli
+    with open(model_config_path) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/share/home/zhangze/zz/NeuralOrigin/Data/09.AI/TranscriptFormer/checkpoints/tf_metazoa/config.json'
+Finished TrH2
+Running TranscriptFormer CGE for TrH1
+
+[38;2;138;43;226m ___________  ___   _   _  _____           _       _  ______ ______________  ___ ___________
+[38;2;138;43;226m|_   _| ___ \/ _ \ | \ | |/  ___|         (_)     | | |  ___|  _  | ___ \  \/  ||  ___| ___ \
+[38;2;132;57;207m  | | | |_/ / /_\ \|  \| |\ `--.  ___ _ __ _ _ __ | |_| |_  | | | | |_/ / .  . || |__ | |_/ /
+[38;2;126;71;188m  | | |    /|  _  || . ` | `--. \/ __| '__| | '_ \| __|  _| | | | |    /| |\/| ||  __||    /
+[38;2;120;85;169m  | | | |\ \| | | || |\  |/\__/ / (__| |  | | |_) | |_| |   \ \_/ / |\ \| |  | || |___| |\ \
+[38;2;114;99;150m  \_/ \_| \_\_| |_/\_| \_/\____/ \___|_|  |_| .__/ \__\_|    \___/\_| \_\_|  |_/\____/\_| \_|
+[38;2;108;113;131m                                            | |
+[38;2;108;113;131m                                            |_|
+[0m
+Traceback (most recent call last):
+  File "/share/home/zhangze/anaconda3/envs/transcriptformer/bin/transcriptformer", line 8, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/share/home/zhangze/anaconda3/envs/transcriptformer/lib/python3.11/site-packages/transcriptformer/cli/__init__.py", line 478, in main
+    run_inference_cli(args)
+  File "/share/home/zhangze/anaconda3/envs/transcriptformer/lib/python3.11/site-packages/transcriptformer/cli/__init__.py", line 300, in run_inference_cli
+    with open(model_config_path) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/share/home/zhangze/zz/NeuralOrigin/Data/09.AI/TranscriptFormer/checkpoints/tf_metazoa/config.json'
+Finished TrH1
+Running TranscriptFormer CGE for Auco
+
+[38;2;138;43;226m ___________  ___   _   _  _____           _       _  ______ ______________  ___ ___________
+[38;2;138;43;226m|_   _| ___ \/ _ \ | \ | |/  ___|         (_)     | | |  ___|  _  | ___ \  \/  ||  ___| ___ \
+[38;2;132;57;207m  | | | |_/ / /_\ \|  \| |\ `--.  ___ _ __ _ _ __ | |_| |_  | | | | |_/ / .  . || |__ | |_/ /
+[38;2;126;71;188m  | | |    /|  _  || . ` | `--. \/ __| '__| | '_ \| __|  _| | | | |    /| |\/| ||  __||    /
+[38;2;120;85;169m  | | | |\ \| | | || |\  |/\__/ / (__| |  | | |_) | |_| |   \ \_/ / |\ \| |  | || |___| |\ \
+[38;2;114;99;150m  \_/ \_| \_\_| |_/\_| \_/\____/ \___|_|  |_| .__/ \__\_|    \___/\_| \_\_|  |_/\____/\_| \_|
+[38;2;108;113;131m                                            | |
+[38;2;108;113;131m                                            |_|
+[0m
+Traceback (most recent call last):
+  File "/share/home/zhangze/anaconda3/envs/transcriptformer/bin/transcriptformer", line 8, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/share/home/zhangze/anaconda3/envs/transcriptformer/lib/python3.11/site-packages/transcriptformer/cli/__init__.py", line 478, in main
+    run_inference_cli(args)
+  File "/share/home/zhangze/anaconda3/envs/transcriptformer/lib/python3.11/site-packages/transcriptformer/cli/__init__.py", line 300, in run_inference_cli
+    with open(model_config_path) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/share/home/zhangze/zz/NeuralOrigin/Data/09.AI/TranscriptFormer/checkpoints/tf_metazoa/config.json'
+Finished Auco
+Running TranscriptFormer CGE for Clhe
+
+[38;2;138;43;226m ___________  ___   _   _  _____           _       _  ______ ______________  ___ ___________
+[38;2;138;43;226m|_   _| ___ \/ _ \ | \ | |/  ___|         (_)     | | |  ___|  _  | ___ \  \/  ||  ___| ___ \
+[38;2;132;57;207m  | | | |_/ / /_\ \|  \| |\ `--.  ___ _ __ _ _ __ | |_| |_  | | | | |_/ / .  . || |__ | |_/ /
+[38;2;126;71;188m  | | |    /|  _  || . ` | `--. \/ __| '__| | '_ \| __|  _| | | | |    /| |\/| ||  __||    /
+[38;2;120;85;169m  | | | |\ \| | | || |\  |/\__/ / (__| |  | | |_) | |_| |   \ \_/ / |\ \| |  | || |___| |\ \
+[38;2;114;99;150m  \_/ \_| \_\_| |_/\_| \_/\____/ \___|_|  |_| .__/ \__\_|    \___/\_| \_\_|  |_/\____/\_| \_|
+[38;2;108;113;131m                                            | |
+[38;2;108;113;131m                                            |_|
+[0m
+Traceback (most recent call last):
+  File "/share/home/zhangze/anaconda3/envs/transcriptformer/bin/transcriptformer", line 8, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/share/home/zhangze/anaconda3/envs/transcriptformer/lib/python3.11/site-packages/transcriptformer/cli/__init__.py", line 478, in main
+    run_inference_cli(args)
+  File "/share/home/zhangze/anaconda3/envs/transcriptformer/lib/python3.11/site-packages/transcriptformer/cli/__init__.py", line 300, in run_inference_cli
+    with open(model_config_path) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/share/home/zhangze/zz/NeuralOrigin/Data/09.AI/TranscriptFormer/checkpoints/tf_metazoa/config.json'
+Finished Clhe
+Running TranscriptFormer CGE for Neve
+
+[38;2;138;43;226m ___________  ___   _   _  _____           _       _  ______ ______________  ___ ___________
+[38;2;138;43;226m|_   _| ___ \/ _ \ | \ | |/  ___|         (_)     | | |  ___|  _  | ___ \  \/  ||  ___| ___ \
+[38;2;132;57;207m  | | | |_/ / /_\ \|  \| |\ `--.  ___ _ __ _ _ __ | |_| |_  | | | | |_/ / .  . || |__ | |_/ /
+[38;2;126;71;188m  | | |    /|  _  || . ` | `--. \/ __| '__| | '_ \| __|  _| | | | |    /| |\/| ||  __||    /
+[38;2;120;85;169m  | | | |\ \| | | || |\  |/\__/ / (__| |  | | |_) | |_| |   \ \_/ / |\ \| |  | || |___| |\ \
+[38;2;114;99;150m  \_/ \_| \_\_| |_/\_| \_/\____/ \___|_|  |_| .__/ \__\_|    \___/\_| \_\_|  |_/\____/\_| \_|
+[38;2;108;113;131m                                            | |
+[38;2;108;113;131m                                            |_|
+[0m
+Traceback (most recent call last):
+  File "/share/home/zhangze/anaconda3/envs/transcriptformer/bin/transcriptformer", line 8, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/share/home/zhangze/anaconda3/envs/transcriptformer/lib/python3.11/site-packages/transcriptformer/cli/__init__.py", line 478, in main
+    run_inference_cli(args)
+  File "/share/home/zhangze/anaconda3/envs/transcriptformer/lib/python3.11/site-packages/transcriptformer/cli/__init__.py", line 300, in run_inference_cli
+    with open(model_config_path) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/share/home/zhangze/zz/NeuralOrigin/Data/09.AI/TranscriptFormer/checkpoints/tf_metazoa/config.json'
+Finished Neve
+Running TranscriptFormer CGE for Dare
+
+[38;2;138;43;226m ___________  ___   _   _  _____           _       _  ______ ______________  ___ ___________
+[38;2;138;43;226m|_   _| ___ \/ _ \ | \ | |/  ___|         (_)     | | |  ___|  _  | ___ \  \/  ||  ___| ___ \
+[38;2;132;57;207m  | | | |_/ / /_\ \|  \| |\ `--.  ___ _ __ _ _ __ | |_| |_  | | | | |_/ / .  . || |__ | |_/ /
+[38;2;126;71;188m  | | |    /|  _  || . ` | `--. \/ __| '__| | '_ \| __|  _| | | | |    /| |\/| ||  __||    /
+[38;2;120;85;169m  | | | |\ \| | | || |\  |/\__/ / (__| |  | | |_) | |_| |   \ \_/ / |\ \| |  | || |___| |\ \
+[38;2;114;99;150m  \_/ \_| \_\_| |_/\_| \_/\____/ \___|_|  |_| .__/ \__\_|    \___/\_| \_\_|  |_/\____/\_| \_|
+[38;2;108;113;131m                                            | |
+[38;2;108;113;131m                                            |_|
+[0m
+Traceback (most recent call last):
+  File "/share/home/zhangze/anaconda3/envs/transcriptformer/bin/transcriptformer", line 8, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/share/home/zhangze/anaconda3/envs/transcriptformer/lib/python3.11/site-packages/transcriptformer/cli/__init__.py", line 478, in main
+    run_inference_cli(args)
+  File "/share/home/zhangze/anaconda3/envs/transcriptformer/lib/python3.11/site-packages/transcriptformer/cli/__init__.py", line 300, in run_inference_cli
+    with open(model_config_path) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/share/home/zhangze/zz/NeuralOrigin/Data/09.AI/TranscriptFormer/checkpoints/tf_metazoa/config.json'
+Finished Dare
+End time: Tue Jun  9 20:16:23 CST 2026
+finished

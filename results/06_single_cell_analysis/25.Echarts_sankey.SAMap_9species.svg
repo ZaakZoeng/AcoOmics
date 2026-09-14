@@ -1,0 +1,475 @@
+<svg width="1794" height="826" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" baseProfile="full" viewBox="0 0 1794 826">
+<rect width="1794" height="826" x="0" y="0" fill="none"></rect>
+<path d="M10 587.194C99.6812 587.194 99.6812 619.8217 189.3625 619.8217L189.3625 635.6868C99.6812 635.6868 99.6812 603.0591 10 603.0591Z" transform="translate(89.7 41.3)" fill="url(#zr0-g0)" fill-opacity="0.4" class="zr0-cls-15"></path>
+<path d="M10 493.0704C99.6812 493.0704 99.6812 529.4344 189.3625 529.4344L189.3625 549.2624C99.6812 549.2624 99.6812 512.8984 10 512.8984Z" transform="translate(89.7 41.3)" fill="url(#zr0-g1)" fill-opacity="0.4" class="zr0-cls-16"></path>
+<path d="M10 467.8526C99.6812 467.8526 99.6812 417.3883 189.3625 417.3883L189.3625 442.6061C99.6812 442.6061 99.6812 493.0704 10 493.0704Z" transform="translate(89.7 41.3)" fill="url(#zr0-g1)" fill-opacity="0.4" class="zr0-cls-16"></path>
+<path d="M10 613.0591C99.6812 613.0591 99.6812 635.6868 189.3625 635.6868L189.3625 662.1693C99.6812 662.1693 99.6812 639.5415 10 639.5415Z" transform="translate(89.7 41.3)" fill="url(#zr0-g0)" fill-opacity="0.4" class="zr0-cls-15"></path>
+<path d="M10 536.5912C99.6812 536.5912 99.6812 579.2189 189.3625 579.2189L189.3625 619.8217C99.6812 619.8217 99.6812 577.194 10 577.194Z" transform="translate(89.7 41.3)" fill="url(#zr0-g0)" fill-opacity="0.4" class="zr0-cls-15"></path>
+<path d="M10 440.7296C99.6812 440.7296 99.6812 562.0959 189.3625 562.0959L189.3625 579.2189C99.6812 579.2189 99.6812 457.8526 10 457.8526Z" transform="translate(89.7 41.3)" fill="url(#zr0-g1)" fill-opacity="0.4" class="zr0-cls-16"></path>
+<path d="M10 414.8423C99.6812 414.8423 99.6812 503.5471 189.3625 503.5471L189.3625 529.4344C99.6812 529.4344 99.6812 440.7296 10 440.7296Z" transform="translate(89.7 41.3)" fill="url(#zr0-g1)" fill-opacity="0.4" class="zr0-cls-16"></path>
+<path d="M10 332.1827C99.6812 332.1827 99.6812 316.4783 189.3625 316.4783L189.3625 346.9575C99.6812 346.9575 99.6812 362.6619 10 362.6619Z" transform="translate(89.7 41.3)" fill="url(#zr0-g1)" fill-opacity="0.4" class="zr0-cls-16"></path>
+<path d="M10 362.6619C99.6812 362.6619 99.6812 391.5618 189.3625 391.5618L189.3625 417.3883C99.6812 417.3883 99.6812 388.4884 10 388.4884Z" transform="translate(89.7 41.3)" fill="url(#zr0-g1)" fill-opacity="0.4" class="zr0-cls-16"></path>
+<path d="M10 303.4213C99.6812 303.4213 99.6812 167.1161 189.3625 167.1161L189.3625 190.792C99.6812 190.792 99.6812 327.0972 10 327.0972Z" transform="translate(89.7 41.3)" fill="url(#zr0-g1)" fill-opacity="0.4" class="zr0-cls-16"></path>
+<path d="M10 388.4884C99.6812 388.4884 99.6812 465.5025 189.3625 465.5025L189.3625 491.8564C99.6812 491.8564 99.6812 414.8423 10 414.8423Z" transform="translate(89.7 41.3)" fill="url(#zr0-g1)" fill-opacity="0.4" class="zr0-cls-16"></path>
+<path d="M10 639.5415C99.6812 639.5415 99.6812 680.5482 189.3625 680.5482L189.3625 690.8747C99.6812 690.8747 99.6812 649.8681 10 649.8681Z" transform="translate(89.7 41.3)" fill="url(#zr0-g0)" fill-opacity="0.4" class="zr0-cls-15"></path>
+<path d="M10 327.0972C99.6812 327.0972 99.6812 241.6045 189.3625 241.6045L189.3625 246.69C99.6812 246.69 99.6812 332.1827 10 332.1827Z" transform="translate(89.7 41.3)" fill="url(#zr0-g1)" fill-opacity="0.4" class="zr0-cls-16"></path>
+<path d="M199.3625 610.5434C289.0438 610.5434 289.0438 554.0011 378.725 554.0011L378.725 614.0059C289.0438 614.0059 289.0438 670.5482 199.3625 670.5482Z" transform="translate(89.7 41.3)" fill="url(#zr0-g2)" fill-opacity="0.4" class="zr0-cls-17"></path>
+<path d="M199.3625 586.4211C289.0438 586.4211 289.0438 519.8788 378.725 519.8788L378.725 544.0011C289.0438 544.0011 289.0438 610.5434 199.3625 610.5434Z" transform="translate(89.7 41.3)" fill="url(#zr0-g2)" fill-opacity="0.4" class="zr0-cls-17"></path>
+<path d="M199.3625 562.0959C289.0438 562.0959 289.0438 450.6044 378.725 450.6044L378.725 474.9296C289.0438 474.9296 289.0438 586.4211 199.3625 586.4211Z" transform="translate(89.7 41.3)" fill="url(#zr0-g3)" fill-opacity="0.4" class="zr0-cls-18"></path>
+<path d="M199.3625 517.1467C289.0438 517.1467 289.0438 484.9296 378.725 484.9296L378.725 519.8788C289.0438 519.8788 289.0438 552.0959 199.3625 552.0959Z" transform="translate(89.7 41.3)" fill="url(#zr0-g3)" fill-opacity="0.4" class="zr0-cls-18"></path>
+<path d="M199.3625 503.5471C289.0438 503.5471 289.0438 381.6072 378.725 381.6072L378.725 395.2069C289.0438 395.2069 289.0438 517.1467 199.3625 517.1467Z" transform="translate(89.7 41.3)" fill="url(#zr0-g2)" fill-opacity="0.4" class="zr0-cls-17"></path>
+<path d="M199.3625 316.4783C289.0438 316.4783 289.0438 205.8824 378.725 205.8824L378.725 270.9659C289.0438 270.9659 289.0438 381.5618 199.3625 381.5618Z" transform="translate(89.7 41.3)" fill="url(#zr0-g2)" fill-opacity="0.4" class="zr0-cls-17"></path>
+<path d="M199.3625 391.5618C289.0438 391.5618 289.0438 317.6666 378.725 317.6666L378.725 381.6072C289.0438 381.6072 289.0438 455.5025 199.3625 455.5025Z" transform="translate(89.7 41.3)" fill="url(#zr0-g2)" fill-opacity="0.4" class="zr0-cls-17"></path>
+<path d="M199.3625 167.1161C289.0438 167.1161 289.0438 56.2361 378.725 56.2361L378.725 120.7245C289.0438 120.7245 289.0438 231.6045 199.3625 231.6045Z" transform="translate(89.7 41.3)" fill="url(#zr0-g2)" fill-opacity="0.4" class="zr0-cls-17"></path>
+<path d="M199.3625 680.5482C289.0438 680.5482 289.0438 651.9964 378.725 651.9964L378.725 714.8482C289.0438 714.8482 289.0438 743.4 199.3625 743.4Z" transform="translate(89.7 41.3)" fill="url(#zr0-g2)" fill-opacity="0.4" class="zr0-cls-17"></path>
+<path d="M199.3625 465.5025C289.0438 465.5025 289.0438 422.5598 378.725 422.5598L378.725 450.6044C289.0438 450.6044 289.0438 493.5471 199.3625 493.5471Z" transform="translate(89.7 41.3)" fill="url(#zr0-g3)" fill-opacity="0.4" class="zr0-cls-18"></path>
+<path d="M199.3625 241.6045C289.0438 241.6045 289.0438 131.0085 378.725 131.0085L378.725 195.8824C289.0438 195.8824 289.0438 306.4783 199.3625 306.4783Z" transform="translate(89.7 41.3)" fill="url(#zr0-g2)" fill-opacity="0.4" class="zr0-cls-17"></path>
+<path d="M388.725 554.0011C478.4063 554.0011 478.4063 448.2375 568.0875 448.2375L568.0875 482.3279C478.4063 482.3279 478.4063 588.0915 388.725 588.0915Z" transform="translate(89.7 41.3)" fill="url(#zr0-g4)" fill-opacity="0.4" class="zr0-cls-19"></path>
+<path d="M388.725 614.1614C478.4063 614.1614 478.4063 551.3231 568.0875 551.3231L568.0875 579.158C478.4063 579.158 478.4063 641.9964 388.725 641.9964Z" transform="translate(89.7 41.3)" fill="url(#zr0-g4)" fill-opacity="0.4" class="zr0-cls-19"></path>
+<path d="M388.725 588.0915C478.4063 588.0915 478.4063 515.2532 568.0875 515.2532L568.0875 541.3231C478.4063 541.3231 478.4063 614.1614 388.725 614.1614Z" transform="translate(89.7 41.3)" fill="url(#zr0-g4)" fill-opacity="0.4" class="zr0-cls-19"></path>
+<path d="M388.725 484.9296C478.4063 484.9296 478.4063 404.0978 568.0875 404.0978L568.0875 448.2375C478.4063 448.2375 478.4063 529.0692 388.725 529.0692Z" transform="translate(89.7 41.3)" fill="url(#zr0-g4)" fill-opacity="0.4" class="zr0-cls-19"></path>
+<path d="M388.725 205.8824C478.4063 205.8824 478.4063 149.0106 568.0875 149.0106L568.0875 181.9987C478.4063 181.9987 478.4063 238.8704 388.725 238.8704Z" transform="translate(89.7 41.3)" fill="url(#zr0-g4)" fill-opacity="0.4" class="zr0-cls-19"></path>
+<path d="M388.725 238.8704C478.4063 238.8704 478.4063 204.9965 568.0875 204.9965L568.0875 255.2833C478.4063 255.2833 478.4063 289.1573 388.725 289.1573Z" transform="translate(89.7 41.3)" fill="url(#zr0-g4)" fill-opacity="0.4" class="zr0-cls-19"></path>
+<path d="M388.725 289.1573C478.4063 289.1573 478.4063 496.7439 568.0875 496.7439L568.0875 515.2532C478.4063 515.2532 478.4063 307.6666 388.725 307.6666Z" transform="translate(89.7 41.3)" fill="url(#zr0-g4)" fill-opacity="0.4" class="zr0-cls-19"></path>
+<path d="M388.725 347.1652C478.4063 347.1652 478.4063 294.7819 568.0875 294.7819L568.0875 360.1765C478.4063 360.1765 478.4063 412.5598 388.725 412.5598Z" transform="translate(89.7 41.3)" fill="url(#zr0-g5)" fill-opacity="0.4" class="zr0-cls-20"></path>
+<path d="M388.725 317.6666C478.4063 317.6666 478.4063 255.2833 568.0875 255.2833L568.0875 284.7819C478.4063 284.7819 478.4063 347.1652 388.725 347.1652Z" transform="translate(89.7 41.3)" fill="url(#zr0-g4)" fill-opacity="0.4" class="zr0-cls-19"></path>
+<path d="M388.725 56.2361C478.4063 56.2361 478.4063 0 568.0875 0L568.0875 64.7724C478.4063 64.7724 478.4063 121.0085 388.725 121.0085Z" transform="translate(89.7 41.3)" fill="url(#zr0-g4)" fill-opacity="0.4" class="zr0-cls-19"></path>
+<path d="M388.725 686.2829C478.4063 686.2829 478.4063 628.2122 568.0875 628.2122L568.0875 685.3293C478.4063 685.3293 478.4063 743.4 388.725 743.4Z" transform="translate(89.7 41.3)" fill="url(#zr0-g4)" fill-opacity="0.4" class="zr0-cls-19"></path>
+<path d="M388.725 651.9964C478.4063 651.9964 478.4063 579.158 568.0875 579.158L568.0875 613.4446C478.4063 613.4446 478.4063 686.2829 388.725 686.2829Z" transform="translate(89.7 41.3)" fill="url(#zr0-g4)" fill-opacity="0.4" class="zr0-cls-19"></path>
+<path d="M388.725 422.5598C478.4063 422.5598 478.4063 370.1765 568.0875 370.1765L568.0875 404.0978C478.4063 404.0978 478.4063 456.4811 388.725 456.4811Z" transform="translate(89.7 41.3)" fill="url(#zr0-g4)" fill-opacity="0.4" class="zr0-cls-19"></path>
+<path d="M388.725 131.0085C478.4063 131.0085 478.4063 76.409 568.0875 76.409L568.0875 139.0106C478.4063 139.0106 478.4063 193.6101 388.725 193.6101Z" transform="translate(89.7 41.3)" fill="url(#zr0-g4)" fill-opacity="0.4" class="zr0-cls-19"></path>
+<path d="M578.0875 445.6C667.7688 445.6 667.7688 471.7154 757.45 471.7154L757.45 512.8592C667.7688 512.8592 667.7688 486.7439 578.0875 486.7439Z" transform="translate(89.7 41.3)" fill="url(#zr0-g6)" fill-opacity="0.4" class="zr0-cls-21"></path>
+<path d="M578.0875 370.1765C667.7688 370.1765 667.7688 376.2918 757.45 376.2918L757.45 422.2033C667.7688 422.2033 667.7688 416.0879 578.0875 416.0879Z" transform="translate(89.7 41.3)" fill="url(#zr0-g6)" fill-opacity="0.4" class="zr0-cls-21"></path>
+<path d="M578.0875 416.0879C667.7688 416.0879 667.7688 432.2033 757.45 432.2033L757.45 461.7154C667.7688 461.7154 667.7688 445.6 578.0875 445.6Z" transform="translate(89.7 41.3)" fill="url(#zr0-g6)" fill-opacity="0.4" class="zr0-cls-21"></path>
+<path d="M578.0875 294.7819C667.7688 294.7819 667.7688 302.2024 757.45 302.2024L757.45 366.2918C667.7688 366.2918 667.7688 358.8713 578.0875 358.8713Z" transform="translate(89.7 41.3)" fill="url(#zr0-g7)" fill-opacity="0.4" class="zr0-cls-22"></path>
+<path d="M578.0875 149.0106C667.7688 149.0106 667.7688 163.5164 757.45 163.5164L757.45 209.5023C667.7688 209.5023 667.7688 194.9965 578.0875 194.9965Z" transform="translate(89.7 41.3)" fill="url(#zr0-g6)" fill-opacity="0.4" class="zr0-cls-21"></path>
+<path d="M578.0875 204.9965C667.7688 204.9965 667.7688 209.5023 757.45 209.5023L757.45 242.2401C667.7688 242.2401 667.7688 237.7343 578.0875 237.7343Z" transform="translate(89.7 41.3)" fill="url(#zr0-g6)" fill-opacity="0.4" class="zr0-cls-21"></path>
+<path d="M578.0875 237.7343C667.7688 237.7343 667.7688 266.462 757.45 266.462L757.45 302.2024C667.7688 302.2024 667.7688 273.4748 578.0875 273.4748Z" transform="translate(89.7 41.3)" fill="url(#zr0-g6)" fill-opacity="0.4" class="zr0-cls-21"></path>
+<path d="M578.0875 0C667.7688 0 667.7688 83.0888 757.45 83.0888L757.45 149.4978C667.7688 149.4978 667.7688 66.409 578.0875 66.409Z" transform="translate(89.7 41.3)" fill="url(#zr0-g6)" fill-opacity="0.4" class="zr0-cls-21"></path>
+<path d="M578.0875 679.7907C667.7688 679.7907 667.7688 679.7907 757.45 679.7907L757.45 743.4C667.7688 743.4 667.7688 743.4 578.0875 743.4Z" transform="translate(89.7 41.3)" fill="url(#zr0-g6)" fill-opacity="0.4" class="zr0-cls-21"></path>
+<path d="M578.0875 628.2122C667.7688 628.2122 667.7688 618.2122 757.45 618.2122L757.45 669.7907C667.7688 669.7907 667.7688 679.7907 578.0875 679.7907Z" transform="translate(89.7 41.3)" fill="url(#zr0-g6)" fill-opacity="0.4" class="zr0-cls-21"></path>
+<path d="M578.0875 551.3231C667.7688 551.3231 667.7688 541.3231 757.45 541.3231L757.45 571.6264C667.7688 571.6264 667.7688 581.6264 578.0875 581.6264Z" transform="translate(89.7 41.3)" fill="url(#zr0-g6)" fill-opacity="0.4" class="zr0-cls-21"></path>
+<path d="M578.0875 581.6264C667.7688 581.6264 667.7688 581.6264 757.45 581.6264L757.45 618.2122C667.7688 618.2122 667.7688 618.2122 578.0875 618.2122Z" transform="translate(89.7 41.3)" fill="url(#zr0-g6)" fill-opacity="0.4" class="zr0-cls-21"></path>
+<path d="M578.0875 510.9657C667.7688 510.9657 667.7688 512.8592 757.45 512.8592L757.45 541.3231C667.7688 541.3231 667.7688 539.4295 578.0875 539.4295Z" transform="translate(89.7 41.3)" fill="url(#zr0-g6)" fill-opacity="0.4" class="zr0-cls-21"></path>
+<path d="M578.0875 496.7439C667.7688 496.7439 667.7688 242.2401 757.45 242.2401L757.45 256.462C667.7688 256.462 667.7688 510.9657 578.0875 510.9657Z" transform="translate(89.7 41.3)" fill="url(#zr0-g6)" fill-opacity="0.4" class="zr0-cls-21"></path>
+<path d="M578.0875 76.409C667.7688 76.409 667.7688 162.1369 757.45 162.1369L757.45 163.5164C667.7688 163.5164 667.7688 77.7886 578.0875 77.7886Z" transform="translate(89.7 41.3)" fill="url(#zr0-g6)" fill-opacity="0.4" class="zr0-cls-21"></path>
+<path d="M767.45 471.7154C857.1313 471.7154 857.1313 390.6049 946.8125 390.6049L946.8125 412.4347C857.1313 412.4347 857.1313 493.5451 767.45 493.5451Z" transform="translate(89.7 41.3)" fill="url(#zr0-g8)" fill-opacity="0.4" class="zr0-cls-23"></path>
+<path d="M767.45 493.5451C857.1313 493.5451 857.1313 535.2247 946.8125 535.2247L946.8125 565.8999C857.1313 565.8999 857.1313 524.2204 767.45 524.2204Z" transform="translate(89.7 41.3)" fill="url(#zr0-g8)" fill-opacity="0.4" class="zr0-cls-23"></path>
+<path d="M767.45 524.2204C857.1313 524.2204 857.1313 594.6431 946.8125 594.6431L946.8125 614.3494C857.1313 614.3494 857.1313 543.9267 767.45 543.9267Z" transform="translate(89.7 41.3)" fill="url(#zr0-g8)" fill-opacity="0.4" class="zr0-cls-23"></path>
+<path d="M767.45 376.2918C857.1313 376.2918 857.1313 353.7013 946.8125 353.7013L946.8125 370.3306C857.1313 370.3306 857.1313 392.9211 767.45 392.9211Z" transform="translate(89.7 41.3)" fill="url(#zr0-g8)" fill-opacity="0.4" class="zr0-cls-23"></path>
+<path d="M767.45 162.1369C857.1313 162.1369 857.1313 327.5502 946.8125 327.5502L946.8125 353.7013C857.1313 353.7013 857.1313 188.2879 767.45 188.2879Z" transform="translate(89.7 41.3)" fill="url(#zr0-g8)" fill-opacity="0.4" class="zr0-cls-23"></path>
+<path d="M767.45 266.462C857.1313 266.462 857.1313 477.1627 946.8125 477.1627L946.8125 514.8102C857.1313 514.8102 857.1313 304.1095 767.45 304.1095Z" transform="translate(89.7 41.3)" fill="url(#zr0-g8)" fill-opacity="0.4" class="zr0-cls-23"></path>
+<path d="M767.45 83.0888C857.1313 83.0888 857.1313 290.234 946.8125 290.234L946.8125 327.5502C857.1313 327.5502 857.1313 120.405 767.45 120.405Z" transform="translate(89.7 41.3)" fill="url(#zr0-g8)" fill-opacity="0.4" class="zr0-cls-23"></path>
+<path d="M767.45 679.7907C857.1313 679.7907 857.1313 614.3494 946.8125 614.3494L946.8125 624.588C857.1313 624.588 857.1313 690.0294 767.45 690.0294Z" transform="translate(89.7 41.3)" fill="url(#zr0-g8)" fill-opacity="0.4" class="zr0-cls-23"></path>
+<path d="M767.45 594.942C857.1313 594.942 857.1313 682.8673 946.8125 682.8673L946.8125 697.008C857.1313 697.008 857.1313 609.0827 767.45 609.0827Z" transform="translate(89.7 41.3)" fill="url(#zr0-g8)" fill-opacity="0.4" class="zr0-cls-23"></path>
+<path d="M767.45 432.2033C857.1313 432.2033 857.1313 370.3306 946.8125 370.3306L946.8125 390.6049C857.1313 390.6049 857.1313 452.4776 767.45 452.4776Z" transform="translate(89.7 41.3)" fill="url(#zr0-g8)" fill-opacity="0.4" class="zr0-cls-23"></path>
+<path d="M767.45 188.2879C857.1313 188.2879 857.1313 422.4347 946.8125 422.4347L946.8125 427.554C857.1313 427.554 857.1313 193.4072 767.45 193.4072Z" transform="translate(89.7 41.3)" fill="url(#zr0-g8)" fill-opacity="0.4" class="zr0-cls-23"></path>
+<path d="M767.45 581.6264C857.1313 581.6264 857.1313 644.7348 946.8125 644.7348L946.8125 658.0504C857.1313 658.0504 857.1313 594.942 767.45 594.942Z" transform="translate(89.7 41.3)" fill="url(#zr0-g8)" fill-opacity="0.4" class="zr0-cls-23"></path>
+<path d="M956.8125 422.4347C1046.4937 422.4347 1046.4937 430.7377 1136.175 430.7377L1136.175 475.4657C1046.4937 475.4657 1046.4937 467.1627 956.8125 467.1627Z" transform="translate(89.7 41.3)" fill="url(#zr0-g9)" fill-opacity="0.4" class="zr0-cls-24"></path>
+<path d="M956.8125 290.234C1046.4937 290.234 1046.4937 279.3872 1136.175 279.3872L1136.175 318.6037C1046.4937 318.6037 1046.4937 329.4505 956.8125 329.4505Z" transform="translate(89.7 41.3)" fill="url(#zr0-g9)" fill-opacity="0.4" class="zr0-cls-24"></path>
+<path d="M956.8125 329.4505C1046.4937 329.4505 1046.4937 373.8051 1136.175 373.8051L1136.175 388.0675C1046.4937 388.0675 1046.4937 343.7129 956.8125 343.7129Z" transform="translate(89.7 41.3)" fill="url(#zr0-g9)" fill-opacity="0.4" class="zr0-cls-24"></path>
+<path d="M956.8125 350.9557C1046.4937 350.9557 1046.4937 548.7484 1136.175 548.7484L1136.175 566.2366C1046.4937 566.2366 1046.4937 368.4438 956.8125 368.4438Z" transform="translate(89.7 41.3)" fill="url(#zr0-g9)" fill-opacity="0.4" class="zr0-cls-24"></path>
+<path d="M956.8125 477.1627C1046.4937 477.1627 1046.4937 388.0675 1136.175 388.0675L1136.175 413.6708C1046.4937 413.6708 1046.4937 502.766 956.8125 502.766Z" transform="translate(89.7 41.3)" fill="url(#zr0-g9)" fill-opacity="0.4" class="zr0-cls-24"></path>
+<path d="M956.8125 502.766C1046.4937 502.766 1046.4937 681.3597 1136.175 681.3597L1136.175 703.8184C1046.4937 703.8184 1046.4937 525.2247 956.8125 525.2247Z" transform="translate(89.7 41.3)" fill="url(#zr0-g9)" fill-opacity="0.4" class="zr0-cls-24"></path>
+<path d="M956.8125 682.8673C1046.4937 682.8673 1046.4937 703.8184 1136.175 703.8184L1136.175 743.4C1046.4937 743.4 1046.4937 722.449 956.8125 722.449Z" transform="translate(89.7 41.3)" fill="url(#zr0-g9)" fill-opacity="0.4" class="zr0-cls-24"></path>
+<path d="M956.8125 535.2247C1046.4937 535.2247 1046.4937 475.4657 1136.175 475.4657L1136.175 521.5057C1046.4937 521.5057 1046.4937 581.2646 956.8125 581.2646Z" transform="translate(89.7 41.3)" fill="url(#zr0-g9)" fill-opacity="0.4" class="zr0-cls-24"></path>
+<path d="M956.8125 644.7348C1046.4937 644.7348 1046.4937 598.3977 1136.175 598.3977L1136.175 626.5302C1046.4937 626.5302 1046.4937 672.8673 956.8125 672.8673Z" transform="translate(89.7 41.3)" fill="url(#zr0-g9)" fill-opacity="0.4" class="zr0-cls-24"></path>
+<path d="M956.8125 594.6431C1046.4937 594.6431 1046.4937 566.2366 1136.175 566.2366L1136.175 579.3899C1046.4937 579.3899 1046.4937 607.7964 956.8125 607.7964Z" transform="translate(89.7 41.3)" fill="url(#zr0-g9)" fill-opacity="0.4" class="zr0-cls-24"></path>
+<path d="M956.8125 343.7129C1046.4937 343.7129 1046.4937 531.5057 1136.175 531.5057L1136.175 538.7484C1046.4937 538.7484 1046.4937 350.9557 956.8125 350.9557Z" transform="translate(89.7 41.3)" fill="url(#zr0-g9)" fill-opacity="0.4" class="zr0-cls-24"></path>
+<path d="M1146.175 531.5057C1235.8562 531.5057 1235.8562 580.1067 1325.5375 580.1067L1325.5375 583.0079C1235.8562 583.0079 1235.8562 534.4068 1146.175 534.4068Z" transform="translate(89.7 41.3)" fill="url(#zr0-g10)" fill-opacity="0.4" class="zr0-cls-25"></path>
+<path d="M1146.175 334.9152C1235.8562 334.9152 1235.8562 336.6589 1325.5375 336.6589L1325.5375 355.3238C1235.8562 355.3238 1235.8562 353.58 1146.175 353.58Z" transform="translate(89.7 41.3)" fill="url(#zr0-g10)" fill-opacity="0.4" class="zr0-cls-25"></path>
+<path d="M1146.175 279.3872C1235.8562 279.3872 1235.8562 176.4968 1325.5375 176.4968L1325.5375 232.0247C1235.8562 232.0247 1235.8562 334.9152 1146.175 334.9152Z" transform="translate(89.7 41.3)" fill="url(#zr0-g10)" fill-opacity="0.4" class="zr0-cls-25"></path>
+<path d="M1146.175 373.8051C1235.8562 373.8051 1235.8562 242.0247 1325.5375 242.0247L1325.5375 283.696C1235.8562 283.696 1235.8562 415.4764 1146.175 415.4764Z" transform="translate(89.7 41.3)" fill="url(#zr0-g10)" fill-opacity="0.4" class="zr0-cls-25"></path>
+<path d="M1146.175 681.3597C1235.8562 681.3597 1235.8562 700.0448 1325.5375 700.0448L1325.5375 743.4C1235.8562 743.4 1235.8562 724.7149 1146.175 724.7149Z" transform="translate(89.7 41.3)" fill="url(#zr0-g10)" fill-opacity="0.4" class="zr0-cls-25"></path>
+<path d="M1146.175 430.7377C1235.8562 430.7377 1235.8562 380.5851 1325.5375 380.5851L1325.5375 424.6571C1235.8562 424.6571 1235.8562 474.8097 1146.175 474.8097Z" transform="translate(89.7 41.3)" fill="url(#zr0-g10)" fill-opacity="0.4" class="zr0-cls-25"></path>
+<path d="M1146.175 474.8097C1235.8562 474.8097 1235.8562 454.8822 1325.5375 454.8822L1325.5375 472.5394C1235.8562 472.5394 1235.8562 492.467 1146.175 492.467Z" transform="translate(89.7 41.3)" fill="url(#zr0-g10)" fill-opacity="0.4" class="zr0-cls-25"></path>
+<path d="M1146.175 492.467C1235.8562 492.467 1235.8562 531.695 1325.5375 531.695L1325.5375 554.0049C1235.8562 554.0049 1235.8562 514.7769 1146.175 514.7769Z" transform="translate(89.7 41.3)" fill="url(#zr0-g10)" fill-opacity="0.4" class="zr0-cls-25"></path>
+<path d="M1146.175 653.6551C1235.8562 653.6551 1235.8562 635.0511 1325.5375 635.0511L1325.5375 652.7557C1235.8562 652.7557 1235.8562 671.3597 1146.175 671.3597Z" transform="translate(89.7 41.3)" fill="url(#zr0-g10)" fill-opacity="0.4" class="zr0-cls-25"></path>
+<path d="M1146.175 598.3977C1235.8562 598.3977 1235.8562 482.5394 1325.5375 482.5394L1325.5375 521.695C1235.8562 521.695 1235.8562 637.5533 1146.175 637.5533Z" transform="translate(89.7 41.3)" fill="url(#zr0-g10)" fill-opacity="0.4" class="zr0-cls-25"></path>
+<path d="M1146.175 637.5533C1235.8562 637.5533 1235.8562 554.0049 1325.5375 554.0049L1325.5375 570.1067C1235.8562 570.1067 1235.8562 653.6551 1146.175 653.6551Z" transform="translate(89.7 41.3)" fill="url(#zr0-g10)" fill-opacity="0.4" class="zr0-cls-25"></path>
+<path d="M1146.175 563.802C1235.8562 563.802 1235.8562 610.4555 1325.5375 610.4555L1325.5375 635.0511C1235.8562 635.0511 1235.8562 588.3977 1146.175 588.3977Z" transform="translate(89.7 41.3)" fill="url(#zr0-g10)" fill-opacity="0.4" class="zr0-cls-25"></path>
+<path d="M1146.175 548.7484C1235.8562 548.7484 1235.8562 583.0079 1325.5375 583.0079L1325.5375 598.0615C1235.8562 598.0615 1235.8562 563.802 1146.175 563.802Z" transform="translate(89.7 41.3)" fill="url(#zr0-g10)" fill-opacity="0.4" class="zr0-cls-25"></path>
+<path d="M1146.175 353.58C1235.8562 353.58 1235.8562 434.6571 1325.5375 434.6571L1325.5375 444.8822C1235.8562 444.8822 1235.8562 363.8051 1146.175 363.8051Z" transform="translate(89.7 41.3)" fill="url(#zr0-g10)" fill-opacity="0.4" class="zr0-cls-25"></path>
+<path d="M1146.175 415.4764C1235.8562 415.4764 1235.8562 365.3238 1325.5375 365.3238L1325.5375 370.5851C1235.8562 370.5851 1235.8562 420.7377 1146.175 420.7377Z" transform="translate(89.7 41.3)" fill="url(#zr0-g10)" fill-opacity="0.4" class="zr0-cls-25"></path>
+<path d="M1335.5375 628.9107C1425.2188 628.9107 1425.2188 625.9441 1514.9 625.9441L1514.9 656.944C1425.2188 656.944 1425.2188 659.9106 1335.5375 659.9106Z" transform="translate(89.7 41.3)" fill="url(#zr0-g11)" fill-opacity="0.4" class="zr0-cls-26"></path>
+<path d="M1335.5375 659.9106C1425.2188 659.9106 1425.2188 666.944 1514.9 666.944L1514.9 697.0783C1425.2188 697.0783 1425.2188 690.0448 1335.5375 690.0448Z" transform="translate(89.7 41.3)" fill="url(#zr0-g11)" fill-opacity="0.4" class="zr0-cls-26"></path>
+<path d="M1335.5375 610.4555C1425.2188 610.4555 1425.2188 584.1598 1514.9 584.1598L1514.9 602.615C1425.2188 602.615 1425.2188 628.9107 1335.5375 628.9107Z" transform="translate(89.7 41.3)" fill="url(#zr0-g11)" fill-opacity="0.4" class="zr0-cls-26"></path>
+<path d="M1335.5375 380.5851C1425.2188 380.5851 1425.2188 367.9548 1514.9 367.9548L1514.9 379.884C1425.2188 379.884 1425.2188 392.5144 1335.5375 392.5144Z" transform="translate(89.7 41.3)" fill="url(#zr0-g11)" fill-opacity="0.4" class="zr0-cls-26"></path>
+<path d="M1335.5375 454.8822C1425.2188 454.8822 1425.2188 518.4 1514.9 518.4L1514.9 526.3664C1425.2188 526.3664 1425.2188 462.8486 1335.5375 462.8486Z" transform="translate(89.7 41.3)" fill="url(#zr0-g11)" fill-opacity="0.4" class="zr0-cls-26"></path>
+<path d="M1335.5375 434.6571C1425.2188 434.6571 1425.2188 509.1623 1514.9 509.1623L1514.9 518.4C1425.2188 518.4 1425.2188 443.8949 1335.5375 443.8949Z" transform="translate(89.7 41.3)" fill="url(#zr0-g11)" fill-opacity="0.4" class="zr0-cls-26"></path>
+<path d="M1335.5375 336.6589C1425.2188 336.6589 1425.2188 498.687 1514.9 498.687L1514.9 509.1623C1425.2188 509.1623 1425.2188 347.1342 1335.5375 347.1342Z" transform="translate(89.7 41.3)" fill="url(#zr0-g11)" fill-opacity="0.4" class="zr0-cls-26"></path>
+<path d="M1335.5375 580.1067C1425.2188 580.1067 1425.2188 563.8111 1514.9 563.8111L1514.9 584.1598C1425.2188 584.1598 1425.2188 600.4555 1335.5375 600.4555Z" transform="translate(89.7 41.3)" fill="url(#zr0-g11)" fill-opacity="0.4" class="zr0-cls-26"></path>
+<path d="M1335.5375 292.0478C1425.2188 292.0478 1425.2188 434.0759 1514.9 434.0759L1514.9 448.0677C1425.2188 448.0677 1425.2188 306.0397 1335.5375 306.0397Z" transform="translate(89.7 41.3)" fill="url(#zr0-g11)" fill-opacity="0.4" class="zr0-cls-26"></path>
+<path d="M1335.5375 267.486C1425.2188 267.486 1425.2188 399.514 1514.9 399.514L1514.9 424.0759C1425.2188 424.0759 1425.2188 292.0478 1335.5375 292.0478Z" transform="translate(89.7 41.3)" fill="url(#zr0-g11)" fill-opacity="0.4" class="zr0-cls-26"></path>
+<path d="M1335.5375 242.0247C1425.2188 242.0247 1425.2188 339.4841 1514.9 339.4841L1514.9 364.9454C1425.2188 364.9454 1425.2188 267.486 1335.5375 267.486Z" transform="translate(89.7 41.3)" fill="url(#zr0-g11)" fill-opacity="0.4" class="zr0-cls-26"></path>
+<path d="M1335.5375 482.5394C1425.2188 482.5394 1425.2188 379.884 1514.9 379.884L1514.9 389.514C1425.2188 389.514 1425.2188 492.1694 1335.5375 492.1694Z" transform="translate(89.7 41.3)" fill="url(#zr0-g11)" fill-opacity="0.4" class="zr0-cls-26"></path>
+<path d="M1335.5375 365.3238C1425.2188 365.3238 1425.2188 364.9454 1514.9 364.9454L1514.9 367.9548C1425.2188 367.9548 1425.2188 368.3331 1335.5375 368.3331Z" transform="translate(89.7 41.3)" fill="url(#zr0-g11)" fill-opacity="0.4" class="zr0-cls-26"></path>
+<path d="M1335.5375 531.695C1425.2188 531.695 1425.2188 526.3664 1514.9 526.3664L1514.9 563.8111C1425.2188 563.8111 1425.2188 569.1397 1335.5375 569.1397Z" transform="translate(89.7 41.3)" fill="url(#zr0-g11)" fill-opacity="0.4" class="zr0-cls-26"></path>
+<path d="M1335.5375 176.4968C1425.2188 176.4968 1425.2188 298.3335 1514.9 298.3335L1514.9 339.4841C1425.2188 339.4841 1425.2188 217.6473 1335.5375 217.6473Z" transform="translate(89.7 41.3)" fill="url(#zr0-g11)" fill-opacity="0.4" class="zr0-cls-26"></path>
+<path d="M1335.5375 700.0448C1425.2188 700.0448 1425.2188 602.615 1514.9 602.615L1514.9 615.9441C1425.2188 615.9441 1425.2188 713.3739 1335.5375 713.3739Z" transform="translate(89.7 41.3)" fill="url(#zr0-g11)" fill-opacity="0.4" class="zr0-cls-26"></path>
+<path d="M1335.5375 306.0397C1425.2188 306.0397 1425.2188 458.0677 1514.9 458.0677L1514.9 468.1643C1425.2188 468.1643 1425.2188 316.1363 1335.5375 316.1363Z" transform="translate(89.7 41.3)" fill="url(#zr0-g11)" fill-opacity="0.4" class="zr0-cls-26"></path>
+<path d="M1335.5375 316.1363C1425.2188 316.1363 1425.2188 478.1643 1514.9 478.1643L1514.9 488.687C1425.2188 488.687 1425.2188 326.6589 1335.5375 326.6589Z" transform="translate(89.7 41.3)" fill="url(#zr0-g11)" fill-opacity="0.4" class="zr0-cls-26"></path>
+<path d="M946.8125 422.4347l10 0l0 44.728l-10 0Z" transform="translate(89.7 41.3)" fill="#2A52BE" class="zr0-cls-27"></path>
+<path d="M946.8125 290.234l10 0l0 122.2006l-10 0Z" transform="translate(89.7 41.3)" fill="#2A52BE" class="zr0-cls-27"></path>
+<path d="M946.8125 477.1627l10 0l0 48.062l-10 0Z" transform="translate(89.7 41.3)" fill="#2A52BE" class="zr0-cls-27"></path>
+<path d="M946.8125 682.8673l10 0l0 39.5816l-10 0Z" transform="translate(89.7 41.3)" fill="#2A52BE" class="zr0-cls-27"></path>
+<path d="M946.8125 535.2247l10 0l0 46.04l-10 0Z" transform="translate(89.7 41.3)" fill="#2A52BE" class="zr0-cls-27"></path>
+<path d="M946.8125 644.7348l10 0l0 28.1325l-10 0Z" transform="translate(89.7 41.3)" fill="#2A52BE" class="zr0-cls-27"></path>
+<path d="M946.8125 594.6431l10 0l0 29.9449l-10 0Z" transform="translate(89.7 41.3)" fill="#2A52BE" class="zr0-cls-27"></path>
+<path d="M189.3625 562.0959l10 0l0 108.4522l-10 0Z" transform="translate(89.7 41.3)" fill="rgb(255,168,167)" class="zr0-cls-28"></path>
+<path d="M189.3625 503.5471l10 0l0 48.5489l-10 0Z" transform="translate(89.7 41.3)" fill="#ffa8a7" class="zr0-cls-28"></path>
+<path d="M189.3625 316.4783l10 0l0 65.0835l-10 0Z" transform="translate(89.7 41.3)" fill="#ffa8a7" class="zr0-cls-28"></path>
+<path d="M189.3625 391.5618l10 0l0 63.9406l-10 0Z" transform="translate(89.7 41.3)" fill="#ffa8a7" class="zr0-cls-28"></path>
+<path d="M189.3625 167.1161l10 0l0 64.4884l-10 0Z" transform="translate(89.7 41.3)" fill="#ffa8a7" class="zr0-cls-28"></path>
+<path d="M189.3625 680.5482l10 0l0 62.8518l-10 0Z" transform="translate(89.7 41.3)" fill="#ffa8a7" class="zr0-cls-28"></path>
+<path d="M189.3625 465.5025l10 0l0 28.0446l-10 0Z" transform="translate(89.7 41.3)" fill="#ffa8a7" class="zr0-cls-28"></path>
+<path d="M189.3625 241.6045l10 0l0 64.8739l-10 0Z" transform="translate(89.7 41.3)" fill="#ffa8a7" class="zr0-cls-28"></path>
+<path d="M1136.175 531.5057l10 0l0 7.2428l-10 0Z" transform="translate(89.7 41.3)" fill="#4374B3" class="zr0-cls-29"></path>
+<path d="M1136.175 279.3872l10 0l0 84.4178l-10 0Z" transform="translate(89.7 41.3)" fill="#4374B3" class="zr0-cls-29"></path>
+<path d="M1136.175 373.8051l10 0l0 46.9326l-10 0Z" transform="translate(89.7 41.3)" fill="#4374B3" class="zr0-cls-29"></path>
+<path d="M1136.175 681.3597l10 0l0 62.0403l-10 0Z" transform="translate(89.7 41.3)" fill="#4374B3" class="zr0-cls-29"></path>
+<path d="M1136.175 430.7377l10 0l0 90.768l-10 0Z" transform="translate(89.7 41.3)" fill="#4374B3" class="zr0-cls-29"></path>
+<path d="M1136.175 598.3977l10 0l0 72.962l-10 0Z" transform="translate(89.7 41.3)" fill="#4374B3" class="zr0-cls-29"></path>
+<path d="M1136.175 548.7484l10 0l0 39.6493l-10 0Z" transform="translate(89.7 41.3)" fill="#4374B3" class="zr0-cls-29"></path>
+<path d="M1514.9 434.0759l10 0l0 13.9919l-10 0Z" transform="translate(89.7 41.3)" fill="#43b244" class="zr0-cls-30"></path>
+<path d="M1514.9 399.514l10 0l0 24.5619l-10 0Z" transform="translate(89.7 41.3)" fill="#43b244" class="zr0-cls-30"></path>
+<path d="M1514.9 458.0677l10 0l0 10.0966l-10 0Z" transform="translate(89.7 41.3)" fill="#43b244" class="zr0-cls-30"></path>
+<path d="M1514.9 298.3335l10 0l0 91.1805l-10 0Z" transform="translate(89.7 41.3)" fill="#43b244" class="zr0-cls-30"></path>
+<path d="M1514.9 625.9441l10 0l0 30.9999l-10 0Z" transform="translate(89.7 41.3)" fill="#43b244" class="zr0-cls-30"></path>
+<path d="M1514.9 478.1643l10 0l0 10.5226l-10 0Z" transform="translate(89.7 41.3)" fill="#43b244" class="zr0-cls-30"></path>
+<path d="M1514.9 666.944l10 0l0 30.1343l-10 0Z" transform="translate(89.7 41.3)" fill="#43b244" class="zr0-cls-30"></path>
+<path d="M1514.9 498.687l10 0l0 117.2572l-10 0Z" transform="translate(89.7 41.3)" fill="#43b244" class="zr0-cls-30"></path>
+<path d="M378.725 554.0011l10 0l0 87.9953l-10 0Z" transform="translate(89.7 41.3)" fill="#eb7f7f" class="zr0-cls-31"></path>
+<path d="M378.725 484.9296l10 0l0 59.0715l-10 0Z" transform="translate(89.7 41.3)" fill="#eb7f7f" class="zr0-cls-31"></path>
+<path d="M378.725 205.8824l10 0l0 101.7843l-10 0Z" transform="translate(89.7 41.3)" fill="#eb7f7f" class="zr0-cls-31"></path>
+<path d="M378.725 317.6666l10 0l0 94.8932l-10 0Z" transform="translate(89.7 41.3)" fill="#eb7f7f" class="zr0-cls-31"></path>
+<path d="M378.725 56.2361l10 0l0 64.7724l-10 0Z" transform="translate(89.7 41.3)" fill="#eb7f7f" class="zr0-cls-31"></path>
+<path d="M378.725 651.9964l10 0l0 91.4036l-10 0Z" transform="translate(89.7 41.3)" fill="#eb7f7f" class="zr0-cls-31"></path>
+<path d="M378.725 422.5598l10 0l0 52.3698l-10 0Z" transform="translate(89.7 41.3)" fill="#eb7f7f" class="zr0-cls-31"></path>
+<path d="M378.725 131.0085l10 0l0 64.8739l-10 0Z" transform="translate(89.7 41.3)" fill="#eb7f7f" class="zr0-cls-31"></path>
+<path d="M1325.5375 610.4555l10 0l0 79.5893l-10 0Z" transform="translate(89.7 41.3)" fill="#6DA0E2" class="zr0-cls-32"></path>
+<path d="M1325.5375 380.5851l10 0l0 44.072l-10 0Z" transform="translate(89.7 41.3)" fill="#6DA0E2" class="zr0-cls-32"></path>
+<path d="M1325.5375 454.8822l10 0l0 17.6572l-10 0Z" transform="translate(89.7 41.3)" fill="#6DA0E2" class="zr0-cls-32"></path>
+<path d="M1325.5375 434.6571l10 0l0 10.2251l-10 0Z" transform="translate(89.7 41.3)" fill="#6DA0E2" class="zr0-cls-32"></path>
+<path d="M1325.5375 336.6589l10 0l0 18.6648l-10 0Z" transform="translate(89.7 41.3)" fill="#6DA0E2" class="zr0-cls-32"></path>
+<path d="M1325.5375 580.1067l10 0l0 20.3487l-10 0Z" transform="translate(89.7 41.3)" fill="#6DA0E2" class="zr0-cls-32"></path>
+<path d="M1325.5375 242.0247l10 0l0 84.6343l-10 0Z" transform="translate(89.7 41.3)" fill="#6DA0E2" class="zr0-cls-32"></path>
+<path d="M1325.5375 482.5394l10 0l0 39.1556l-10 0Z" transform="translate(89.7 41.3)" fill="#6DA0E2" class="zr0-cls-32"></path>
+<path d="M1325.5375 365.3238l10 0l0 5.2613l-10 0Z" transform="translate(89.7 41.3)" fill="#6DA0E2" class="zr0-cls-32"></path>
+<path d="M1325.5375 531.695l10 0l0 38.4117l-10 0Z" transform="translate(89.7 41.3)" fill="#6DA0E2" class="zr0-cls-32"></path>
+<path d="M1325.5375 176.4968l10 0l0 55.5279l-10 0Z" transform="translate(89.7 41.3)" fill="#6DA0E2" class="zr0-cls-32"></path>
+<path d="M1325.5375 700.0448l10 0l0 43.3552l-10 0Z" transform="translate(89.7 41.3)" fill="#6DA0E2" class="zr0-cls-32"></path>
+<path d="M0 587.194l10 0l0 15.8651l-10 0Z" transform="translate(89.7 41.3)" fill="#fba414" class="zr0-cls-33"></path>
+<path d="M0 467.8526l10 0l0 45.0458l-10 0Z" transform="translate(89.7 41.3)" fill="#fba414" class="zr0-cls-33"></path>
+<path d="M0 613.0591l10 0l0 36.809l-10 0Z" transform="translate(89.7 41.3)" fill="#fba414" class="zr0-cls-33"></path>
+<path d="M0 536.5912l10 0l0 40.6028l-10 0Z" transform="translate(89.7 41.3)" fill="#fba414" class="zr0-cls-33"></path>
+<path d="M0 303.4213l10 0l0 154.4313l-10 0Z" transform="translate(89.7 41.3)" fill="#fba414" class="zr0-cls-33"></path>
+<path d="M757.45 471.7154l10 0l0 99.911l-10 0Z" transform="translate(89.7 41.3)" fill="#EC2B24" class="zr0-cls-34"></path>
+<path d="M757.45 376.2918l10 0l0 45.9115l-10 0Z" transform="translate(89.7 41.3)" fill="#EC2B24" class="zr0-cls-34"></path>
+<path d="M757.45 162.1369l10 0l0 94.3251l-10 0Z" transform="translate(89.7 41.3)" fill="#EC2B24" class="zr0-cls-34"></path>
+<path d="M757.45 266.462l10 0l0 99.8299l-10 0Z" transform="translate(89.7 41.3)" fill="rgb(236,43,36)" class="zr0-cls-34"></path>
+<path d="M757.45 83.0888l10 0l0 66.409l-10 0Z" transform="translate(89.7 41.3)" fill="#EC2B24" class="zr0-cls-34"></path>
+<path d="M757.45 679.7907l10 0l0 63.6093l-10 0Z" transform="translate(89.7 41.3)" fill="#EC2B24" class="zr0-cls-34"></path>
+<path d="M757.45 581.6264l10 0l0 88.1643l-10 0Z" transform="translate(89.7 41.3)" fill="#EC2B24" class="zr0-cls-34"></path>
+<path d="M757.45 432.2033l10 0l0 29.5121l-10 0Z" transform="translate(89.7 41.3)" fill="#EC2B24" class="zr0-cls-34"></path>
+<path d="M568.0875 370.1765l10 0l0 116.5674l-10 0Z" transform="translate(89.7 41.3)" fill="#ff5d4e" class="zr0-cls-35"></path>
+<path d="M568.0875 294.7819l10 0l0 65.3946l-10 0Z" transform="translate(89.7 41.3)" fill="rgb(255,93,78)" class="zr0-cls-35"></path>
+<path d="M568.0875 149.0106l10 0l0 45.9859l-10 0Z" transform="translate(89.7 41.3)" fill="#ff5d4e" class="zr0-cls-35"></path>
+<path d="M568.0875 204.9965l10 0l0 79.7855l-10 0Z" transform="translate(89.7 41.3)" fill="#ff5d4e" class="zr0-cls-35"></path>
+<path d="M568.0875 0l10 0l0 66.409l-10 0Z" transform="translate(89.7 41.3)" fill="#ff5d4e" class="zr0-cls-35"></path>
+<path d="M568.0875 628.2122l10 0l0 115.1878l-10 0Z" transform="translate(89.7 41.3)" fill="#ff5d4e" class="zr0-cls-35"></path>
+<path d="M568.0875 551.3231l10 0l0 66.8891l-10 0Z" transform="translate(89.7 41.3)" fill="#ff5d4e" class="zr0-cls-35"></path>
+<path d="M568.0875 496.7439l10 0l0 44.5792l-10 0Z" transform="translate(89.7 41.3)" fill="#ff5d4e" class="zr0-cls-35"></path>
+<path d="M568.0875 76.409l10 0l0 62.6016l-10 0Z" transform="translate(89.7 41.3)" fill="#ff5d4e" class="zr0-cls-35"></path>
+<path d="M0 -5l183.3887 0l0 10l-183.3887 0Z" transform="translate(1051.5125 486.0987)" fill="none" class="zr0-cls-36"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:10px;font-family:Arial;font-weight:bold;" xml:space="preserve" transform="translate(1051.5125 486.0987)" fill="#333">Auco_CN, Cnidocytes/Nematocyte cell</text>
+<path d="M0 -5l155.6055 0l0 10l-155.6055 0Z" transform="translate(1051.5125 392.6344)" fill="none" class="zr0-cls-36"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:10px;font-family:Arial;font-weight:bold;" xml:space="preserve" transform="translate(1051.5125 392.6344)" fill="#333">Auco_EM, Epidermal/Muscle cell</text>
+<path d="M0 -5l135.6006 0l0 10l-135.6006 0Z" transform="translate(1051.5125 542.4937)" fill="none" class="zr0-cls-36"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:10px;font-family:Arial;font-weight:bold;" xml:space="preserve" transform="translate(1051.5125 542.4937)" fill="#333">Auco_GA, Gastrodermal cell</text>
+<path d="M0 -5l97.7979 0l0 10l-97.7979 0Z" transform="translate(1051.5125 743.9581)" fill="none" class="zr0-cls-36"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:10px;font-family:Arial;font-weight:bold;" xml:space="preserve" transform="translate(1051.5125 743.9581)" fill="#333">Auco_GL, Gland cell</text>
+<path d="M0 -5l89.4727 0l0 10l-89.4727 0Z" transform="translate(1051.5125 599.5446)" fill="none" class="zr0-cls-36"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:10px;font-family:Arial;font-weight:bold;" xml:space="preserve" transform="translate(1051.5125 599.5446)" fill="#333">Auco_HA, Hair cell</text>
+<path d="M0 -5l100.5908 0l0 10l-100.5908 0Z" transform="translate(1051.5125 700.1011)" fill="none" class="zr0-cls-36"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:10px;font-family:Arial;font-weight:bold;" xml:space="preserve" transform="translate(1051.5125 700.1011)" fill="#333">Auco_NE, Neural cell</text>
+<path d="M0 -5l140.6055 0l0 10l-140.6055 0Z" transform="translate(1051.5125 650.9155)" fill="none" class="zr0-cls-36"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:10px;font-family:Arial;font-weight:bold;" xml:space="preserve" transform="translate(1051.5125 650.9155)" fill="#333">Auco_SG, Stem/Germline cell</text>
+<path d="M0 -5l74.4727 0l0 10l-74.4727 0Z" transform="translate(294.0625 657.6221)" fill="none" class="zr0-cls-36"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:10px;font-family:Arial;font-weight:bold;" transform="translate(294.0625 657.6221)" fill="#333">ClH23_epithelia</text>
+<path d="M0 -5l128.9404 0l0 10l-128.9404 0Z" transform="translate(294.0625 569.1215)" fill="none" class="zr0-cls-36"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:10px;font-family:Arial;font-weight:bold;" transform="translate(294.0625 569.1215)" fill="#333">ClH23_epithelia_gland_like</text>
+<path d="M0 -5l55.5762 0l0 10l-55.5762 0Z" transform="translate(294.0625 390.3201)" fill="none" class="zr0-cls-36"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:10px;font-family:Arial;font-weight:bold;" transform="translate(294.0625 390.3201)" fill="#333">ClH23_fibre</text>
+<path d="M0 -5l60.5713 0l0 10l-60.5713 0Z" transform="translate(294.0625 464.8321)" fill="none" class="zr0-cls-36"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:10px;font-family:Arial;font-weight:bold;" transform="translate(294.0625 464.8321)" fill="#333">ClH23_gland</text>
+<path d="M0 -5l69.4531 0l0 10l-69.4531 0Z" transform="translate(294.0625 240.6603)" fill="none" class="zr0-cls-36"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:10px;font-family:Arial;font-weight:bold;" transform="translate(294.0625 240.6603)" fill="#333">ClH23_lipophil</text>
+<path d="M0 -5l87.8027 0l0 10l-87.8027 0Z" transform="translate(294.0625 753.2741)" fill="none" class="zr0-cls-36"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:10px;font-family:Arial;font-weight:bold;" transform="translate(294.0625 753.2741)" fill="#333">ClH23_peptidergic</text>
+<path d="M0 -5l58.3594 0l0 10l-58.3594 0Z" transform="translate(294.0625 520.8248)" fill="none" class="zr0-cls-36"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:10px;font-family:Arial;font-weight:bold;" transform="translate(294.0625 520.8248)" fill="#333">ClH23_trans</text>
+<path d="M0 -5l88.9111 0l0 10l-88.9111 0Z" transform="translate(294.0625 315.3414)" fill="none" class="zr0-cls-36"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:10px;font-family:Arial;font-weight:bold;" transform="translate(294.0625 315.3414)" fill="#333">ClH23_unknown_1</text>
+<path d="M0 -5l128.3691 0l0 10l-128.3691 0Z" transform="translate(1240.875 576.4271)" fill="none" class="zr0-cls-36"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:10px;font-family:Arial;font-weight:bold;" xml:space="preserve" transform="translate(1240.875 576.4271)" fill="#333">Clhe_Bioluminescent Cells</text>
+<path d="M0 -5l112.2607 0l0 10l-112.2607 0Z" transform="translate(1240.875 362.8962)" fill="none" class="zr0-cls-36"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:10px;font-family:Arial;font-weight:bold;" transform="translate(1240.875 362.8962)" fill="#333">Clhe_Epidermal/Muscle</text>
+<path d="M0 -5l83.916 0l0 10l-83.916 0Z" transform="translate(1240.875 438.5714)" fill="none" class="zr0-cls-36"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:10px;font-family:Arial;font-weight:bold;" transform="translate(1240.875 438.5714)" fill="#333">Clhe_Gastroderm</text>
+<path d="M0 -5l76.6846 0l0 10l-76.6846 0Z" transform="translate(1240.875 753.6798)" fill="none" class="zr0-cls-36"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:10px;font-family:Arial;font-weight:bold;" xml:space="preserve" transform="translate(1240.875 753.6798)" fill="#333">Clhe_Gland Cell</text>
+<path d="M0 -5l83.9209 0l0 10l-83.9209 0Z" transform="translate(1240.875 517.4217)" fill="none" class="zr0-cls-36"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:10px;font-family:Arial;font-weight:bold;" transform="translate(1240.875 517.4217)" fill="#333">Clhe_Nematocyte</text>
+<path d="M0 -5l58.3545 0l0 10l-58.3545 0Z" transform="translate(1240.875 676.1787)" fill="none" class="zr0-cls-36"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:10px;font-family:Arial;font-weight:bold;" transform="translate(1240.875 676.1787)" fill="#333">Clhe_Neural</text>
+<path d="M0 -5l122.8223 0l0 10l-122.8223 0Z" transform="translate(1240.875 609.8731)" fill="none" class="zr0-cls-36"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:10px;font-family:Arial;font-weight:bold;" xml:space="preserve" transform="translate(1240.875 609.8731)" fill="#333">Clhe_Stem Cell/Germ Cell</text>
+<path d="M0 -5l77.2461 0l0 10l-77.2461 0Z" transform="translate(1619.6 482.3718)" fill="none" class="zr0-cls-36"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:10px;font-family:Arial;font-weight:bold;" transform="translate(1619.6 482.3718)" fill="#333">Dare_Endoderm</text>
+<path d="M0 -5l76.1475 0l0 10l-76.1475 0Z" transform="translate(1619.6 453.0949)" fill="none" class="zr0-cls-36"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:10px;font-family:Arial;font-weight:bold;" transform="translate(1619.6 453.0949)" fill="#333">Dare_Epidermal</text>
+<path d="M0 -5l71.1475 0l0 10l-71.1475 0Z" transform="translate(1619.6 504.416)" fill="none" class="zr0-cls-36"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:10px;font-family:Arial;font-weight:bold;" transform="translate(1619.6 504.416)" fill="#333">Dare_Germline</text>
+<path d="M0 -5l77.8125 0l0 10l-77.8125 0Z" transform="translate(1619.6 385.2238)" fill="none" class="zr0-cls-36"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:10px;font-family:Arial;font-weight:bold;" transform="translate(1619.6 385.2238)" fill="#333">Dare_Mesoderm</text>
+<path d="M0 -5l100.5908 0l0 10l-100.5908 0Z" transform="translate(1619.6 682.7441)" fill="none" class="zr0-cls-36"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:10px;font-family:Arial;font-weight:bold;" xml:space="preserve" transform="translate(1619.6 682.7441)" fill="#333">Dare_Neural Anterior</text>
+<path d="M0 -5l87.2656 0l0 10l-87.2656 0Z" transform="translate(1619.6 524.7257)" fill="none" class="zr0-cls-36"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:10px;font-family:Arial;font-weight:bold;" xml:space="preserve" transform="translate(1619.6 524.7257)" fill="#333">Dare_Neural Crest</text>
+<path d="M0 -5l78.916 0l0 10l-78.916 0Z" transform="translate(1619.6 723.3111)" fill="none" class="zr0-cls-36"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:10px;font-family:Arial;font-weight:bold;" xml:space="preserve" transform="translate(1619.6 723.3111)" fill="#333">Dare_Neural Mid</text>
+<path d="M0 -5l105.6006 0l0 10l-105.6006 0Z" transform="translate(1619.6 598.6156)" fill="none" class="zr0-cls-36"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:10px;font-family:Arial;font-weight:bold;" xml:space="preserve" transform="translate(1619.6 598.6156)" fill="#333">Dare_Neural Posterior</text>
+<path d="M0 -5l77.8027 0l0 10l-77.8027 0Z" transform="translate(483.425 639.2987)" fill="none" class="zr0-cls-36"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:10px;font-family:Arial;font-weight:bold;" transform="translate(483.425 639.2987)" fill="#333">HoH13_epithelia</text>
+<path d="M0 -5l132.2705 0l0 10l-132.2705 0Z" transform="translate(483.425 555.7653)" fill="none" class="zr0-cls-36"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:10px;font-family:Arial;font-weight:bold;" transform="translate(483.425 555.7653)" fill="#333">HoH13_epithelia_gland_like</text>
+<path d="M0 -5l58.9063 0l0 10l-58.9062 0Z" transform="translate(483.425 298.0745)" fill="none" class="zr0-cls-36"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:10px;font-family:Arial;font-weight:bold;" transform="translate(483.425 298.0745)" fill="#333">HoH13_fibre</text>
+<path d="M0 -5l63.9014 0l0 10l-63.9014 0Z" transform="translate(483.425 406.4132)" fill="none" class="zr0-cls-36"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:10px;font-family:Arial;font-weight:bold;" transform="translate(483.425 406.4132)" fill="#333">HoH13_gland</text>
+<path d="M0 -5l72.7832 0l0 10l-72.7832 0Z" transform="translate(483.425 129.9223)" fill="none" class="zr0-cls-36"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:10px;font-family:Arial;font-weight:bold;" transform="translate(483.425 129.9223)" fill="#333">HoH13_lipophil</text>
+<path d="M0 -5l91.1328 0l0 10l-91.1328 0Z" transform="translate(483.425 738.9982)" fill="none" class="zr0-cls-36"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:10px;font-family:Arial;font-weight:bold;" transform="translate(483.425 738.9982)" fill="#333">HoH13_peptidergic</text>
+<path d="M0 -5l61.6895 0l0 10l-61.6895 0Z" transform="translate(483.425 490.0447)" fill="none" class="zr0-cls-36"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:10px;font-family:Arial;font-weight:bold;" transform="translate(483.425 490.0447)" fill="#333">HoH13_trans</text>
+<path d="M0 -5l92.2412 0l0 10l-92.2412 0Z" transform="translate(483.425 204.7454)" fill="none" class="zr0-cls-36"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:10px;font-family:Arial;font-weight:bold;" transform="translate(483.425 204.7454)" fill="#333">HoH13_unknown_1</text>
+<path d="M0 -5l50.5811 0l0 10l-50.5811 0Z" transform="translate(1430.2375 691.5501)" fill="none" class="zr0-cls-36"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:10px;font-family:Arial;font-weight:bold;" transform="translate(1430.2375 691.5501)" fill="#333">Neve_NPC</text>
+<path d="M0 -5l76.1475 0l0 10l-76.1475 0Z" transform="translate(1430.2375 443.9211)" fill="none" class="zr0-cls-36"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:10px;font-family:Arial;font-weight:bold;" transform="translate(1430.2375 443.9211)" fill="#333">Neve_cnidocyte</text>
+<path d="M0 -5l112.2705 0l0 10l-112.2705 0Z" transform="translate(1430.2375 505.0108)" fill="none" class="zr0-cls-36"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:10px;font-family:Arial;font-weight:bold;" transform="translate(1430.2375 505.0108)" fill="#333">Neve_cnidocyte.mature</text>
+<path d="M0 -5l127.832 0l0 10l-127.832 0Z" transform="translate(1430.2375 481.0697)" fill="none" class="zr0-cls-36"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:10px;font-family:Arial;font-weight:bold;" transform="translate(1430.2375 481.0697)" fill="#333">Neve_ectoderm.embryonic</text>
+<path d="M0 -5l124.502 0l0 10l-124.502 0Z" transform="translate(1430.2375 387.2913)" fill="none" class="zr0-cls-36"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:10px;font-family:Arial;font-weight:bold;" transform="translate(1430.2375 387.2913)" fill="#333">Neve_ectoderm.epidermis</text>
+<path d="M0 -5l130.6104 0l0 10l-130.6104 0Z" transform="translate(1430.2375 631.5811)" fill="none" class="zr0-cls-36"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:10px;font-family:Arial;font-weight:bold;" transform="translate(1430.2375 631.5811)" fill="#333">Neve_ectoderm.pharyngeal</text>
+<path d="M0 -5l92.8223 0l0 10l-92.8223 0Z" transform="translate(1430.2375 325.6418)" fill="none" class="zr0-cls-36"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:10px;font-family:Arial;font-weight:bold;" transform="translate(1430.2375 325.6418)" fill="#333">Neve_gastrodermis</text>
+<path d="M0 -5l97.251 0l0 10l-97.251 0Z" transform="translate(1430.2375 543.4172)" fill="none" class="zr0-cls-36"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:10px;font-family:Arial;font-weight:bold;" transform="translate(1430.2375 543.4172)" fill="#333">Neve_gland.mucous</text>
+<path d="M0 -5l151.1719 0l0 10l-151.1719 0Z" transform="translate(1430.2375 409.2544)" fill="none" class="zr0-cls-36"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:10px;font-family:Arial;font-weight:bold;" transform="translate(1430.2375 409.2544)" fill="#333">Neve_mesendoderm.embryonic</text>
+<path d="M0 -5l71.6943 0l0 10l-71.6943 0Z" transform="translate(1430.2375 592.2009)" fill="none" class="zr0-cls-36"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:10px;font-family:Arial;font-weight:bold;" transform="translate(1430.2375 592.2009)" fill="#333">Neve_neuronal</text>
+<path d="M0 -5l107.8369 0l0 10l-107.8369 0Z" transform="translate(1430.2375 245.5607)" fill="none" class="zr0-cls-36"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:10px;font-family:Arial;font-weight:bold;" xml:space="preserve" transform="translate(1430.2375 245.5607)" fill="#333">Neve_retractor muscle</text>
+<path d="M0 -5l74.4971 0l0 10l-74.4971 0Z" transform="translate(1430.2375 763.0224)" fill="none" class="zr0-cls-36"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:10px;font-family:Arial;font-weight:bold;" transform="translate(1430.2375 763.0224)" fill="#333">Neve_secretory</text>
+<path d="M0 -5l116.6748 0l0 10l-116.6748 0Z" transform="translate(104.7 636.4265)" fill="none" class="zr0-cls-36"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:10px;font-family:Arial;font-weight:bold;" transform="translate(104.7 636.4265)" fill="#333">Spla_Amoeboid-Neuroid</text>
+<path d="M0 -5l150.6299 0l0 10l-150.6299 0Z" transform="translate(104.7 531.6755)" fill="none" class="zr0-cls-36"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:10px;font-family:Arial;font-weight:bold;" xml:space="preserve" transform="translate(104.7 531.6755)" fill="#333">Spla_Archeocytes and relatives</text>
+<path d="M0 -5l91.7041 0l0 10l-91.7041 0Z" transform="translate(104.7 672.7636)" fill="none" class="zr0-cls-36"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:10px;font-family:Arial;font-weight:bold;" transform="translate(104.7 672.7636)" fill="#333">Spla_Endymocytes</text>
+<path d="M0 -5l88.9209 0l0 10l-88.9209 0Z" transform="translate(104.7 598.1926)" fill="none" class="zr0-cls-36"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:10px;font-family:Arial;font-weight:bold;" transform="translate(104.7 598.1926)" fill="#333">Spla_Peptidocytes</text>
+<path d="M0 -5l80.5762 0l0 10l-80.5762 0Z" transform="translate(104.7 421.9369)" fill="none" class="zr0-cls-36"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:10px;font-family:Arial;font-weight:bold;" transform="translate(104.7 421.9369)" fill="#333">Spla_transitional</text>
+<path d="M0 -5l68.3594 0l0 10l-68.3594 0Z" transform="translate(862.15 562.9709)" fill="none" class="zr0-cls-36"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:10px;font-family:Arial;font-weight:bold;" transform="translate(862.15 562.9709)" fill="#333">TrH1_epithelia</text>
+<path d="M0 -5l122.8271 0l0 10l-122.8271 0Z" transform="translate(862.15 440.5476)" fill="none" class="zr0-cls-36"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:10px;font-family:Arial;font-weight:bold;" transform="translate(862.15 440.5476)" fill="#333">TrH1_epithelia_gland_like</text>
+<path d="M0 -5l49.4629 0l0 10l-49.4629 0Z" transform="translate(862.15 250.5994)" fill="none" class="zr0-cls-36"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:10px;font-family:Arial;font-weight:bold;" transform="translate(862.15 250.5994)" fill="#333">TrH1_fibre</text>
+<path d="M0 -5l54.458 0l0 10l-54.458 0Z" transform="translate(862.15 357.6769)" fill="none" class="zr0-cls-36"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:10px;font-family:Arial;font-weight:bold;" transform="translate(862.15 357.6769)" fill="#333">TrH1_gland</text>
+<path d="M0 -5l63.3398 0l0 10l-63.3398 0Z" transform="translate(862.15 157.5933)" fill="none" class="zr0-cls-36"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:10px;font-family:Arial;font-weight:bold;" transform="translate(862.15 157.5933)" fill="#333">TrH1_lipophil</text>
+<path d="M0 -5l62.8027 0l0 10l-62.8027 0Z" transform="translate(862.15 752.8954)" fill="none" class="zr0-cls-36"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:10px;font-family:Arial;font-weight:bold;" transform="translate(862.15 752.8954)" fill="#333">TrH1_meiotic</text>
+<path d="M0 -5l81.6895 0l0 10l-81.6895 0Z" transform="translate(862.15 667.0086)" fill="none" class="zr0-cls-36"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:10px;font-family:Arial;font-weight:bold;" transform="translate(862.15 667.0086)" fill="#333">TrH1_peptidergic</text>
+<path d="M0 -5l52.2461 0l0 10l-52.2461 0Z" transform="translate(862.15 488.2593)" fill="none" class="zr0-cls-36"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:10px;font-family:Arial;font-weight:bold;" transform="translate(862.15 488.2593)" fill="#333">TrH1_trans</text>
+<path d="M0 -5l68.3594 0l0 10l-68.3594 0Z" transform="translate(672.7875 469.7602)" fill="none" class="zr0-cls-36"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:10px;font-family:Arial;font-weight:bold;" transform="translate(672.7875 469.7602)" fill="#333">TrH2_epithelia</text>
+<path d="M0 -5l122.8271 0l0 10l-122.8271 0Z" transform="translate(672.7875 368.7792)" fill="none" class="zr0-cls-36"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:10px;font-family:Arial;font-weight:bold;" transform="translate(672.7875 368.7792)" fill="#333">TrH2_epithelia_gland_like</text>
+<path d="M0 -5l49.4629 0l0 10l-49.4629 0Z" transform="translate(672.7875 213.3035)" fill="none" class="zr0-cls-36"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:10px;font-family:Arial;font-weight:bold;" transform="translate(672.7875 213.3035)" fill="#333">TrH2_fibre</text>
+<path d="M0 -5l54.458 0l0 10l-54.458 0Z" transform="translate(672.7875 286.1892)" fill="none" class="zr0-cls-36"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:10px;font-family:Arial;font-weight:bold;" transform="translate(672.7875 286.1892)" fill="#333">TrH2_gland</text>
+<path d="M0 -5l63.3398 0l0 10l-63.3398 0Z" transform="translate(672.7875 74.5045)" fill="none" class="zr0-cls-36"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:10px;font-family:Arial;font-weight:bold;" transform="translate(672.7875 74.5045)" fill="#333">TrH2_lipophil</text>
+<path d="M0 -5l62.8027 0l0 10l-62.8027 0Z" transform="translate(672.7875 727.1061)" fill="none" class="zr0-cls-36"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:10px;font-family:Arial;font-weight:bold;" transform="translate(672.7875 727.1061)" fill="#333">TrH2_meiotic</text>
+<path d="M0 -5l81.6895 0l0 10l-81.6895 0Z" transform="translate(672.7875 626.0676)" fill="none" class="zr0-cls-36"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:10px;font-family:Arial;font-weight:bold;" transform="translate(672.7875 626.0676)" fill="#333">TrH2_peptidergic</text>
+<path d="M0 -5l52.2461 0l0 10l-52.2461 0Z" transform="translate(672.7875 560.3335)" fill="none" class="zr0-cls-36"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:10px;font-family:Arial;font-weight:bold;" transform="translate(672.7875 560.3335)" fill="#333">TrH2_trans</text>
+<path d="M0 -5l82.7979 0l0 10l-82.7979 0Z" transform="translate(672.7875 149.0098)" fill="none" class="zr0-cls-36"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:10px;font-family:Arial;font-weight:bold;" transform="translate(672.7875 149.0098)" fill="#333">TrH2_unknown_1</text>
+<path d="M-5 -5l10 0l0 10l-10 0Z" transform="translate(897 20)" fill="rgb(0,0,0)" fill-opacity="0" stroke="#3c3c41" stroke-width="0" class="zr0-cls-37"></path>
+<defs >
+<linearGradient gradientUnits="objectBoundingBox" x1="0" y1="0" x2="1" y2="0" id="zr0-g0">
+<stop offset="0%" stop-color="rgb(251,164,20)"></stop>
+<stop offset="100%" stop-color="rgb(255,168,167)"></stop>
+</linearGradient>
+<linearGradient gradientUnits="objectBoundingBox" x1="0" y1="0" x2="1" y2="0" id="zr0-g1">
+<stop offset="0%" stop-color="#fba414"></stop>
+<stop offset="100%" stop-color="#ffa8a7"></stop>
+</linearGradient>
+<linearGradient gradientUnits="objectBoundingBox" x1="0" y1="0" x2="1" y2="0" id="zr0-g2">
+<stop offset="0%" stop-color="#ffa8a7"></stop>
+<stop offset="100%" stop-color="#eb7f7f"></stop>
+</linearGradient>
+<linearGradient gradientUnits="objectBoundingBox" x1="0" y1="0" x2="1" y2="0" id="zr0-g3">
+<stop offset="0%" stop-color="rgb(255,168,167)"></stop>
+<stop offset="100%" stop-color="rgb(235,127,127)"></stop>
+</linearGradient>
+<linearGradient gradientUnits="objectBoundingBox" x1="0" y1="0" x2="1" y2="0" id="zr0-g4">
+<stop offset="0%" stop-color="#eb7f7f"></stop>
+<stop offset="100%" stop-color="#ff5d4e"></stop>
+</linearGradient>
+<linearGradient gradientUnits="objectBoundingBox" x1="0" y1="0" x2="1" y2="0" id="zr0-g5">
+<stop offset="0%" stop-color="rgb(235,127,127)"></stop>
+<stop offset="100%" stop-color="rgb(255,93,78)"></stop>
+</linearGradient>
+<linearGradient gradientUnits="objectBoundingBox" x1="0" y1="0" x2="1" y2="0" id="zr0-g6">
+<stop offset="0%" stop-color="#ff5d4e"></stop>
+<stop offset="100%" stop-color="#EC2B24"></stop>
+</linearGradient>
+<linearGradient gradientUnits="objectBoundingBox" x1="0" y1="0" x2="1" y2="0" id="zr0-g7">
+<stop offset="0%" stop-color="rgb(255,93,78)"></stop>
+<stop offset="100%" stop-color="rgb(236,43,36)"></stop>
+</linearGradient>
+<linearGradient gradientUnits="objectBoundingBox" x1="0" y1="0" x2="1" y2="0" id="zr0-g8">
+<stop offset="0%" stop-color="#EC2B24"></stop>
+<stop offset="100%" stop-color="#2A52BE"></stop>
+</linearGradient>
+<linearGradient gradientUnits="objectBoundingBox" x1="0" y1="0" x2="1" y2="0" id="zr0-g9">
+<stop offset="0%" stop-color="#2A52BE"></stop>
+<stop offset="100%" stop-color="#4374B3"></stop>
+</linearGradient>
+<linearGradient gradientUnits="objectBoundingBox" x1="0" y1="0" x2="1" y2="0" id="zr0-g10">
+<stop offset="0%" stop-color="#4374B3"></stop>
+<stop offset="100%" stop-color="#6DA0E2"></stop>
+</linearGradient>
+<linearGradient gradientUnits="objectBoundingBox" x1="0" y1="0" x2="1" y2="0" id="zr0-g11">
+<stop offset="0%" stop-color="#6DA0E2"></stop>
+<stop offset="100%" stop-color="#43b244"></stop>
+</linearGradient>
+</defs>
+<style ><![CDATA[
+.zr0-cls-15:hover {
+cursor:pointer;
+fill:[object Object];
+}
+.zr0-cls-16:hover {
+cursor:pointer;
+fill:[object Object];
+}
+.zr0-cls-17:hover {
+cursor:pointer;
+fill:[object Object];
+}
+.zr0-cls-18:hover {
+cursor:pointer;
+fill:[object Object];
+}
+.zr0-cls-19:hover {
+cursor:pointer;
+fill:[object Object];
+}
+.zr0-cls-20:hover {
+cursor:pointer;
+fill:[object Object];
+}
+.zr0-cls-21:hover {
+cursor:pointer;
+fill:[object Object];
+}
+.zr0-cls-22:hover {
+cursor:pointer;
+fill:[object Object];
+}
+.zr0-cls-23:hover {
+cursor:pointer;
+fill:[object Object];
+}
+.zr0-cls-24:hover {
+cursor:pointer;
+fill:[object Object];
+}
+.zr0-cls-25:hover {
+cursor:pointer;
+fill:[object Object];
+}
+.zr0-cls-26:hover {
+cursor:pointer;
+fill:[object Object];
+}
+.zr0-cls-27:hover {
+cursor:pointer;
+fill:rgba(46,90,209,1);
+}
+.zr0-cls-28:hover {
+cursor:pointer;
+fill:rgba(255,184,183,1);
+}
+.zr0-cls-29:hover {
+cursor:pointer;
+fill:rgba(73,127,196,1);
+}
+.zr0-cls-30:hover {
+cursor:pointer;
+fill:rgba(73,195,74,1);
+}
+.zr0-cls-31:hover {
+cursor:pointer;
+fill:rgba(255,139,139,1);
+}
+.zr0-cls-32:hover {
+cursor:pointer;
+fill:rgba(119,176,248,1);
+}
+.zr0-cls-33:hover {
+cursor:pointer;
+fill:rgba(255,180,22,1);
+}
+.zr0-cls-34:hover {
+cursor:pointer;
+fill:rgba(255,47,39,1);
+}
+.zr0-cls-35:hover {
+cursor:pointer;
+fill:rgba(255,102,85,1);
+}
+.zr0-cls-36:hover {
+cursor:pointer;
+fill:rgba(0,0,0,0);
+}
+.zr0-cls-37:hover {
+pointer-events:none;
+}
+
+]]>
+
+</style>
+</svg>

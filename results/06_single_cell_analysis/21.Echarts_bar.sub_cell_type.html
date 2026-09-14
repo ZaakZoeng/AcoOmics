@@ -1,0 +1,183 @@
+<!--
+	此示例下载自 https://echarts.apache.org/examples/zh/editor.html?c=bar-y-category-stack&renderer=svg&code=tVZbaxtHFH4P5D8MlCAZ1ER70a5stw9CNUrA0UNtyEMJZnZ3Vh6y0ordlSu3GAppU5K4BBxSCCTBbR9MW3BvgaRRk_4Z6-J_kTOX1c5KlpOXGDOjPXO-78yc-c7MhN2Ehh30Kfr64gWEEpoEZEX8hi_ST1ZQoU6CAG3udgn6jMZJRJ0egxRKwikgPnNySSchUWpMwu4KKqcfQLOR7CrECPlhJ9mgX4FJs6SbMN4gtLXNCJ0w8ApiZI91e9ytFVFvSiND65VLadxIghUTn0pBywxOmCRhO29zITKmnXXskGAF-TiISRazX-vTeBo03g6_lC5pBEgN0O3goEdSwg5uM1uz13ZIhEIfsSTG6uh66GKWR_BqU88LctAGhkkbaQKZZfP8JJrvTqL0wLAYuc6ziLQzvGlHjRrA5-xMWAaDMIKIHxmGISPKjcvI4m5Akxm2-XQuiiDT7OF4m3hpsnKhXdedC51t425uGyUb7AFphdFuyufhBK-gL1KWwkZjyyyUeG_IXpe9ls2h0FwTbtBzN-i5G_Sq29Wa8tFYF77Qc1_oVd9GbavCzTVBDb1wr0n3Ws597boYhp4PQ68O15uCBXruBj13g16TObv5ngI5R2nToTaOWhSkXf2AamJkm9S9NSemJOrx6n1v4c1JJSYRJaAVqYMpRlY1PxDrYa-TZCuWenLw9AycExNCV66gjQYqng6-ndz9ewl9jCbf_3by8t7km_2Tl_czN83QS8i0tBKybGg0zbJLCsGWWWKtwVvwZFrMxWiuoeJ48D-LkdltEwCari1Da9gA08wy_E4RjJSpl7cwypSbI71aQ8XRL4_ypJptWHJqM38ckSNorKPi5OHTGQI2hwocX6hqlXNMHMHmw-qDt_n5NNh8fn2cp9PZdJY1QC1XK7BE26iWkG5VgIBDtsDICoq3jBuKibd57rXrkMDnv89wV9lmGIYJISqmCUw5BKNjxcfbPF29CXv-9CBPV9FgarbBtqNswv5qtm0rCDZHVqy8BVJWqCk4rVSEaELaC6vH73VcdsMUuzjC7XhJdeFRRof_jn44Hg_uTG4_G_81GD67Pzl-M359fPrzE5gryHO0f3f83dHoxz9Pf3o1fPVAhe_gCNGOR_rwdBD8l5ncrzHTqupIfVQUjp8gcwlFJOlFHahsn3iOpRVW1coQhbEIXVXQuovLuqugQfNC8ovQywq66lYs01HQIG6h7UVoTVfgnqXbelXChbKFsBeibXXhvu2XiYKG2FzHi9B6WUEvm5bteBkapCqUqqKn3prtENdPF3pGjYI0hTIzeHpoirdS5JHoc-zRHjsOoUJBlvBfvgnqB_jwwT8nb46GT-5Mjg5mUXX1DJ_jvEG9ZBveiJcr0-M9u_9nbh_1YFeIumFM5QuKv_vUIOfcTbnbLH1iCXPUxgm8Yt9VOjK9Uvb83adIXl5T6oLgVpDr1SqqsS5fH_y5V9DLl9QHr6hyVqYvBsN7h5Pb-6PHf8BODQ_2R4-en7x-ODp8MfyPF6WD3VutCC4kb5p0n_-JVSdhGDhhf-YJq2TTJxhWlLsd8Q6pxdfauMWsCiL_sLp4YW_1LQ&enc=deflate
+	⚠ 请注意，该图表不是 Apache ECharts 官方示例，而是由用户代码生成的。请注意鉴别其内容。
+-->
+<!DOCTYPE html>
+<html lang="en" style="height: 100%">
+<head>
+  <meta charset="utf-8">
+</head>
+<body style="height: 100%; margin: 0">
+  <div id="container" style="height: 100%"></div>
+
+  
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script>
+  
+  <!-- Uncomment this line if you want to dataTool extension
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5/dist/extension/dataTool.min.js"></script>
+  -->
+  <!-- Uncomment this line if you want to use gl extension
+  <script type="text/javascript" src="https://echarts.apache.org/zh/js/vendors/echarts-gl/dist/echarts-gl.min.js"></script>
+  -->
+  <!-- Uncomment this line if you want to echarts-stat extension
+  <script type="text/javascript" src="https://echarts.apache.org/zh/js/vendors/echarts-stat/dist/ecStat.min.js"></script>
+  -->
+  <!-- Uncomment this line if you want to echarts-graph-modularity extension
+  <script type="text/javascript" src="https://echarts.apache.org/zh/js/vendors/echarts-graph-modularity/dist/echarts-graph-modularity.min.js"></script>
+  -->
+  <!-- Uncomment this line if you want to use map
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@4.9.0/map/js/world.js"></script>
+  -->
+  <!-- Uncomment these two lines if you want to use bmap extension
+  <script type="text/javascript" src="https://api.map.baidu.com/api?v=3.0&ak=YOUR_API_KEY"></script>
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5/dist/extension/bmap.min.js"></script>
+  -->
+
+  <script type="text/javascript">
+    var dom = document.getElementById('container');
+    var myChart = echarts.init(dom, null, {
+      renderer: 'svg',
+      useDirtyRect: false
+    });
+    var app = {};
+    
+    var option;
+
+    option = {
+  title: {
+    text: 'Cell Type Distribution',
+    left: 'center',
+    top: 0,
+    textStyle: {
+      fontSize: 16,
+      fontWeight: 'bold'
+    }
+  },
+  grid: {
+    left: '25%',
+    right: '25%',
+    top: '15%',
+    bottom: '15%',
+    containLabel: false
+  },
+  xAxis: {
+    show: false,
+    type: 'value',
+    name: 'Number of Cells',
+    nameLocation: 'middle',
+    nameGap: 30,
+    nameTextStyle: {
+      fontSize: 14,
+      fontWeight: 'bold'
+    },
+    axisLabel: {
+      fontSize: 11
+    },
+    axisLine: {
+      lineStyle: {
+        color: '#333'
+      }
+    },
+    splitLine: {
+      show: false,
+      lineStyle: {
+        type: 'dashed',
+        color: '#ccc'
+      }
+    }
+  },
+  yAxis: {
+    type: 'category',
+    data: [
+      'SG_4', 'SG_3', 'SG_2', 'SG_1',
+      'NE_4', 'NE_3', 'NE_2', 'NE_1',
+      'HA',
+      'GL_3', 'GL_2', 'GL_1',
+      'GA_5', 'GA_4', 'GA_3', 'GA_2', 'GA_1',
+      'EM_3', 'EM_2', 'EM_1',
+      'CN_4', 'CN_3', 'CN_2', 'CN_1'
+    ],
+    axisLabel: {
+      fontSize: 11,
+      fontWeight: 'bold',
+      margin: 8
+    },
+    axisLine: {
+      lineStyle: {
+        color: '#333'
+      }
+    },
+    axisTick: {
+      show: true
+    },
+    splitLine: {
+      show: false
+    }
+  },
+  series: [
+    {
+      name: 'Cell Count',
+      type: 'bar',
+      data: [
+        // SG (黄色) - 自上而下
+        132, 461, 671, 1167,      // SG_4, SG_3, SG_2, SG_1
+        // NE (绿色)
+        743, 1219, 1372, 1409,    // NE_4, NE_3, NE_2, NE_1
+        // HA (棕色)
+        1736,                     // HA
+        // GL (蓝色)
+        109, 514, 860,            // GL_3, GL_2, GL_1
+        // GA (橙色)
+        236, 913, 985, 1738, 2652, // GA_5, GA_4, GA_3, GA_2, GA_1
+        // EM (紫色)
+        2871, 3346, 5445,         // EM_3, EM_2, EM_1
+        // CN (青色)
+        518, 739, 1047, 1777      // CN_4, CN_3, CN_2, CN_1
+      ],
+      itemStyle: {
+        color: function(params) {
+          // 根据细胞类型设置颜色 - 按照新顺序
+          var index = params.dataIndex;
+          if (index < 4) return '#fedb61';      // SG 黄色
+          if (index < 8) return '#2ca02c';      // NE 绿色
+          if (index < 9) return '#8c564b';      // HA 棕色
+          if (index < 12) return '#d62728';     // GL 蓝色
+          if (index < 17) return '#ff7f0e';     // GA 橙色
+          if (index < 20) return '#9467bd';     // EM 紫色
+          return '#17becf';                      // CN 青色
+        },
+        borderRadius: [0, 4, 4, 0],  // 右侧圆角
+        borderColor: '#333',
+        borderWidth: 0.5
+      },
+      label: {
+        show: true,
+        position: 'right',
+        fontWeight: 'bold',
+        fontSize: 10,
+        formatter: function(params) {
+          return params.value;
+        }
+      },
+      barWidth: 15,
+      barCategoryGap: '20%'
+    }
+  ],
+  // 添加背景色和整体样式
+  backgroundColor: '#ffffff',
+  toolbox: {
+    show: true,
+    feature: {
+      saveAsImage: { show: true }
+    }
+  }
+};
+
+    if (option && typeof option === 'object') {
+      myChart.setOption(option);
+    }
+
+    window.addEventListener('resize', myChart.resize);
+  </script>
+</body>
+</html>

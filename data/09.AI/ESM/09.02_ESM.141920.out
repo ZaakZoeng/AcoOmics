@@ -1,0 +1,10 @@
+Begin
+Saved OG0000112: matrices/esm2_t12_35M/OG0000112.cosine_distance_matrix.tsv, figures/esm2_t12_35M/OG0000112.cross_species_cosine_distance_heatmap.pdf
+Saved OG0000036: matrices/esm2_t12_35M/OG0000036.cosine_distance_matrix.tsv, figures/esm2_t12_35M/OG0000036.cross_species_cosine_distance_heatmap.pdf
+Saved OG0000203: matrices/esm2_t12_35M/OG0000203.cosine_distance_matrix.tsv, figures/esm2_t12_35M/OG0000203.cross_species_cosine_distance_heatmap.pdf
+Saved OG0000133: matrices/esm2_t12_35M/OG0000133.cosine_distance_matrix.tsv, figures/esm2_t12_35M/OG0000133.cross_species_cosine_distance_heatmap.pdf
+Saved OG0000166: matrices/esm2_t12_35M/OG0000166.cosine_distance_matrix.tsv, figures/esm2_t12_35M/OG0000166.cross_species_cosine_distance_heatmap.pdf
+Saved OG0000260: matrices/esm2_t12_35M/OG0000260.cosine_distance_matrix.tsv, figures/esm2_t12_35M/OG0000260.cross_species_cosine_distance_heatmap.pdf
+Saved average matrix: matrices/esm2_t12_35M/candidate_ogs_esm2_t12_35M.average_candidate_ogs.cosine_distance_matrix.tsv
+Saved average heatmap: figures/esm2_t12_35M/candidate_ogs_esm2_t12_35M.average_candidate_ogs.cross_species_cosine_distance_heatmap.pdf
+finished

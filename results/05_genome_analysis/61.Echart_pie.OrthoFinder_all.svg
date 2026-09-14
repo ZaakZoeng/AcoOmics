@@ -1,0 +1,33 @@
+<svg width="872" height="538" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" baseProfile="full" viewBox="0 0 872 538">
+<rect width="872" height="538" x="0" y="0" fill="none"></rect>
+<path d="M353.7252 142.3003A10 10 0 0 1 357.2318 128.1259A161.4 161.4 0 0 1 418.3248 108.5707A10 10 0 0 1 429.4104 118.0744L432.6588 192.4729A10 10 0 0 1 424.3941 202.759A67.25 67.25 0 0 0 406.9839 208.3318A10 10 0 0 1 394.2824 204.7567Z" fill="rgb(235,127,127)" class="zr0-cls-0"></path>
+<path d="M442.5896 118.0744A10 10 0 0 1 453.6752 108.5707A161.4 161.4 0 1 1 328.452 148.6531A10 10 0 0 1 342.9957 149.9531L388.842 208.6371A10 10 0 0 1 388.0864 221.8105A67.25 67.25 0 1 0 447.6059 202.759A10 10 0 0 1 439.3412 192.4729Z" fill="rgb(182,215,168)" class="zr0-cls-1"></path>
+<path d="M-5 -5l437.6191 0l0 24l-437.6191 0Z" transform="translate(222.1904 31.9)" fill="rgb(0,0,0)" fill-opacity="0" stroke="#b7b9be" stroke-width="0" class="zr0-cls-2"></path>
+<path d="M3.5 0L21.5 0A3.5 3.5 0 0 1 25 3.5L25 10.5A3.5 3.5 0 0 1 21.5 14L3.5 14A3.5 3.5 0 0 1 0 10.5L0 3.5A3.5 3.5 0 0 1 3.5 0" transform="translate(222.1904 31.9)" fill="#B6D7A8" class="zr0-cls-2"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:12px;font-family:Microsoft YaHei;" xml:space="preserve" x="30" y="7" transform="translate(222.1904 31.9)" fill="#54555a">Number of genes in orthogroups</text>
+<path d="M0 0l220.4414 0l0 14l-220.4414 0Z" transform="translate(222.1904 31.9)" fill="none" class="zr0-cls-3"></path>
+<path d="M3.5 0L21.5 0A3.5 3.5 0 0 1 25 3.5L25 10.5A3.5 3.5 0 0 1 21.5 14L3.5 14A3.5 3.5 0 0 1 0 10.5L0 3.5A3.5 3.5 0 0 1 3.5 0" transform="translate(450.6318 31.9)" fill="#eb7f7f" class="zr0-cls-2"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:12px;font-family:Microsoft YaHei;" xml:space="preserve" x="30" y="7" transform="translate(450.6318 31.9)" fill="#54555a">Number of unassigned genes</text>
+<path d="M0 0l199.1777 0l0 14l-199.1777 0Z" transform="translate(450.6318 31.9)" fill="none" class="zr0-cls-3"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:20px;font-family:sans-serif;font-weight:bold;" y="10" transform="translate(405.42 252.86)" fill="#000">90.1%</text>
+<style ><![CDATA[
+.zr0-cls-0:hover {
+cursor:pointer;
+fill:rgba(255,139,139,1);
+}
+.zr0-cls-1:hover {
+cursor:pointer;
+fill:rgba(200,236,184,1);
+}
+.zr0-cls-2:hover {
+pointer-events:none;
+}
+.zr0-cls-3:hover {
+cursor:pointer;
+fill:rgba(0,0,0,0);
+}
+
+]]>
+
+</style>
+</svg>
