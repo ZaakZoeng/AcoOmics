@@ -1,7 +1,10 @@
+.git/objects/pack/pack-fd507715d874fac76aa85e627dfbc6e4012e3a49.pack
 data/03.SingleCellProcessing/scMatrix/AU_scMatrix_CycloneSeq/analysis_results/Auco.seurat.rds
+data/03.SingleCellProcessing/SingleCellDataH5ad_processed/Auco.normalized.gzip.h5ad
 data/03.SingleCellProcessing/SingleCellDataH5ad_processed/Auco.normalized.h5ad
 data/03.SingleCellProcessing/SingleCellDataH5ad_processed/ClH23.normalized.h5ad
 data/03.SingleCellProcessing/SingleCellDataH5ad_processed/Clhe.normalized.h5ad
+data/03.SingleCellProcessing/SingleCellDataH5ad_processed/Dare.normalized.gzip.h5ad
 data/03.SingleCellProcessing/SingleCellDataH5ad_processed/Dare.normalized.h5ad
 data/03.SingleCellProcessing/SingleCellDataH5ad_processed/HoH13.normalized.h5ad
 data/03.SingleCellProcessing/SingleCellDataH5ad_processed/Neve.normalized.h5ad
@@ -14,9 +17,11 @@ data/06.SingleCellAnalysis/DNB_analysis/b_phylum_DNB_filtered_obj.rds
 data/06.SingleCellAnalysis/DNB_analysis/DNB_enrich/all_species.emapper.annotations
 data/06.SingleCellAnalysis/DNB_analysis/neural_working.rds
 data/06.SingleCellAnalysis/NeuronEmergence/Terms_lib/Dare.term2gene_GO.tsv
+data/06.SingleCellAnalysis/scOrthoGeneH5ad/Auco.OG.normalized.gzip.h5ad
 data/06.SingleCellAnalysis/scOrthoGeneH5ad/Auco.OG.normalized.h5ad
 data/06.SingleCellAnalysis/scOrthoGeneH5ad/ClH23.OG.normalized.h5ad
 data/06.SingleCellAnalysis/scOrthoGeneH5ad/Clhe.OG.normalized.h5ad
+data/06.SingleCellAnalysis/scOrthoGeneH5ad/Dare.OG.normalized.gzip.h5ad
 data/06.SingleCellAnalysis/scOrthoGeneH5ad/Dare.OG.normalized.h5ad
 data/06.SingleCellAnalysis/scOrthoGeneH5ad/HoH13.OG.normalized.h5ad
 data/06.SingleCellAnalysis/scOrthoGeneH5ad/Neve.OG.normalized.h5ad

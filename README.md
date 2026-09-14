@@ -2,6 +2,18 @@
 
 Aurelia coerulea Multi-Omics Analysis
 
+## Git Command
+```bash
+# 查看100M+的文件
+find . -type f -size +100M
+# 手动添加/检查到.gitignore中
+# find . -type f -size +100M >> .gitignore
+
+# 添加合并上传数据
+git add .
+git commit -m ""
+git push
+```
 
 
 Comparative multi-omics analysis of early eumetazoans elucidates cell-type diversity and the origins of nervous systems.
